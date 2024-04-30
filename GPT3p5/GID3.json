@@ -1,0 +1,599 @@
+{
+  "1": [
+    {
+      "title": "Echoes of Ashar",
+      "giver": "The Sole Survivor",
+      "objective": "Unravel the mystery of Ashar's downfall and lay its restless spirits to rest",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Desecrated Temple",
+          "role": "challenge"
+        },
+        {
+          "name": "Sand-Swept Oasis",
+          "role": "challenge"
+        },
+        {
+          "name": "Mirage Shrouded Ruins",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Desecrated Temple",
+          "type": "Cursed Mummies",
+          "count": 2
+        },
+        {
+          "location": "Sand-Swept Oasis",
+          "type": "Scarab Swarms",
+          "count": 3
+        },
+        {
+          "location": "Mirage Shrouded Ruins",
+          "type": "Desert Raider Chieftain",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Desecrated Temple",
+          "name": "Papyrus Scroll"
+        },
+        {
+          "location": "Mirage Shrouded Ruins",
+          "name": "Pharaoh's Mask Fragments"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Sole Survivor",
+        "item": "Emerald Scarab Pendant"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "Guardians of the Forgotten Sands",
+      "giver": "The Village Elder",
+      "objective": "Protect Ashar's last remnants from the encroaching darkness",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Rusted Caravan",
+          "role": "challenge"
+        },
+        {
+          "name": "Pharaoh's Tomb Entrance",
+          "role": "challenge"
+        },
+        {
+          "name": "Pharaoh's Tomb Interior",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Rusted Caravan",
+          "type": "Hyena Pack",
+          "count": 4
+        },
+        {
+          "location": "Pharaoh's Tomb Entrance",
+          "type": "Sand Wraiths",
+          "count": 2
+        },
+        {
+          "location": "Pharaoh's Tomb Interior",
+          "type": "Cursed Mummies",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Rusted Caravan",
+          "name": "Hidden Coin Hoard"
+        },
+        {
+          "location": "Pharaoh's Tomb Interior",
+          "name": "Ceremonial Dagger"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Village Elder",
+        "item": "Amulet of Protection"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "Desert's Whisper",
+      "giver": "The Nomad Guide",
+      "objective": "Explore the secrets hidden within the shifting sands",
+      "locations": [
+        {
+          "name": "Sand-Swept Oasis",
+          "role": "start"
+        },
+        {
+          "name": "Desecrated Temple",
+          "role": "challenge"
+        },
+        {
+          "name": "Rusted Caravan",
+          "role": "challenge"
+        },
+        {
+          "name": "Pharaoh's Tomb Entrance",
+          "role": "goal"
+        },
+        {
+          "name": "Sand-Swept Oasis",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Desecrated Temple",
+          "type": "Scarab Swarms",
+          "count": 3
+        },
+        {
+          "location": "Rusted Caravan",
+          "type": "Hyena Pack",
+          "count": 4
+        },
+        {
+          "location": "Pharaoh's Tomb Entrance",
+          "type": "Cursed Mummies",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Desecrated Temple",
+          "name": "Hieroglyphic Tablets"
+        },
+        {
+          "location": "Pharaoh's Tomb Entrance",
+          "name": "Pharaoh's Mask Fragments"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Nomad Guide",
+        "item": "Ceremonial Dagger"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "Raiders' Ambush",
+      "giver": "The Relic Hunter",
+      "objective": "Recover stolen artifacts from the desert raiders",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Rusted Caravan",
+          "role": "challenge"
+        },
+        {
+          "name": "Mirage Shrouded Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Hidden Raiders' Camp",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Rusted Caravan",
+          "type": "Hyena Pack",
+          "count": 5
+        },
+        {
+          "location": "Mirage Shrouded Ruins",
+          "type": "Desert Raider Chieftain",
+          "count": 1
+        },
+        {
+          "location": "Hidden Raiders' Camp",
+          "type": "Desert Raider",
+          "count": 6
+        }
+      ],
+      "items": [
+        {
+          "location": "Rusted Caravan",
+          "name": "Cracked Jewelry"
+        },
+        {
+          "location": "Hidden Raiders' Camp",
+          "name": "Stolen Artifacts"
+        }
+      ],
+      "reward": {
+        "xp": 480,
+        "reputation": "The Relic Hunter",
+        "gold": 200
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "Sands of Sorrow",
+      "giver": "The Ritualist",
+      "objective": "Perform a ritual to appease the spirits haunting the village",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Desecrated Temple",
+          "role": "challenge"
+        },
+        {
+          "name": "Sand-Swept Oasis",
+          "role": "challenge"
+        },
+        {
+          "name": "Pharaoh's Tomb Entrance",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Desecrated Temple",
+          "type": "Sand Wraiths",
+          "count": 3
+        },
+        {
+          "location": "Sand-Swept Oasis",
+          "type": "Scarab Swarms",
+          "count": 4
+        },
+        {
+          "location": "Pharaoh's Tomb Entrance",
+          "type": "Cursed Mummies",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Desecrated Temple",
+          "name": "Papyrus Scroll"
+        },
+        {
+          "location": "Pharaoh's Tomb Entrance",
+          "name": "Hieroglyphic Tablets"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Ritualist",
+        "item": "Ancient Relic"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "Lost Memories",
+      "giver": "The Village Elder",
+      "objective": "Recover artifacts that hold memories of the village's past",
+      "locations": [
+        {
+          "name": "Mirage Shrouded Ruins",
+          "role": "start"
+        },
+        {
+          "name": "Desecrated Temple",
+          "role": "challenge"
+        },
+        {
+          "name": "Rusted Caravan",
+          "role": "challenge"
+        },
+        {
+          "name": "Pharaoh's Tomb Interior",
+          "role": "goal"
+        },
+        {
+          "name": "Mirage Shrouded Ruins",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Desecrated Temple",
+          "type": "Cursed Mummies",
+          "count": 2
+        },
+        {
+          "location": "Rusted Caravan",
+          "type": "Hyena Pack",
+          "count": 3
+        },
+        {
+          "location": "Pharaoh's Tomb Interior",
+          "type": "Sand Wraiths",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Desecrated Temple",
+          "name": "Dried Flowers"
+        },
+        {
+          "location": "Pharaoh's Tomb Interior",
+          "name": "Pottery Shards"
+        }
+      ],
+      "reward": {
+        "xp": 550,
+        "reputation": "The Village Elder",
+        "gold": 150
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "Guardians of the Oasis",
+      "giver": "The Sole Survivor",
+      "objective": "Protect the sacred oasis from the encroaching darkness",
+      "locations": [
+        {
+          "name": "Sand-Swept Oasis",
+          "role": "start"
+        },
+        {
+          "name": "Sand-Swept Oasis - Depths",
+          "role": "challenge"
+        },
+        {
+          "name": "Desecrated Temple",
+          "role": "challenge"
+        },
+        {
+          "name": "Sand-Swept Oasis",
+          "role": "goal"
+        },
+        {
+          "name": "Sand-Swept Oasis",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Sand-Swept Oasis - Depths",
+          "type": "Scarab Swarms",
+          "count": 4
+        },
+        {
+          "location": "Desecrated Temple",
+          "type": "Cursed Mummies",
+          "count": 3
+        },
+        {
+          "location": "Sand-Swept Oasis",
+          "type": "Sand Wraiths",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Desecrated Temple",
+          "name": "Amulet of Protection"
+        },
+        {
+          "location": "Sand-Swept Oasis",
+          "name": "Hidden Coin"
+        }
+      ]
+    }
+  ],
+      "8": [
+        {
+          "title": "Whispers in the Tomb",
+          "giver": "The Relic Hunter",
+          "objective": "Investigate the mysterious whispers emanating from the Pharaoh's Tomb",
+          "locations": [
+            {
+              "name": "Pharaoh's Tomb Entrance",
+              "role": "start"
+            },
+            {
+              "name": "Pharaoh's Tomb Interior",
+              "role": "challenge"
+            },
+            {
+              "name": "Pharaoh's Tomb - Crypts",
+              "role": "goal"
+            },
+            {
+              "name": "Pharaoh's Tomb Entrance",
+              "role": "return"
+            }
+          ],
+          "monsters": [
+            {
+              "location": "Pharaoh's Tomb Interior",
+              "type": "Cursed Mummies",
+              "count": 3
+            },
+            {
+              "location": "Pharaoh's Tomb - Crypts",
+              "type": "Shadow Wraith",
+              "count": 2
+            },
+            {
+              "location": "Pharaoh's Tomb - Crypts",
+              "type": "Phantom Guardian",
+              "count": 1
+            }
+          ],
+          "items": [
+            {
+              "location": "Pharaoh's Tomb Interior",
+              "name": "Ancient Tablet"
+            },
+            {
+              "location": "Pharaoh's Tomb - Crypts",
+              "name": "Whispering Relic"
+            }
+          ],
+          "reward": {
+            "xp": 600,
+            "reputation": "The Relic Hunter",
+            "item": "Scroll of Ancient Knowledge"
+          }
+        }
+      ],
+      "9": [
+        {
+          "title": "Blighted Waters",
+          "giver": "The Village Elder",
+          "objective": "Purify the oasis tainted by dark energies",
+          "locations": [
+            {
+              "name": "Sand-Swept Oasis",
+              "role": "start"
+            },
+            {
+              "name": "Blighted Oasis Pool",
+              "role": "challenge"
+            },
+            {
+              "name": "Oasis Caverns",
+              "role": "goal"
+            },
+            {
+              "name": "Sand-Swept Oasis",
+              "role": "return"
+            }
+          ],
+          "monsters": [
+            {
+              "location": "Blighted Oasis Pool",
+              "type": "Corrupted Water Elemental",
+              "count": 1
+            },
+            {
+              "location": "Oasis Caverns",
+              "type": "Shadow Serpent",
+              "count": 2
+            },
+            {
+              "location": "Oasis Caverns",
+              "type": "Blighted Guardian",
+              "count": 1
+            }
+          ],
+          "items": [
+            {
+              "location": "Blighted Oasis Pool",
+              "name": "Purification Charm"
+            },
+            {
+              "location": "Oasis Caverns",
+              "name": "Crystalized Spring Water"
+            }
+          ],
+          "reward": {
+            "xp": 650,
+            "reputation": "The Village Elder",
+            "item": "Waters of Renewal"
+          }
+        }
+      ],
+      "10": [
+        {
+          "title": "Echoes of the Pharaohs",
+          "giver": "The Ritualist",
+          "objective": "Unearth the lost tomb of the Pharaohs and confront its restless guardians",
+          "locations": [
+            {
+              "name": "Mirage Shrouded Ruins",
+              "role": "start"
+            },
+            {
+              "name": "Pharaoh's Tomb Entrance",
+              "role": "challenge"
+            },
+            {
+              "name": "Pharaoh's Tomb - Antechamber",
+              "role": "challenge"
+            },
+            {
+              "name": "Pharaoh's Tomb - Throne Room",
+              "role": "goal"
+            },
+            {
+              "name": "Mirage Shrouded Ruins",
+              "role": "return"
+            }
+          ],
+          "monsters": [
+            {
+              "location": "Pharaoh's Tomb Entrance",
+              "type": "Sand Wraiths",
+              "count": 3
+            },
+            {
+              "location": "Pharaoh's Tomb - Antechamber",
+              "type": "Cursed Mummies",
+              "count": 4
+            },
+            {
+              "location": "Pharaoh's Tomb - Throne Room",
+              "type": "Pharaoh's Guardian",
+              "count": 1
+            }
+          ],
+          "items": [
+            {
+              "location": "Pharaoh's Tomb - Antechamber",
+              "name": "Hieroglyphic Tablets"
+            },
+            {
+              "location": "Pharaoh's Tomb - Throne Room",
+              "name": "Scepter of the Ancients"
+            }
+          ],
+          "reward": {
+            "xp": 700,
+            "reputation": "The Ritualist",
+            "item": "Tome of Pharaohs"
+          }
+        }
+      ]
+    }

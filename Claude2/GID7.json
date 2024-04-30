@@ -1,0 +1,245 @@
+{
+  "1" : [
+    {
+      "title": "Salvaging Hope",
+      "giver": "The Tinkerer",
+      "objective": "Scavenge for valuable tech and supplies to aid survival efforts",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Military Outpost Ruins", "role": "challenge"},
+        {"name": "Contaminated Creek", "role": "challenge"},
+        {"name": "Abandoned Gas Station", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Military Outpost Ruins", "type": "Rogue Robots", "count": 2},
+        {"location": "Contaminated Creek", "type": "Radiation-Mutated Wildlife", "count": 3}
+      ],
+      "items": [
+        {"location": "Military Outpost Ruins", "name": "Advanced Sensor Array"},
+        {"location": "Abandoned Gas Station", "name": "Underground Vault Keycard"}
+      ],
+      "reward": {
+        "item": "Experimental Stimulant Formula",
+        "reputation": "The Tinkerer"
+      }
+    }
+  ],
+  "2" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Veteran",
+      "objective": "Recover personal artifacts from overrun areas, providing closure",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Twisted Highway", "role": "challenge"},
+        {"name": "Mutant Den", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Twisted Highway", "type": "Marauders", "count": 3},
+        {"location": "Mutant Den", "type": "Infected Survivors", "count": 2}
+      ],
+      "items": [
+        {"location": "Mutant Den", "name": "Pre-War Letters"},
+        {"location": "Mutant Den", "name": "Wartime Mementos"},
+        {"location": "Mutant Den", "name": "Old Photographs"}
+      ],
+      "reward": {
+        "reputation": "The Veteran",
+        "item": "Forgotten Map"
+      }
+    }
+  ],
+  "3" : [
+    {
+      "title": "Cult of Ruin",
+      "giver": "The Doomsayer",
+      "objective": "Investigate the Cultist Leader's camp and put an end to their madness",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Twisted Highway", "role": "challenge"},
+        {"name": "Mutant Den", "role": "challenge"},
+        {"name": "Cultist Camp", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Twisted Highway", "type": "Marauders", "count": 2},
+        {"location": "Mutant Den", "type": "Radiation-Mutated Wildlife", "count": 3},
+        {"location": "Cultist Camp", "type": "Cultist Leader", "count": 1}
+      ],
+      "items": [
+        {"location": "Cultist Camp", "name": "Children's Drawings"}
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "Ashvale"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "Hunting Survival",
+      "giver": "The Hunter",
+      "objective": "Track and hunt dangerous mutated prey to replenish food stores",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Contaminated Creek", "role": "challenge"},
+        {"name": "Twisted Highway", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Contaminated Creek", "type": "Radiation-Mutated Wildlife", "count": 2},
+        {"location": "Twisted Highway", "type": "Marauders", "count": 3}
+      ],
+      "items": [
+        {"location": "Twisted Highway", "name": "Rare Antique Collectible"}
+      ],
+      "reward": {
+        "item": "Preserved Food Rations",
+        "reputation": "The Hunter"
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "Vinyl Echoes",
+      "giver": "The Child",
+      "objective": "Find a preserved vinyl record to play music and lift spirits",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Abandoned Gas Station", "role": "challenge"},
+        {"name": "Military Outpost Ruins", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Abandoned Gas Station", "type": "Infected Survivors", "count": 2}
+      ],
+      "items": [
+        {"location": "Military Outpost Ruins", "name": "Vinyl Record"}
+      ],
+      "reward": {
+        "item": "Working Record Player"
+      }
+    }
+  ],
+  "6" : [
+    {
+      "title": "Lost Armory",
+      "giver": "The Veteran",
+      "objective": "Scout for the Military's hidden weapons cache",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Twisted Highway", "role": "challenge"},
+        {"name": "Military Outpost Ruins", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Twisted Highway", "type": "Marauders", "count": 3},
+        {"location": "Military Outpost Ruins", "type": "Rogue Robots", "count": 2}
+      ],
+      "items": [],
+      "reward": {
+        "item": "Military Weapons Cache",
+        "reputation": "The Veteran"
+      }
+    }
+  ],
+  "7" : [
+    {
+      "title": "Innocence's Lament",
+      "giver": "The Child",
+      "objective": "Return a lost toy to its rightful owner in a nearby town",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Abandoned Gas Station", "role": "challenge"},
+        {"name": "Twisted Highway", "role": "challenge"},
+        {"name": "Neighboring Town", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Abandoned Gas Station", "type": "Infected Survivors", "count": 1},
+        {"location": "Twisted Highway", "type": "Radiation-Mutated Wildlife", "count": 2}
+      ],
+      "items": [
+        {"location": "Abandoned Gas Station", "name": "Child's Toy"}
+      ],
+      "reward": {
+        "reputation": "The Child"
+      }
+    }
+  ],
+  "8" : [
+    {
+      "title": "Wasteland Melodies",
+      "giver": "The Veteran",
+      "objective": "Recover musical instruments to lift morale in Ashvale",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Abandoned Gas Station", "role": "challenge"},
+        {"name": "Military Outpost Ruins", "role": "challenge"},
+        {"name": "Neighboring Town", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Abandoned Gas Station", "type": "Marauders", "count": 2},
+        {"location": "Military Outpost Ruins", "type": "Rogue Robots", "count": 3}
+      ],
+      "items": [
+        {"location": "Neighboring Town", "name": "Guitar"},
+        {"location": "Neighboring Town", "name": "Harmonica"}
+      ],
+      "reward": {
+        "reputation": "Ashvale"
+      }
+    }
+  ],
+  "9" : [
+    {
+      "title": "Radioactive Roots",
+      "giver": "The Tinkerer",
+      "objective": "Investigate strange radioactive plants for potential medicinal use",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Contaminated Creek", "role": "challenge"},
+        {"name": "Mutant Den", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Contaminated Creek", "type": "Radiation-Mutated Wildlife", "count": 3},
+        {"location": "Mutant Den", "type": "Infected Survivors", "count": 2}
+      ],
+      "items": [
+        {"location": "Mutant Den", "name": "Glowing Plant Samples"}
+      ],
+      "reward": {
+        "item": "Experimental Cure",
+        "reputation": "The Tinkerer"
+      }
+    }
+  ],
+  "10" : [
+    {
+      "title": "Radio Silence",
+      "giver": "The Hunter",
+      "objective": "Repair a radio tower to re-establish long-range communications",
+      "locations": [
+        {"name": "Ashvale", "role": "start"},
+        {"name": "Twisted Highway", "role": "challenge"},
+        {"name": "Military Outpost Ruins", "role": "goal"},
+        {"name": "Ashvale", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Twisted Highway", "type": "Marauders", "count": 3},
+        {"location": "Military Outpost Ruins", "type": "Rogue Robots", "count": 2}
+      ],
+      "items": [
+        {"location": "Military Outpost Ruins", "name": "Radio Tower Parts"}
+      ],
+      "reward": {
+        "item": "Working Radio",
+        "reputation": "The Hunter"
+      }
+    }
+  ]
+}

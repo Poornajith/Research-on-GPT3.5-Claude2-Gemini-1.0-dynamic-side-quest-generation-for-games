@@ -1,0 +1,261 @@
+{
+  "1" : [
+    [
+      {
+        "title": "Echoes of the Lighthouse",
+        "giver": "Nora the Elder",
+        "objective": "Investigate the Ruined Lighthouse and retrieve the lost navigational artifact.",
+        "locations": [
+          { "name": "Village", "role": "start" },
+          { "name": "Ruined Lighthouse", "role": "challenge" },
+          { "name": "Crystal Cavern", "role": "goal" },
+          { "name": "Village", "role": "return" }
+        ],
+        "monsters": [
+          { "location": "Ruined Lighthouse", "type": "Ghost of the Past", "count": 1 }
+        ],
+        "items": [
+          { "location": "Ruined Lighthouse", "name": "Navigational Lens" },
+          { "location": "Crystal Cavern", "name": "Iridescent Crystal Shard" }
+        ],
+        "reward": {
+          "xp": 250,
+          "reputation": "Nora the Elder",
+          "item": "Seafarer's Compass"
+        }
+      }
+    ]
+
+  ],
+  "2" : [
+    {
+      "title": "Harvesting Hope",
+      "giver": "Rosa the Farmer",
+      "objective": "Gather rare mutated crops from the Whispering Forest and rejuvenate the Forgotten Farmstead.",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Whispering Forest", "role": "challenge" },
+        { "name": "Forgotten Farmstead", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Whispering Forest", "type": "Vicious Fowl", "count": 3 },
+        { "location": "Forgotten Farmstead", "type": "Wild Boars", "count": 2 }
+      ],
+      "items": [
+        { "location": "Whispering Forest", "name": "Mutated Crop Seeds" },
+        { "location": "Forgotten Farmstead", "name": "Fertile Soil Sample" }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "Rosa the Farmer",
+        "item": "Harvester's Scythe"
+      }
+    }
+  ],
+  "3" : [
+    {
+      "title": "Treasures of the Sunken Ship",
+      "giver": "Kai the Fisher",
+      "objective": "Explore the Sunken Shipwreck and recover valuable artifacts lost to the depths.",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Sunken Shipwreck", "role": "challenge" },
+        { "name": "Crystal Cavern", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Sunken Shipwreck", "type": "Sea Wolves", "count": 2 }
+      ],
+      "items": [
+        { "location": "Sunken Shipwreck", "name": "Waterproof Satchel" },
+        { "location": "Crystal Cavern", "name": "Glowing Crystal Formation" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "Kai the Fisher",
+        "item": "Deep Sea Diving Gear"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "Guardians of the Whispering Forest",
+      "giver": "Lin the Artisan",
+      "objective": "Defeat the mutated creatures plaguing the Whispering Forest and retrieve ancient crafting materials.",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Whispering Forest", "role": "challenge" },
+        { "name": "Crystal Cavern", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Whispering Forest", "type": "Mutated Forest Guardian", "count": 2 }
+      ],
+      "items": [
+        { "location": "Whispering Forest", "name": "Ancient Wood Logs" },
+        { "location": "Crystal Cavern", "name": "Iridescent Crystal Cluster" }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Lin the Artisan",
+        "item": "Master Craftsman's Toolkit"
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "Secrets of the Crystal Cavern",
+      "giver": "The Wanderer",
+      "objective": "Navigate the Crystal Cavern and uncover the mysteries hidden within its depths.",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Crystal Cavern", "role": "challenge" },
+        { "name": "Crystal Cavern - Inner Sanctum", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Crystal Cavern", "type": "Crystal Elemental", "count": 1 }
+      ],
+      "items": [
+        { "location": "Crystal Cavern", "name": "Ancient Crystal Tablet" },
+        { "location": "Crystal Cavern - Inner Sanctum", "name": "Mystic Crystal Heart" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Wanderer",
+        "item": "Crystal Guardian's Blessing"
+      }
+    }
+  ],
+  "6" : [
+    {
+      "title": "Trouble in the Coastal Cliffs",
+      "giver": "Local Fisherman",
+      "objective": "Clear out the aggressive Vicious Fowl nesting in the Coastal Cliffs and secure the area for safe passage.",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Coastal Cliffs", "role": "challenge" },
+        { "name": "Coastal Cliffs - Summit", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Coastal Cliffs", "type": "Vicious Fowl", "count": 3 },
+        { "location": "Coastal Cliffs - Summit", "type": "Alpha Vicious Fowl", "count": 1 }
+      ],
+      "items": [
+        { "location": "Coastal Cliffs", "name": "Feathered Crest" },
+        { "location": "Coastal Cliffs - Summit", "name": "Ancient Cliff Shrine" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "Local Fisherman",
+        "item": "Wings of Freedom"
+      }
+    }
+  ],
+  "7" : [
+    {
+      "title": "Guardians of the Forgotten Farmstead",
+      "giver": "Rosa the Farmer",
+      "objective": "Protect the Forgotten Farmstead from the relentless attacks of the Wild Boars and uncover the source of their aggression.",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Forgotten Farmstead", "role": "challenge" },
+        { "name": "Forgotten Farmstead - Depths", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Forgotten Farmstead", "type": "Wild Boars", "count": 4 },
+        { "location": "Forgotten Farmstead - Depths", "type": "Alpha Wild Boar", "count": 1 }
+      ],
+      "items": [
+        { "location": "Forgotten Farmstead", "name": "Heirloom Necklace" },
+        { "location": "Forgotten Farmstead - Depths", "name": "Ancient Relic" }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Rosa the Farmer",
+        "item": "Guardian's Shield"
+      }
+    }
+  ],
+  "8" : [
+    {
+      "title": "Legacy of the Ruined Lighthouse",
+      "giver": "Nora the Elder",
+      "objective": "Explore the Ruined Lighthouse and uncover remnants of its past glory, shedding light on the island's history.",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Ruined Lighthouse", "role": "challenge" },
+        { "name": "Ruined Lighthouse - Tower Summit", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Ruined Lighthouse", "type": "Ghost of the Past", "count": 1 },
+        { "location": "Ruined Lighthouse - Tower Summit", "type": "Specter of the Light", "count": 1 }
+      ],
+      "items": [
+        { "location": "Ruined Lighthouse", "name": "Old Compass" },
+        { "location": "Ruined Lighthouse - Tower Summit", "name": "Antique Beacon Fragment" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "Nora the Elder",
+        "item": "Lighthouse Keeper's Lantern"
+      }
+    }
+  ],
+  "9" : [
+    {
+      "title": "Hunt for the Crystal Guardians",
+      "giver": "The Wanderer",
+      "objective": "Track down and defeat the Crystal Guardians rumored to be protecting valuable artifacts within the Crystal Cavern.",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Crystal Cavern", "role": "challenge" },
+        { "name": "Crystal Cavern - Chamber of Crystals", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Crystal Cavern", "type": "Crystal Guardian", "count": 3 },
+        { "location": "Crystal Cavern - Chamber of Crystals", "type": "Ancient Crystal Sentinel", "count": 1 }
+      ],
+      "items": [
+        { "location": "Crystal Cavern", "name": "Crystal Shard" },
+        { "location": "Crystal Cavern - Chamber of Crystals", "name": "Crystal Guardian Core" }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Wanderer",
+        "item": "Crystal Seeker's Bow"
+      }
+    }
+  ],
+  "10" : [
+    {
+      "title": "Mysteries of the Whispering Forest",
+      "giver": "Local Historian",
+      "objective": "Unravel the mysteries hidden within the Whispering Forest by collecting ancient artifacts scattered throughout its depths.",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Whispering Forest", "role": "challenge" },
+        { "name": "Whispering Forest - Ancient Ruins", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Whispering Forest", "type": "Ethereal Guardian", "count": 2 },
+        { "location": "Whispering Forest - Ancient Ruins", "type": "Guardian Spirit", "count": 1 }
+      ],
+      "items": [
+        { "location": "Whispering Forest", "name": "Ancient Tablet" },
+        { "location": "Whispering Forest - Ancient Ruins", "name": "Lost Relic of Elders" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "Local Historian",
+        "item": "Scholar's Tome"
+      }
+    }
+  ]
+}

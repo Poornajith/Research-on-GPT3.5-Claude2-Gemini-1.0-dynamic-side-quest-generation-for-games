@@ -1,0 +1,251 @@
+{
+  "1" : [
+    {
+      "title": "The Ritual of Rebirth",
+      "giver": "The Ritualist",
+      "objective": "Gather the sacred components to perform a ritual that may restore life to Ashar",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Desecrated Temple", "role": "challenge"},
+        {"name": "Sand-Swept Oasis", "role": "challenge"},
+        {"name": "Pharaoh's Tomb Entrance", "role": "goal"},
+        {"name": "Ashar Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Desecrated Temple", "type": "Cursed Mummies", "count": 2},
+        {"location": "Sand-Swept Oasis", "type": "Scarab Swarms", "count": 3},
+        {"location": "Pharaoh's Tomb Entrance", "type": "Sand Wraiths", "count": 1}
+      ],
+      "items": [
+        {"location": "Desecrated Temple", "name": "Ceremonial Dagger"},
+        {"location": "Sand-Swept Oasis", "name": "Amulet of Protection"},
+        {"location": "Pharaoh's Tomb Entrance", "name": "Papyrus Scroll"}
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Ritualist",
+        "item": "Ritual Components"
+      }
+    }
+  ],
+  "2" : [
+    {
+      "title": "The Lost Wealth of Ashar",
+      "giver": "The Relic Hunter",
+      "objective": "Explore the ruins to uncover Ashar's hidden riches and treasures",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Rusted Caravan", "role": "challenge"},
+        {"name": "Mirage Shrouded Ruins", "role": "challenge"},
+        {"name": "Pharaoh's Tomb Entrance", "role": "goal"},
+        {"name": "Ashar Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Rusted Caravan", "type": "Desert Raider Chieftain", "count": 1},
+        {"location": "Mirage Shrouded Ruins", "type": "Hyena Pack", "count": 2},
+        {"location": "Pharaoh's Tomb Entrance", "type": "Cursed Mummies", "count": 3}
+      ],
+      "items": [
+        {"location": "Rusted Caravan", "name": "Hidden Coin Hoard"},
+        {"location": "Mirage Shrouded Ruins", "name": "Emerald Scarab Pendant"},
+        {"location": "Pharaoh's Tomb Entrance", "name": "Ceremonial Dagger"}
+      ],
+      "reward": {
+        "gold": 500,
+        "reputation": "The Relic Hunter",
+        "item": "Treasure Maps"
+      }
+    }
+  ],
+  "3" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Village Elder",
+      "objective": "Recover fragments of Ashar's history from the ruins",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Desecrated Temple", "role": "challenge"},
+        {"name": "Mirage Shrouded Ruins", "role": "challenge"},
+        {"name": "Pharaoh's Tomb Entrance", "role": "goal"},
+        {"name": "Ashar Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Desecrated Temple", "type": "Sand Wraiths", "count": 2},
+        {"location": "Mirage Shrouded Ruins", "type": "Scarab Swarms", "count": 3}
+      ],
+      "items": [
+        {"location": "Desecrated Temple", "name": "Hieroglyphic Tablets"},
+        {"location": "Mirage Shrouded Ruins", "name": "Pharaoh's Mask Fragments"},
+        {"location": "Pharaoh's Tomb Entrance", "name": "Pottery Shards"}
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Village Elder",
+        "item": "Ancient Scrolls"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "A Seed of Hope",
+      "giver": "The Nomad Guide",
+      "objective": "Find the hidden oasis spring that may restore fertility to Ashar",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Sand-Swept Oasis", "role": "goal"}
+      ],
+      "monsters": [
+        {"location": "Sand-Swept Oasis", "type": "Hyena Pack", "count": 2}
+      ],
+      "items": [],
+      "reward": {
+        "xp": 200,
+        "reputation": "The Nomad Guide",
+        "item": "Fertile Seeds"
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "The Gravedigger's Lament",
+      "giver": "The Sole Survivor",
+      "objective": "Lay the disturbed souls to rest",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Desecrated Temple", "role": "challenge"},
+        {"name": "Sand-Swept Oasis", "role": "challenge"},
+        {"name": "Rusted Caravan", "role": "goal"}
+      ],
+      "monsters": [
+        {"location": "Desecrated Temple", "type": "Cursed Mummies", "count": 3},
+        {"location": "Sand-Swept Oasis", "type": "Sand Wraiths", "count": 2},
+        {"location": "Rusted Caravan", "type": "Cursed Mummies", "count": 1}
+      ],
+      "items": [
+        {"location": "Rusted Caravan", "name": "Cracked Jewelry"}
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Sole Survivor"
+      }
+    }
+  ],
+  "6" : [
+    {
+      "title": "Whispers of the Dunes",
+      "giver": "The Ritualist",
+      "objective": "Investigate the mirage ruins for clues about Ashar's downfall",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Mirage Shrouded Ruins", "role": "goal"}
+      ],
+      "monsters": [
+        {"location": "Mirage Shrouded Ruins", "type": "Sand Wraiths", "count": 3}
+      ],
+      "items": [
+        {"location": "Mirage Shrouded Ruins", "name": "Dried Flowers"}
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Ritualist"
+      }
+    }
+  ],
+  "7" : [
+    {
+      "title": "Trophy Hunter",
+      "giver": "The Relic Hunter",
+      "objective": "Slay the legendary desert monsters and bring back proof",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Sand-Swept Oasis", "role": "challenge"},
+        {"name": "Pharaoh's Tomb Entrance", "role": "goal"}
+      ],
+      "monsters": [
+        {"location": "Sand-Swept Oasis", "type": "Scarab Swarms", "count": 4},
+        {"location": "Pharaoh's Tomb Entrance", "type": "Desert Raider Chieftain", "count": 1}
+      ],
+      "items": [],
+      "reward": {
+        "gold": 600,
+        "reputation": "The Relic Hunter",
+        "item": "Hunter's Trophy"
+      }
+    }
+  ],
+  "8" : [
+    {
+      "title": "The Guardian's Burden",
+      "giver": "The Sole Survivor",
+      "objective": "Free the trapped spirits of Ashar's guardians from their cursed existence",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Desecrated Temple", "role": "challenge"},
+        {"name": "Pharaoh's Tomb Entrance", "role": "goal"},
+        {"name": "Ashar Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Desecrated Temple", "type": "Cursed Mummies", "count": 4},
+        {"location": "Pharaoh's Tomb Entrance", "type": "Cursed Mummies", "count": 5}
+      ],
+      "items": [
+        {"location": "Pharaoh's Tomb Entrance", "name": "Ancient Urn"}
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Sole Survivor",
+        "item": "Guardian's Blessing"
+      }
+    }
+  ],
+  "9" : [
+    {
+      "title": "Legacy of the Lost Pharaoh",
+      "giver": "The Relic Hunter",
+      "objective": "Locate and secure the lost tomb of a fabled ruler",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Mirage Shrouded Ruins", "role": "challenge"},
+        {"name": "Pharaoh's Tomb Entrance", "role": "goal"},
+        {"name": "Ashar Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Mirage Shrouded Ruins", "type": "Sand Wraiths", "count": 3},
+        {"location": "Pharaoh's Tomb Entrance", "type": "Cursed Mummies", "count": 4}
+      ],
+      "items": [
+        {"location": "Pharaoh's Tomb Entrance", "name": "Priceless Sarcophagus"}
+      ],
+      "reward": {
+        "gold": 1000,
+        "reputation": "The Relic Hunter",
+        "item": "Lost Pharaoh's Crown"
+      }
+    }
+  ],
+  "10" : [
+    {
+      "title": "Scorched Earth",
+      "giver": "The Village Elder",
+      "objective": "Investigate the source of the blight that ravaged Ashar",
+      "locations": [
+        {"name": "Ashar Village", "role": "start"},
+        {"name": "Desecrated Temple", "role": "challenge"},
+        {"name": "Sand-Swept Oasis", "role": "challenge"},
+        {"name": "Mirage Shrouded Ruins", "role": "goal"}
+      ],
+      "monsters": [
+        {"location": "Desecrated Temple", "type": "Cursed Mummies", "count": 2},
+        {"location": "Sand-Swept Oasis", "type": "Scarab Swarms", "count": 4},
+        {"location": "Mirage Shrouded Ruins", "type": "Sand Wraiths", "count": 3}
+      ],
+      "items": [
+        {"location": "Mirage Shrouded Ruins", "name": "Corrupted Artifact"}
+      ],
+      "reward": {
+        "xp": 600,
+        "reputation": "The Village Elder"
+      }
+    }
+  ]
+}

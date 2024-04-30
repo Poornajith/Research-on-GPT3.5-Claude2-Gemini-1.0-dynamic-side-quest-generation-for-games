@@ -1,0 +1,541 @@
+{
+  "1": [
+    {
+      "title": "The Lightkeeper's Lament",
+      "giver": "Nora the Elder",
+      "objective": "Restore function to the Ruined Lighthouse and uncover the old lightkeeper's fate.",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Ruined Lighthouse - Exterior",
+          "role": "challenge"
+        },
+        {
+          "name": "Ruined Lighthouse - Interior",
+          "role": "challenge"
+        },
+        {
+          "name": "Ruined Lighthouse - Beacon",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Ruined Lighthouse - Exterior",
+          "type": "Crab Raiders",
+          "count": 2
+        },
+        {
+          "location": "Ruined Lighthouse - Interior",
+          "type": "Vicious Fowl",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Ruined Lighthouse - Interior",
+          "name": "Old Generator Parts"
+        },
+        {
+          "location": "Sunken Shipwreck",
+          "name": "Waterproof Wiring"
+        },
+        {
+          "location": "Ruined Lighthouse - Beacon",
+          "name": "Lightkeeper's Log"
+        }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "Village",
+        "item": "Sturdy Tool Kit"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Wanderer",
+      "objective": "Explore the Forgotten Farmstead, appease the Ghost of the Past, and discover a hidden treasure.",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Whispering Forest",
+          "role": "challenge"
+        },
+        {
+          "name": "Forgotten Farmstead",
+          "role": "challenge"
+        },
+        {
+          "name": "Crystal Cavern",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Whispering Forest",
+          "type": "Wild Boars",
+          "count": 2
+        },
+        {
+          "location": "Forgotten Farmstead",
+          "type": "Ghost of the Past",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Forgotten Farmstead",
+          "name": "Heirloom Necklace"
+        },
+        {
+          "location": "Whispering Forest",
+          "name": "Strange Flowers",
+          "count": 3
+        },
+        {
+          "location": "Crystal Cavern",
+          "name": "Ancient Offering"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Wanderer",
+        "item": "Old Compass"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "Message in a Bottle",
+      "giver": "Kai the Fisher",
+      "objective": "Find the source of a mysterious message in a bottle and deliver the response.",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Beach",
+          "role": "challenge"
+        },
+        {
+          "name": "Sunken Shipwreck",
+          "role": "challenge"
+        },
+        {
+          "name": "Remote Island (requires boat)",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Beach",
+          "type": "Crab Raiders",
+          "count": 3
+        },
+        {
+          "location": "Sunken Shipwreck",
+          "type": "Sea Wolves",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Beach",
+          "name": "Message in a Bottle"
+        },
+        {
+          "location": "Sunken Shipwreck",
+          "name": "Waterproof Satchel"
+        },
+        {
+          "location": "Remote Island",
+          "name": "Survivor's Note"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Kai the Fisher",
+        "item": "Ancient Fishing Rod"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "A Bountiful Harvest",
+      "giver": "Rosa the Farmer",
+      "objective": "Locate seeds of resilient, pre-calamity crops and help Rosa expand the island's food supply.",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Whispering Forest",
+          "role": "challenge"
+        },
+        {
+          "name": "Ruined Lighthouse",
+          "role": "challenge"
+        },
+        {
+          "name": "Crystal Cavern",
+          "role": "challenge"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Whispering Forest",
+          "type": "Wild Boar",
+          "count": 2
+        },
+        {
+          "location": "Ruined Lighthouse",
+          "type": "Vicious Fowl",
+          "count": 3
+        },
+        {
+          "location": "Crystal Cavern",
+          "type": "Crystal Golem",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Whispering Forest",
+          "name": "Hardy Root Seeds",
+          "count": 2
+        },
+        {
+          "location": "Ruined Lighthouse",
+          "name": "Sun-Resistant Seeds",
+          "count": 2
+        },
+        {
+          "location": "Crystal Cavern",
+          "name": "Glowing Mushroom Spores",
+          "count": 2
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "Rosa the Farmer",
+        "item": "Farmer's Almanac"
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "Restoring the Craft",
+      "giver": "Lin the Artisan",
+      "objective": "Repair a pre-calamity device found in a ruin.",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Choose one:",
+          "role": "challenge"
+        },
+        {
+          "option": "Ruined Lighthouse"
+        },
+        {
+          "option": "Forgotten Farmstead"
+        },
+        {
+          "option": "Whispering Forest"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Ruined Location",
+          "type": "Choose appropriate monsters",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Ruined Location",
+          "name": "Broken Device"
+        },
+        {
+          "location": "Village",
+          "name": "Spare Parts"
+        }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "Lin the Artisan",
+        "item": "Device Blueprint"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "Echoes of the Sea",
+      "giver": "The Wanderer",
+      "objective": "Collect rare seashells and use their resonance to uncover a hidden location.",
+      "locations": [
+        {
+          "name": "Beach",
+          "role": "challenge"
+        },
+        {
+          "name": "Coastal Cliffs",
+          "role": "challenge"
+        },
+        {
+          "name": "Whispering Forest",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Beach",
+          "type": "Crab Raiders",
+          "count": 1
+        },
+        {
+          "location": "Coastal Cliffs",
+          "type": "Vicious Fowl",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Beach",
+          "name": "Iridescent Shell",
+          "count": 2
+        },
+        {
+          "location": "Coastal Cliffs",
+          "name": "Spiral Conch",
+          "count": 2
+        },
+        {
+          "location": "Whispering Forest",
+          "name": "Hidden Grotto Entrance"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "item": "Pearl Necklace"
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "Supply Run",
+      "giver": "Lin the Artisan",
+      "objective": "Travel to a nearby, less-hospitable island rumored to hold rare resources, and return with a specific material for crafting.",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Volcanic Island (requires sturdy boat)",
+          "role": "challenge"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Volcanic Island",
+          "type": "Spitting Ash Lizard",
+          "count": 3
+        },
+        {
+          "location": "Volcanic Island",
+          "type": "Magma Crawler",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Volcanic Island",
+          "name": "Fire-Resistant Ore"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "Lin the Artisan",
+        "item": "Crafting Schematic: Heatproof Gear"
+      }
+    }
+  ],
+  "8": [
+    {
+      "title": "Scholarly Expedition",
+      "giver": "Nora the Elder",
+      "objective": "Escort a visiting scholar to a ruin and protect them while they research the site.",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Choose one:",
+          "role": "challenge"
+        },
+        {
+          "option": "Whispering Forest"
+        },
+        {
+          "option": "Sunken Shipwreck"
+        },
+        {
+          "option": "Forgotten Farmstead"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Ruined Location",
+          "type": "Choose appropriate monsters",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Ruined Location",
+          "name": "Pre-Calamity Text Fragment"
+        }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "Nora the Elder",
+        "item": "Ancient Map"
+      }
+    }
+  ],
+  "9": [
+    {
+      "title": "A Song of the Sea",
+      "giver": "Village Musician (or other artistic NPC)",
+      "objective": "Learn a traditional seafaring song, lost to time, by deciphering clues scattered about the island.",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Ruined Lighthouse",
+          "role": "challenge"
+        },
+        {
+          "name": "Sunken Shipwreck",
+          "role": "challenge"
+        },
+        {
+          "name": "Coastal Cliffs",
+          "role": "challenge"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+      ],
+      "items": [
+        {
+          "location": "Ruined Lighthouse",
+          "name": "Song Fragment #1"
+        },
+        {
+          "location": "Sunken Shipwreck",
+          "name": "Song Fragment #2"
+        },
+        {
+          "location": "Coastal Cliffs",
+          "name": "Song Fragment #3"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "Village Musician",
+        "item": "Seafarer's Charm"
+      }
+    }
+  ],
+  "10": [
+    {
+      "title": "The Beast Whisperer",
+      "giver": "Rosa the Farmer",
+      "objective": "Tame a territorial beast to expand the island's potential.",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Whispering Forest",
+          "role": "challenge"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Whispering Forest",
+          "type": "Wild Boar Leader",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Whispering Forest",
+          "name": "Soothing Herbs"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Rosa the Farmer",
+        "unlock": "New Mount or Farming Companion"
+      }
+    }
+  ]
+}

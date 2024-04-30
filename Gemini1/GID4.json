@@ -1,0 +1,280 @@
+{
+  "1" : [
+    {
+      "title": "The Corsair's Bounty",
+      "giver": "The Smuggler",
+      "objective": "Recover a stolen cache of spice hidden near a sandworm nest",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Dried-up Riverbed", "role": "challenge" },
+        { "name": "Sandworm Territory", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Dried-up Riverbed", "type": "Dust Crawler", "count": 3 },
+        { "location": "Sandworm Territory", "type": "Feral Cyborg", "count": 2 },
+        { "location": "Sandworm Territory", "type": "Sandworm", "count": 1 }
+      ],
+      "items": [
+        { "location": "Sandworm Territory", "name": "Stolen Spice Cache" }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Smuggler",
+        "item": "Rare Cybernetic Implant",
+        "gold": 200
+      }
+    }
+
+  ],
+  "2" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Engineer",
+      "objective": "Venture into the Abandoned Colony Settlement, retrieve the Colony AI Module, and return it to the Engineer",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Abandoned Colony Settlement", "role": "challenge" },
+        { "name": "Abandoned Colony Settlement - Core Complex", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Colony Settlement", "type": "Pirate Scavenger", "count": 4 },
+        { "location": "Abandoned Colony Settlement", "type": "Dust Crawler", "count": 2 },
+        { "location": "Abandoned Colony Settlement - Core Complex", "type": "Feral Cyborg", "count": 1 }
+      ],
+      "items": [
+        { "location": "Abandoned Colony Settlement - Core Complex", "name": "Colony AI Module" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Engineer",
+        "item": "Cold Fusion Prototype",
+        "info": "The AI Module reveals the location of a hidden pre-collapse Martian research base"
+      }
+    }
+
+  ],
+  "3" : [
+    {
+      "title": "Buried Secrets",
+      "giver": "The Fixer",
+      "objective": "Locate the Crash Site, retrieve an encrypted datapad from the wreckage, and deliver it to The Fixer",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Crash Site", "role": "challenge" },
+        { "name": "Crash Site - Freighter Interior", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Crash Site", "type": "Rival Pirate Gang", "count": 3 },
+        { "location": "Crash Site", "type": "Dust Crawler", "count": 2 },
+        { "location": "Crash Site - Freighter Interior", "type": "Pirate Scavenger", "count": 2 }
+      ],
+      "items": [
+        { "location": "Crash Site - Freighter Interior", "name": "Encrypted Datapad" }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Fixer",
+        "gold": 250,
+        "info": "The Fixer hints that the datapad contains either valuable intel or a dangerous secret"
+
+      }
+    }
+
+  ],
+  "4" : [
+    {
+      "title": "The Derelict Vanguard",
+      "giver": "The Ex-Pirate",
+      "objective": "Escort the Ex-Pirate to the Derelict Mining Facility, help them locate old mining logs, and protect them from danger",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Derelict Mining Facility", "role": "challenge" },
+        { "name": "Derelict Mining Facility - Archives", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Derelict Mining Facility", "type": "Feral Cyborg", "count": 3 },
+        { "location": "Derelict Mining Facility", "type": "Dust Crawler", "count": 4 }
+      ],
+      "items": [
+        { "location": "Derelict Mining Facility - Archives", "name": "Old Mining Logs" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Ex-Pirate",
+        "item": "Pirate Tales",
+        "info": "The Ex-Pirate hints the logs contain clues to long-lost pirate treasure"
+      }
+    }
+
+  ],
+  "5" : [
+    {
+      "title": "The Queen's Gambit",
+      "giver": "The Informant",
+      "objective": "Infiltrate a Corsair Queen supply convoy, sabotage their vehicles, and steal intel on a planned assault",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Sandworm Territory", "role": "challenge" },
+        { "name": "Corsair Convoy Route", "role": "challenge"},
+        { "name": "Corsair Convoy Camp", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Sandworm Territory", "type": "Sandworm", "count": 1 },
+        { "location": "Corsair Convoy Route", "type": "Pirate Scavenger", "count": 4 },
+        { "location": "Corsair Convoy Camp", "type": "The Corsair Queen's Guard", "count": 2 }
+      ],
+      "items": [
+        { "location": "Corsair Convoy Camp", "name": "Corsair Assault Plans" }
+      ],
+      "reward": {
+        "xp": 600,
+        "reputation": "Rust Haven",
+        "gold": 400,
+        "info": "The intel may allow Rust Haven to prepare a defense, or launch a pre-emptive strike"
+      }
+    }
+
+  ],
+  "6" : [
+    {
+      "title": "Martian Whispers",
+      "giver": "The Engineer",
+      "objective": "Find strange signal readings emanating from the Abandoned Colony Settlement. Investigate and determine the source.",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Abandoned Colony Settlement", "role": "challenge" },
+        { "name": "Abandoned Colony Settlement - Hidden Laboratory", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Colony Settlement", "type": "Feral Cyborg", "count": 2 },
+        { "location": "Abandoned Colony Settlement", "type": "Dust Crawler", "count": 3},
+        { "location": "Abandoned Colony Settlement - Hidden Laboratory", "type": "Malfunctioning Defense System", "count": 1 }
+      ],
+      "items": [
+        { "location": "Abandoned Colony Settlement - Hidden Laboratory", "name": "Ancient Martian Artifact" }
+      ],
+      "reward": {
+        "xp": 600,
+        "reputation": "The Engineer",
+        "item": "Mars Flora & Fauna Sample",
+        "info": "The Artifact holds cryptic markings, requiring further analysis by The Engineer"
+      }
+    }
+
+  ],
+  "7" : [
+    {
+      "title": "Supply and Demand",
+      "giver": "The Fixer",
+      "objective": "Intercept a rival gang's spice shipment and redirect it to The Fixer.",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Dried-up Riverbed", "role": "challenge" },
+        { "name": "Rival Gang Ambush Point", "role": "goal" },
+        { "name": "Rust Haven - The Fixer's Hideout", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Dried-up Riverbed", "type": "Sandworm", "count": 1 },
+        { "location": "Rival Gang Ambush Point", "type": "Rival Pirate Gang", "count": 5}
+      ],
+      "items": [
+        { "location": "Rival Gang Ambush Point", "name": "Spice Shipment" }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Fixer",
+        "gold": 300,
+        "info": "The Fixer could use this as a bargaining chip against the rivals, or flood Rust Haven with the spice, upending the existing power dynamic"
+      }
+    }
+
+  ],
+  "8" : [
+    {
+      "title": "Reclamation",
+      "giver": "The Ex-Pirate",
+      "objective": "Venture into the Derelict Mining Facility to recover a hidden pre-collapse Martian flora cultivation tank.",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Derelict Mining Facility", "role": "challenge" },
+        { "name": "Derelict Mining Facility - Arboretum", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Derelict Mining Facility", "type": "Pirate Scavenger", "count": 3 },
+        { "location": "Derelict Mining Facility", "type": "Mutated Flora", "count": 2}
+      ],
+      "items": [
+        { "location": "Derelict Mining Facility - Arboretum", "name": "Cultivation Tank" }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Ex-Pirate",
+        "item": "Outdated Tech Manuals",
+        "info": "The Ex-Pirate believes the tank might be used to restore a semblance of greenery to Rust Haven"
+      }
+    }
+
+  ],
+  "9" : [
+    {
+      "title": "A Dangerous Game",
+      "giver": "The Smuggler",
+      "objective": "Enter a restricted area of the Sandworm Territory and recover valuable contraband hidden by the Corsair Queen.",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Sandworm Territory - Restricted Zone", "role": "challenge" },
+        { "name": "Corsair Queen's Cache", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Sandworm Territory - Restricted Zone", "type": "Sandworm", "count": 2},
+        { "location": "Sandworm Territory - Restricted Zone", "type": "The Corsair Queen's Guard", "count": 3}
+      ],
+      "items": [
+        { "location": "Corsair Queen's Cache", "name": "Illegal Cybernetics" }
+      ],
+      "reward": {
+        "xp": 700,
+        "reputation": "The Smuggler",
+        "gold": 400,
+        "info": "The Smuggler promises a choice of cybernetics from the cache, some with questionable legality... and potential power."
+      }
+    }
+
+  ],
+  "10" : [
+    {
+      "title": "Echoes in the Dust",
+      "giver": "The Ex-Pirate",
+      "objective": "Explore the Abandoned Colony Settlement to find clues about the fate of the former colonists, and retrieve any personal effects for their descendants.",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Abandoned Colony Settlement - Residential Sector", "role": "challenge" },
+        { "name": "Abandoned Colony Settlement - Administrative Sector", "role": "challenge" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Colony Settlement - Residential Sector", "type": "Feral Cyborg", "count": 1},
+        { "location": "Abandoned Colony Settlement - Residential Sector", "type": "Dust Crawler", "count": 3},
+        { "location": "Abandoned Colony Settlement - Administrative Sector", "type": "Pirate Scavenger", "count": 3}
+      ],
+      "items": [
+        { "location": "Abandoned Colony Settlement - Residential Sector", "name": "Pre-Collapse Souvenirs" },
+        { "location": "Abandoned Colony Settlement - Administrative Sector", "name": "Data Logs about pre-collapse Mars"  }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "Rust Haven",
+        "info": "The Ex-Pirate hints that families on other settlements may pay handsomely for these mementos of a lost world."
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "1" : [
+    {
+      "title": "The Oasis Heart",
+      "giver": "The Nomad Guide",
+      "objective": "Restore the choked oasis and revive the spirit of Ashar",
+      "locations": [
+        { "name": "Ashar", "role": "start" },
+        { "name": "Sand-Swept Oasis", "role": "challenge" },
+        { "name": "Desecrated Temple", "role": "challenge"},
+        { "name": "Sand-Swept Oasis", "role": "goal" },
+        { "name": "Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Sand-Swept Oasis", "type": "Sand Wraith", "count": 1 },
+        { "location": "Sand-Swept Oasis", "type": "Scarab Swarm", "count": 3 },
+        { "location": "Desecrated Temple", "type": "Cursed Mummy", "count": 2 }
+      ],
+      "items": [
+        { "location": "Desecrated Temple", "name": "Ancient Ritual Scroll" },
+        { "location": "Sand-Swept Oasis", "name": "Hidden Spring" }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "Ashar",
+        "item": "Amulet of Protection"
+      }
+    }
+
+  ],
+  "2" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Village Elder",
+      "objective": "Discover the cause of Ashar's downfall",
+      "locations": [
+        { "name": "Ashar", "role": "start" },
+        { "name": "Pharaoh's Tomb Entrance", "role": "challenge" },
+        { "name": "Mirage-Shrouded Ruins", "role": "challenge" },
+        { "name": "Pharaoh's Tomb Entrance (Interior)", "role": "goal" },
+        { "name": "Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Pharaoh's Tomb Entrance", "type": "Scarab Swarm", "count": 2 },
+        { "location": "Pharaoh's Tomb Entrance", "type": "Cursed Mummy", "count": 1 },
+        { "location": "Mirage-Shrouded Ruins", "type": "Sand Wraith", "count": 3},
+        { "location": "Pharaoh's Tomb Entrance (Interior)", "type": "Desert Raider Chieftain", "count": 1 }
+      ],
+      "items": [
+        { "location": "Mirage-Shrouded Ruins", "name": "Hieroglyphic Tablet" },
+        { "location": "Pharaoh's Tomb Entrance (Interior)", "name": "Pharaoh's Mask Fragments (3)" },
+        { "location": "Pharaoh's Tomb Entrance (Interior)", "name": "Ceremonial Dagger" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Village Elder",
+        "item": "Emerald Scarab Pendant"
+      }
+    }
+
+  ],
+  "3" : [
+    {
+      "title": "The Caravan's Fate",
+      "giver": "The Relic Hunter",
+      "objective": "Discover the fate of the Rusted Caravan and recover any lost treasures",
+      "locations": [
+        { "name": "Ashar", "role": "start" },
+        { "name": "Rusted Caravan", "role": "challenge" },
+        { "name": "Sand-Swept Oasis", "role": "challenge"},
+        { "name": "Rusted Caravan", "role": "goal" },
+        { "name": "Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Rusted Caravan", "type": "Hyena Pack", "count": 4},
+        { "location": "Sand-Swept Oasis", "type": "Sand Wraith", "count": 2}
+      ],
+      "items": [
+        { "location": "Rusted Caravan", "name": "Hidden Coin Hoard" },
+        { "location": "Rusted Caravan", "name": "Dried Flowers" },
+        { "location": "Rusted Caravan", "name": "Cracked Jewelry" }
+      ],
+      "reward": {
+        "gold": 250,
+        "reputation": "The Relic Hunter",
+        "item": "Map Fragment"
+      }
+    }
+
+  ],
+  "4" : [
+    {
+      "title": "Ritual of Cleansing",
+      "giver": "The Ritualist",
+      "objective": "Aid the Ritualist in performing a cleansing ritual to appease the angered spirits",
+      "locations": [
+        { "name": "Ashar", "role": "start" },
+        { "name": "Desecrated Temple", "role": "challenge" },
+        { "name": "Sand-Swept Oasis", "role": "challenge" },
+        { "name": "Ashar", "role": "goal" },
+        { "name": "Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Desecrated Temple", "type": "Cursed Mummy", "count": 1 },
+        { "location": "Sand-Swept Oasis", "type": "Scarab Swarm", "count": 2 }
+      ],
+      "items": [
+        { "location": "Desecrated Temple", "name": "Pottery Shards" },
+        { "location": "Sand-Swept Oasis", "name": "Papyrus Scroll" }
+      ],
+      "reward": {
+        "xp": 150,
+        "reputation" : "The Ritualist",
+        "item": "Incense of Warding"
+      }
+    }
+
+  ],
+  "5" : [
+    {
+      "title": "Whispers from the Sand",
+      "giver": "The Sole Survivor",
+      "objective": "Investigate the Mirage-Shrouded Ruins and uncover any clues about Ashar's fate",
+      "locations": [
+        { "name": "Ashar", "role": "start" },
+        { "name": "Mirage-Shrouded Ruins", "role": "challenge" },
+        { "name": "Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Mirage-Shrouded Ruins", "type": "Sand Wraith", "count": 4 }
+      ],
+      "items": [
+        { "location": "Mirage-Shrouded Ruins", "name": "Hieroglyphic Tablets (2)" },
+        { "location": "Mirage-Shrouded Ruins", "name": "Pharaoh's Mask Fragment" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Sole Survivor"
+      }
+    }
+
+  ],
+  "6" : [
+    {
+      "title": "A Raider's Greed",
+      "giver": "Ashar Citizen (Optional)",
+      "objective": "Track down Desert Raiders and recover stolen Ashar relics",
+      "locations": [
+        { "name": "Ashar", "role": "start" },
+        { "name": "Desert Raider Camp (Hidden)", "role": "challenge" },
+        { "name": "Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Desert Raider Camp", "type": "Desert Raider", "count": 3 },
+        { "location": "Desert Raider Camp", "type": "Desert Raider Chieftain", "count": 1 }
+      ],
+      "items": [
+        { "location": "Desert Raider Camp", "name": "Stolen Ashar Artifacts" }
+      ],
+      "reward": {
+        "xp": 200,
+        "gold": 100,
+        "reputation": "Ashar"
+      }
+    }
+
+  ],
+  "7" : [
+    {
+      "title": "Tomb Guardian",
+      "giver": "The Village Elder",
+      "objective": "Defeat a powerful guardian spirit within the Pharaoh's Tomb and obtain its blessing",
+      "locations": [
+        { "name": "Ashar", "role": "start" },
+        { "name": "Pharaoh's Tomb Entrance", "role": "challenge" },
+        { "name": "Pharaoh's Tomb - Inner Chamber", "role": "goal" },
+        { "name": "Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Pharaoh's Tomb Entrance", "type": "Cursed Mummy", "count": 2 },
+        { "location": "Pharaoh's Tomb - Inner Chamber", "type": "Tomb Guardian", "count": 1 }
+      ],
+      "items": [
+        { "location": "Pharaoh's Tomb - Inner Chamber", "name": "Pharaoh's Scepter" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Village Elder",
+        "item": "Ritualist's Charm"
+      }
+    }
+
+  ],
+  "8" : [
+    {
+      "title": "A Shadow of Hope",
+      "giver": "The Village Elder",
+      "objective": "During a rare lunar alignment, collect starlight dew from the oasis to brew a warding potion",
+      "locations": [
+        { "name": "Ashar", "role": "start" },
+        { "name": "Sand-Swept Oasis (Night)", "role": "challenge" },
+        { "name": "Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Sand-Swept Oasis (Night)", "type": "Sand Wraith", "count": 3 },
+        { "location": "Sand-Swept Oasis (Night)", "type": "Shadow Elemental", "count": 1 }
+      ],
+      "items": [
+        { "location": "Sand-Swept Oasis (Night)", "name": "Starlight Dew" }
+      ],
+      "reward": {
+        "xp": 250,
+        "gold": 100,
+        "reputation": "Ashar",
+        "item": "Potion of Shadows"
+      }
+    }
+
+  ],
+  "9" : [
+    {
+      "title": "The Nomad's Bargain",
+      "giver": "The Nomad Guide",
+      "objective": "Barter for a rare map or vital information from a traveling Nomad",
+      "locations": [
+        { "name": "Ashar", "role": "start" },
+        { "name": "Nomad Camp (Temporary)", "role": "challenge" },
+        { "name": "Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Nomad Camp (Temporary)", "type": "Hyena Pack", "count": 2 }
+      ],
+      "items": [
+        { "location": "Nomad Camp (Temporary)", "name": "Ancient Map" },
+        { "location": "Ashar", "name": "Rare Trade Goods" }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "The Nomad Guide"
+      }
+    }
+
+  ],
+  "10" : [
+    {
+      "title": "A Cry for Help",
+      "giver": "None (Triggered Event)",
+      "objective": "Investigate a strange cry for help echoing from the dunes, save the trapped person",
+      "locations": [
+        { "name": "Near Ashar", "role": "start" },
+        { "name": "Collapsed Sand Pit", "role": "challenge" },
+        { "name": "Near Ashar", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Collapsed Sand Pit", "type": "Scarab Swarm", "count": 3 }
+      ],
+      "items": [
+
+      ],
+      "reward": {
+        "xp": 150,
+        "reputation": "Ashar",
+        "item": "Survivor's Gratitude"
+      }
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "1": [
+    {
+      "title": "Lost Expedition",
+      "giver": "Desperate Survivor",
+      "objective": "Investigate the fate of the missing expedition team",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Derelict Mining Facility",
+          "role": "challenge"
+        },
+        {
+          "name": "Sandworm Territory",
+          "role": "challenge"
+        },
+        {
+          "name": "Abandoned Colony Settlement",
+          "role": "goal"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Derelict Mining Facility",
+          "type": "Pirate Scavengers",
+          "count": 3
+        },
+        {
+          "location": "Sandworm Territory",
+          "type": "Sandworm",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Abandoned Colony Settlement",
+          "name": "Expedition Journal"
+        },
+        {
+          "location": "Abandoned Colony Settlement",
+          "name": "Damaged AI Module"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "gold": 150,
+        "reputation": "Rust Haven",
+        "item": "Ancient Martian Artifact"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "Underground Smuggling Ring",
+      "giver": "Cautious Informant",
+      "objective": "Infiltrate the smuggling operation and gather evidence",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Dried-up Riverbed",
+          "role": "challenge"
+        },
+        {
+          "name": "Abandoned Colony Settlement",
+          "role": "challenge"
+        },
+        {
+          "name": "Pirate Hideout",
+          "role": "goal"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Dried-up Riverbed",
+          "type": "Dust Crawlers",
+          "count": 5
+        },
+        {
+          "location": "Pirate Hideout",
+          "type": "Rival Pirate Gang",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Pirate Hideout",
+          "name": "Smuggled Cargo Manifest"
+        },
+        {
+          "location": "Pirate Hideout",
+          "name": "Stash of Spice"
+        }
+      ],
+      "reward": {
+        "xp": 600,
+        "gold": 200,
+        "reputation": "Rust Haven",
+        "item": "Illegal Cybernetics"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "Mutant Menace",
+      "giver": "Worried Settler",
+      "objective": "Eliminate the mutated creatures threatening the settlement",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Dried-up Riverbed",
+          "role": "challenge"
+        },
+        {
+          "name": "Abandoned Colony Settlement",
+          "role": "challenge"
+        },
+        {
+          "name": "Sandworm Territory",
+          "role": "challenge"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Dried-up Riverbed",
+          "type": "Dust Crawlers",
+          "count": 4
+        },
+        {
+          "location": "Abandoned Colony Settlement",
+          "type": "Feral Cyborgs",
+          "count": 3
+        },
+        {
+          "location": "Sandworm Territory",
+          "type": "Sandworm",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Abandoned Colony Settlement",
+          "name": "Mars Flora & Fauna Samples"
+        },
+        {
+          "location": "Sandworm Territory",
+          "name": "Mutant DNA Sample"
+        }
+      ],
+      "reward": {
+        "xp": 700,
+        "gold": 250,
+        "reputation": "Rust Haven",
+        "item": "AI Module"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "Desert Relics",
+      "giver": "Curious Archaeologist",
+      "objective": "Retrieve valuable artifacts from ancient Martian ruins",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Abandoned Colony Settlement",
+          "role": "challenge"
+        },
+        {
+          "name": "Derelict Mining Facility",
+          "role": "challenge"
+        },
+        {
+          "name": "Crash Site",
+          "role": "goal"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Abandoned Colony Settlement",
+          "type": "Pirate Scavengers",
+          "count": 2
+        },
+        {
+          "location": "Derelict Mining Facility",
+          "type": "Feral Cyborgs",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Crash Site",
+          "name": "Ancient Martian Artifact"
+        },
+        {
+          "location": "Crash Site",
+          "name": "Pre-Collapse Souvenirs"
+        }
+      ],
+      "reward": {
+        "xp": 600,
+        "gold": 200,
+        "reputation": "Rust Haven",
+        "item": "Cold Fusion Prototype"
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "The Engineer's Challenge",
+      "giver": "Eccentric Engineer",
+      "objective": "Retrieve rare components from malfunctioning robots",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Derelict Mining Facility",
+          "role": "challenge"
+        },
+        {
+          "name": "Sandworm Territory",
+          "role": "challenge"
+        },
+        {
+          "name": "Crash Site",
+          "role": "goal"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Derelict Mining Facility",
+          "type": "Feral Cyborgs",
+          "count": 3
+        },
+        {
+          "location": "Sandworm Territory",
+          "type": "Sandworm",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Crash Site",
+          "name": "Damaged AI Module"
+        },
+        {
+          "location": "Crash Site",
+          "name": "Outdated Tech Manuals"
+        }
+      ],
+      "reward": {
+        "xp": 800,
+        "gold": 300,
+        "reputation": "Rust Haven",
+        "item": "AI Module"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "Spice Trade Disruption",
+      "giver": "Concerned Merchant",
+      "objective": "Sabotage the rival pirate gang's spice trade operation",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Pirate Hideout",
+          "role": "challenge"
+        },
+        {
+          "name": "Dried-up Riverbed",
+          "role": "challenge"
+        },
+        {
+          "name": "Rival Pirate Ship",
+          "role": "goal"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Pirate Hideout",
+          "type": "Pirate Scavengers",
+          "count": 4
+        },
+        {
+          "location": "Rival Pirate Ship",
+          "type": "Rival Pirate Gang",
+          "count": 6
+        }
+      ],
+      "items": [
+        {
+          "location": "Rival Pirate Ship",
+          "name": "Stash of Spice"
+        },
+        {
+          "location": "Rival Pirate Ship",
+          "name": "Pirate Tales"
+        }
+      ],
+      "reward": {
+        "xp": 700,
+        "gold": 250,
+        "reputation": "Rust Haven",
+        "item": "Stash of Spice"
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "Cybernetic Heist",
+      "giver": "Underground Hacker",
+      "objective": "Steal valuable cybernetic enhancements from a high-security facility",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Abandoned Colony Settlement",
+          "role": "challenge"
+        },
+        {
+          "name": "Rival Pirate Outpost",
+          "role": "challenge"
+        },
+        {
+          "name": "High-Security Facility",
+          "role": "goal"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Rival Pirate Outpost",
+          "type": "Pirate Scavengers",
+          "count": 3
+        },
+        {
+          "location": "High-Security Facility",
+          "type": "Automated Defenses",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "High-Security Facility",
+          "name": "Illegal Cybernetics"
+        },
+        {
+          "location": "High-Security Facility",
+          "name": "Tech Blueprints"
+        }
+      ],
+      "reward": {
+        "xp": 900,
+        "gold": 350,
+        "reputation": "Rust Haven",
+        "item": "Illegal Cybernetics"
+      }
+    }
+  ],
+  "8": [
+    {
+      "title": "The Corsair Queen's Gambit",
+      "giver": "Distressed Trader",
+      "objective": "Rescue the captured traders and thwart the Corsair Queen's plans",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Pirate Hideout",
+          "role": "challenge"
+        },
+        {
+          "name": "Abandoned Colony Settlement",
+          "role": "challenge"
+        },
+        {
+          "name": "Rival Pirate Ship",
+          "role": "goal"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Pirate Hideout",
+          "type": "Pirate Scavengers",
+          "count": 5
+        },
+        {
+          "location": "Abandoned Colony Settlement",
+          "type": "Rival Pirate Gang",
+          "count": 3
+        },
+        {
+          "location": "Rival Pirate Ship",
+          "type": "The Corsair Queen",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Rival Pirate Ship",
+          "name": "Traders' Manifest"
+        },
+        {
+          "location": "Rival Pirate Ship",
+          "name": "Captured Trader's Journal"
+        }
+      ],
+      "reward": {
+        "xp": 1000,
+        "gold": 400,
+        "reputation": "Rust Haven",
+        "item": "Ancient Martian Artifact"
+      }
+    }
+  ],
+  "9": [
+    {
+      "title": "The Fixer's Favor",
+      "giver": "Shady Fixer",
+      "objective": "Retrieve a valuable data disk from a rival informant",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Abandoned Colony Settlement",
+          "role": "challenge"
+        },
+        {
+          "name": "Pirate Hideout",
+          "role": "challenge"
+        },
+        {
+          "name": "Informant's Safehouse",
+          "role": "goal"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Abandoned Colony Settlement",
+          "type": "Pirate Scavengers",
+          "count": 4
+        },
+        {
+          "location": "Pirate Hideout",
+          "type": "Rival Pirate Gang",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Informant's Safehouse",
+          "name": "AI Module"
+        },
+        {
+          "location": "Informant's Safehouse",
+          "name": "Data Disk"
+        }
+      ],
+      "reward": {
+        "xp": 800,
+        "gold": 300,
+        "reputation": "Rust Haven",
+        "item": "Tech Blueprints"
+      }
+    }
+  ],
+  "10": [
+    {
+      "title": "Sands of Betrayal",
+      "giver": "Double-crossed Smuggler",
+      "objective": "Retrieve stolen goods from the treacherous smuggler's hideout",
+      "locations": [
+        {
+          "name": "Rust Haven",
+          "role": "start"
+        },
+        {
+          "name": "Dried-up Riverbed",
+          "role": "challenge"
+        },
+        {
+          "name": "Pirate Hideout",
+          "role": "challenge"
+        },
+        {
+          "name": "Traitor's Lair",
+          "role": "goal"
+        },
+        {
+          "name": "Rust Haven",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Dried-up Riverbed",
+          "type": "Pirate Scavengers",
+          "count": 4
+        },
+        {
+          "location": "Pirate Hideout",
+          "type": "Feral Cyborgs",
+          "count": 3
+        },
+        {
+          "location": "Traitor's Lair",
+          "type": "The Smuggler",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Traitor's Lair",
+          "name": "Stolen Goods Crate"
+        },
+        {
+          "location": "Traitor's Lair",
+          "name": "Smuggler's Logbook"
+        }
+      ],
+      "reward": {
+        "xp": 900,
+        "gold": 350,
+        "reputation": "Rust Haven",
+        "item": "Stash of Spice"
+      }
+    }
+  ]
+}

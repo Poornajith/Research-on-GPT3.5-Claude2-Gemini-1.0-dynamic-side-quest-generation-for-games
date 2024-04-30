@@ -1,0 +1,267 @@
+{
+  "1" : [
+    {
+      "title": "Echoes of the Ancients",
+      "giver": "The Archivist",
+      "objective": "Retrieve ancient artifacts from the Whispering Ruins and decipher their secrets.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "Whispering Ruins", "role": "challenge" },
+        { "name": "Whispering Ruins - Inner Sanctum", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Whispering Ruins", "type": "Feral Scavvers", "count": 4 },
+        { "location": "Whispering Ruins", "type": "Rogue Servitors", "count": 2 },
+        { "location": "Whispering Ruins - Inner Sanctum", "type": "Warband Leader", "count": 1 }
+      ],
+      "items": [
+        { "location": "Whispering Ruins", "name": "Ancient Data Core" },
+        { "location": "Whispering Ruins", "name": "Alien Artifact" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "Knowledge Seeker",
+        "item": "Translator Module"
+      }
+    }
+
+  ],
+  "2" : [
+    {
+      "title": "Crystalline Conundrum",
+      "giver": "The Forager",
+      "objective": "Explore the Crystal Caverns and retrieve a valuable energy amplifier.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "Crystal Caverns", "role": "challenge" },
+        { "name": "Crystal Caverns - Core Chamber", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Crystal Caverns", "type": "Sandlurkers", "count": 3 },
+        { "location": "Crystal Caverns", "type": "Crystal Crazed", "count": 2 },
+        { "location": "Crystal Caverns - Core Chamber", "type": "Crystal Golem", "count": 1 }
+      ],
+      "items": [
+        { "location": "Crystal Caverns - Core Chamber", "name": "Energy Amplifier" }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Wilderness Explorer",
+        "item": "Stasis Pod"
+      }
+    }
+
+  ],
+  "3" : [
+    {
+      "title": "Lost in the Bio-Luminescence",
+      "giver": "The Exile",
+      "objective": "Navigate the treacherous Bio-Luminescent Swamp to recover a rare petrified alien egg.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "Bio-Luminescent Swamp", "role": "challenge" },
+        { "name": "Bio-Luminescent Swamp - Hidden Grove", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Bio-Luminescent Swamp", "type": "Feral Scavvers", "count": 3 },
+        { "location": "Bio-Luminescent Swamp", "type": "Sandlurkers", "count": 2 },
+        { "location": "Bio-Luminescent Swamp - Hidden Grove", "type": "Crystal Crazed", "count": 1 }
+      ],
+      "items": [
+        { "location": "Bio-Luminescent Swamp - Hidden Grove", "name": "Petrified Alien Egg" }
+      ],
+      "reward": {
+        "xp": 380,
+        "reputation": "Mysterious Wanderer",
+        "item": "Ritualistic Statuette"
+      }
+    }
+
+  ],
+  "4" : [
+    {
+      "title": "Guardians of the Shifting Sands",
+      "giver": "The Technician",
+      "objective": "Defeat the rogue servitors roaming the Shifting Dunes and salvage their malfunctioning parts.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "The Shifting Dunes", "role": "challenge" },
+        { "name": "The Shifting Dunes - Wreckage Site", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Shifting Dunes", "type": "Rogue Servitors", "count": 4 },
+        { "location": "The Shifting Dunes", "type": "Sandlurkers", "count": 3 },
+        { "location": "The Shifting Dunes - Wreckage Site", "type": "Warband Leader", "count": 1 }
+      ],
+      "items": [
+        { "location": "The Shifting Dunes - Wreckage Site", "name": "Malfunctioning Servitor Parts" }
+      ],
+      "reward": {
+        "xp": 420,
+        "reputation": "Mechanical Savant",
+        "item": "Eroded Star Chart"
+      }
+    }
+
+  ],
+  "5" : [
+    {
+      "title": "Melodies of the Past",
+      "giver": "The Trader",
+      "objective": "Retrieve a mysterious musical instrument from the depths of the Ancient Wreckage.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "The Ancient Wreckage", "role": "challenge" },
+        { "name": "The Ancient Wreckage - Core Chamber", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Ancient Wreckage", "type": "Rogue Servitors", "count": 2 },
+        { "location": "The Ancient Wreckage", "type": "Crystal Crazed", "count": 2 },
+        { "location": "The Ancient Wreckage - Core Chamber", "type": "Warband Leader", "count": 1 }
+      ],
+      "items": [
+        { "location": "The Ancient Wreckage - Core Chamber", "name": "Musical Instrument" }
+      ],
+      "reward": {
+        "xp": 380,
+        "reputation": "Masterful Negotiator",
+        "item": "Ancient Data Core"
+      }
+    }
+
+  ],
+  "6" : [
+    {
+      "title": "Rogue's Retreat",
+      "giver": "The Warband Leader",
+      "objective": "Protect the scavenger outpost from an impending attack by rival factions.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "Scavenger Outpost", "role": "challenge" },
+        { "name": "Scavenger Outpost - Watchtower", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Scavenger Outpost", "type": "Feral Scavvers", "count": 6 },
+        { "location": "Scavenger Outpost", "type": "Sandlurkers", "count": 4 },
+        { "location": "Scavenger Outpost - Watchtower", "type": "Warband Leader", "count": 1 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 450,
+        "reputation": "Warrior's Honor",
+        "gold": 150
+      }
+    }
+
+  ],
+  "7" : [
+    {
+      "title": "Forgotten Guardians",
+      "giver": "The Archivist",
+      "objective": "Locate and activate ancient defense systems hidden within the Whispering Ruins.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "Whispering Ruins", "role": "challenge" },
+        { "name": "Whispering Ruins - Guardian Chambers", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Whispering Ruins", "type": "Feral Scavvers", "count": 4 },
+        { "location": "Whispering Ruins", "type": "Crystal Crazed", "count": 3 },
+        { "location": "Whispering Ruins - Guardian Chambers", "type": "Ancient Defense Systems", "count": 1 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 500,
+        "reputation": "Guardian of Knowledge",
+        "item": "Alien Artifact"
+      }
+    }
+
+  ],
+  "8" : [
+    {
+      "title": "The Crystal Guardian's Curse",
+      "giver": "The Technician",
+      "objective": "Investigate reports of a cursed crystal guardian terrorizing travelers in the Crystal Caverns.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "Crystal Caverns", "role": "challenge" },
+        { "name": "Crystal Caverns - Crystal Guardian's Lair", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Crystal Caverns", "type": "Crystal Crazed", "count": 3 },
+        { "location": "Crystal Caverns", "type": "Sandlurkers", "count": 2 },
+        { "location": "Crystal Caverns - Crystal Guardian's Lair", "type": "Crystal Guardian", "count": 1 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 450,
+        "reputation": "Master of Technology",
+        "item": "Energy Amplifier"
+      }
+    }
+
+  ],
+  "9" : [
+    {
+      "title": "The Enigmatic Star Chart",
+      "giver": "The Archivist",
+      "objective": "Retrieve fragments of an enigmatic star chart scattered across the Whispering Ruins.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "Whispering Ruins", "role": "challenge" },
+        { "name": "Whispering Ruins - Star Chart Fragments", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Whispering Ruins", "type": "Feral Scavvers", "count": 4 },
+        { "location": "Whispering Ruins", "type": "Rogue Servitors", "count": 3 },
+        { "location": "Whispering Ruins - Star Chart Fragments", "type": "Ancient Guardians", "count": 1 }
+      ],
+      "items": [
+        { "location": "Whispering Ruins - Star Chart Fragments", "name": "Star Chart Fragment" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "Keeper of Lore",
+        "item": "Ancient Data Core"
+      }
+    }
+
+  ],
+  "10" : [
+    {
+      "title": "The Sandstorm's Secret",
+      "giver": "The Forager",
+      "objective": "Brave the dangers of the Shifting Dunes during a raging sandstorm to uncover a hidden cache of valuable relics.",
+      "locations": [
+        { "name": "Zyrx", "role": "start" },
+        { "name": "The Shifting Dunes", "role": "challenge" },
+        { "name": "The Shifting Dunes - Hidden Relic Cache", "role": "goal" },
+        { "name": "Zyrx", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Shifting Dunes", "type": "Sandlurkers", "count": 5 },
+        { "location": "The Shifting Dunes", "type": "Rogue Servitors", "count": 3 },
+        { "location": "The Shifting Dunes - Hidden Relic Cache", "type": "Ancient Guardians", "count": 1 }
+      ],
+      "items": [
+        { "location": "The Shifting Dunes - Hidden Relic Cache", "name": "Lost Relics" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "Desert Explorer",
+        "item": "Alien Artifact"
+      }
+    }
+
+  ]
+}

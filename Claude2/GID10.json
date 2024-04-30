@@ -1,0 +1,252 @@
+{
+  "1" : [
+    {
+      "title": "Salvage Operation",
+      "giver": "The Engineer",
+      "objective": "Retrieve valuable tech from the Debris Field",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "Debris Field", "role": "challenge" },
+        { "name": "Solar Array Ruins", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Debris Field", "type": "Asteroid Dwellers", "count": 3 },
+        { "location": "Solar Array Ruins", "type": "Security Bots (Malfunctioning)", "count": 2 }
+      ],
+      "items": [
+        { "location": "Solar Array Ruins", "name": "Prototype Weapon Module" },
+        { "location": "Solar Array Ruins", "name": "AI Core Fragment" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Engineer",
+        "item": "Encrypted Coordinates"
+      }
+    }
+  ],
+  "2" : [
+    {
+      "title": "Biodome Revival",
+      "giver": "The Visionary",
+      "objective": "Restore the Biodome and find surviving plant specimens",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "Biodome Wreckage", "role": "challenge" },
+        { "name": "Biodome Wreckage - Core", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Biodome Wreckage", "type": "Genetic Experiments (Escaped)", "count": 2 },
+        { "location": "Biodome Wreckage - Core", "type": "Rogue Scavengers", "count": 3 }
+      ],
+      "items": [
+        { "location": "Biodome Wreckage - Core", "name": "Stasis Pod" },
+        { "location": "Biodome Wreckage - Core", "name": "Unique Artifact" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Visionary",
+        "item": "Regenerative Plant Sample"
+      }
+    }
+  ],
+  "3" : [
+    {
+      "title": "Data Retrieval",
+      "giver": "The Archivist",
+      "objective": "Recover data logs from abandoned habitation modules",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "Habitation Modules", "role": "challenge" },
+        { "name": "Central Archive", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Habitation Modules", "type": "Rogue Scavengers", "count": 2 },
+        { "location": "Central Archive", "type": "Security Bots (Malfunctioning)", "count": 3 }
+      ],
+      "items": [
+        { "location": "Habitation Modules", "name": "Personal Log (digital)" },
+        { "location": "Central Archive", "name": "Old Propaganda Broadcasts" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Archivist",
+        "item": "Encrypted Archive Key"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "Uncharted Territory",
+      "giver": "The Smuggler",
+      "objective": "Map a safe route through the Centrifuge Malfunction",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "Centrifuge Malfunction", "role": "challenge" },
+        { "name": "Centrifuge Malfunction - Core", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Centrifuge Malfunction", "type": "Security Bots (Malfunctioning)", "count": 2 },
+        { "location": "Centrifuge Malfunction - Core", "type": "The Usurper's Minions", "count": 3 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Smuggler",
+        "item": "Safe Passage Token"
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "Docking Bay Heist",
+      "giver": "The Veteran",
+      "objective": "Infiltrate the Docking Bay Complex and secure a shipment",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "Docking Bay Complex", "role": "challenge" },
+        { "name": "Docking Bay Complex - Cargo Hold", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Docking Bay Complex", "type": "Rogue Scavengers", "count": 3 },
+        { "location": "Docking Bay Complex - Cargo Hold", "type": "Security Bots (Malfunctioning)", "count": 2 }
+      ],
+      "items": [
+        { "location": "Docking Bay Complex - Cargo Hold", "name": "Medical Supplies" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Veteran",
+        "item": "Access Codes"
+      }
+    }
+  ],
+  "6" : [
+    {
+      "title": "Specimen Collection",
+      "giver": "The Archivist",
+      "objective": "Gather specimens from the station's abandoned research labs",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "Research Labs", "role": "challenge" },
+        { "name": "Research Labs - Specimen Storage", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Research Labs", "type": "Genetic Experiments (Escaped)", "count": 3 },
+        { "location": "Research Labs - Specimen Storage", "type": "Security Bots (Malfunctioning)", "count": 2 }
+      ],
+      "items": [
+        { "location": "Research Labs - Specimen Storage", "name": "Strange Specimen Jars" },
+        { "location": "Research Labs - Specimen Storage", "name": "Children's Drawings" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Archivist",
+        "item": "Decryption Tool"
+      }
+    }
+  ],
+  "7" : [
+    {
+      "title": "Cult Infiltration",
+      "giver": "The Veteran",
+      "objective": "Gain intel on The Usurper's cult from the inside",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "The Usurper's Territory", "role": "challenge" },
+        { "name": "The Usurper's Throne Room", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Usurper's Territory", "type": "The Usurper's Minions", "count": 4 },
+        { "location": "The Usurper's Throne Room", "type": "The Usurper", "count": 1 }
+      ],
+      "items": [
+        { "location": "The Usurper's Throne Room", "name": "Rusted Badges" }
+      ],
+      "reward": {
+        "xp": 600,
+        "reputation": "The Veteran",
+        "item": "Usurper's Weakness Intel"
+      }
+    }
+  ],
+  "8" : [
+    {
+      "title": "Power Reroute",
+      "giver": "The Engineer",
+      "objective": "Restore power to critical systems by rerouting energy",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "Power Distribution Center", "role": "challenge" },
+        { "name": "Reactor Core", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Power Distribution Center", "type": "Security Bots (Malfunctioning)", "count": 3 },
+        { "location": "Reactor Core", "type": "Genetic Experiments (Escaped)", "count": 2 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Engineer",
+        "item": "Reactor Coolant Canister"
+      }
+    }
+  ],
+  "9" : [
+    {
+      "title": "Distress Signal",
+      "giver": "The Smuggler",
+      "objective": "Investigate a distress signal from a stranded freighter",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "Docking Bay Complex", "role": "challenge" },
+        { "name": "Stranded Freighter", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Docking Bay Complex", "type": "Rogue Scavengers", "count": 2 },
+        { "location": "Stranded Freighter", "type": "Asteroid Dwellers", "count": 3 }
+      ],
+      "items": [
+        { "location": "Stranded Freighter", "name": "Rare Trade Goods" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Smuggler",
+        "item": "Navigation Data Chip"
+      }
+    }
+  ],
+  "10" : [
+    {
+      "title": "Relic Hunt",
+      "giver": "The Visionary",
+      "objective": "Search for a powerful artifact from the station's founders",
+      "locations": [
+        { "name": "Orbital Station RS-52", "role": "start" },
+        { "name": "Administrative Sector", "role": "challenge" },
+        { "name": "Administrative Sector - Vault", "role": "goal" },
+        { "name": "Orbital Station RS-52", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Administrative Sector", "type": "Security Bots (Malfunctioning)", "count": 4 },
+        { "location": "Administrative Sector - Vault", "type": "The Usurper's Minions", "count": 3 }
+      ],
+      "items": [
+        { "location": "Administrative Sector - Vault", "name": "Unique Artifact" }
+      ],
+      "reward": {
+        "xp": 600,
+        "reputation": "The Visionary",
+        "item": "Encrypted Data Shard"
+      }
+    }
+  ]
+}

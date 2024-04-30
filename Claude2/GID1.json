@@ -1,0 +1,256 @@
+{
+  "1" : [
+    {
+      "title": "Salvage Operation",
+      "giver": "The Scavenger",
+      "objective": "Venture into the Derelict Outpost and retrieve valuable technology",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Derelict Outpost Perimeter", "role": "challenge" },
+        { "name": "Derelict Outpost Interior", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Derelict Outpost Perimeter", "type": "Scavengers", "count": 2 },
+        { "location": "Derelict Outpost Interior", "type": "Corrupted Drones", "count": 3 }
+      ],
+      "items": [
+        { "location": "Derelict Outpost Interior", "name": "Prototype Medkit" },
+        { "location": "Derelict Outpost Interior", "name": "Data Archive" }
+      ],
+      "reward": {
+        "reputation": "Haven",
+        "item": "Radiation Shielding Suit"
+      }
+    }
+  ],
+  "2" : [
+    {
+      "title": "Lost Sanctuary",
+      "giver": "The Elder",
+      "objective": "Locate the Hidden Bunker and recover knowledge from the old world",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Collapsed Tunnel Network", "role": "challenge" },
+        { "name": "Hidden Bunker", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Collapsed Tunnel Network", "type": "Mutants", "count": 3 },
+        { "location": "Hidden Bunker", "type": "Feral Predators", "count": 2 }
+      ],
+      "items": [
+        { "location": "Hidden Bunker", "name": "Experimental Weapon Plans" },
+        { "location": "Hidden Bunker", "name": "Old Journal" },
+        { "location": "Hidden Bunker", "name": "Pre-war Currency Cache" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Elder",
+        "item": "Damaged Propaganda Posters"
+      }
+    }
+  ],
+  "3" : [
+    {
+      "title": "Purging the Wastes",
+      "giver": "The Mechanic",
+      "objective": "Clear out the Raider Warlord and his gang from the Scorched Farmland",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Scorched Farmland", "role": "challenge" },
+        { "name": "Raider Encampment", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Scorched Farmland", "type": "Scavengers", "count": 3 },
+        { "location": "Raider Encampment", "type": "Raider Warlord", "count": 1 },
+        { "location": "Raider Encampment", "type": "Raiders", "count": 4 }
+      ],
+      "items": [
+        { "location": "Raider Encampment", "name": "Children's Toys" },
+        { "location": "Raider Encampment", "name": "Rusted Dog Tags" }
+      ],
+      "reward": {
+        "reputation": "Haven",
+        "item": "Pre-war Music Device"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "Toxic Harvest",
+      "giver": "The Healer",
+      "objective": "Brave the Radioactive Lake to retrieve mutated flora for medicine",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Radioactive Lakeshore", "role": "challenge" },
+        { "name": "Radioactive Lake", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Radioactive Lakeshore", "type": "Mutants", "count": 2 },
+        { "location": "Radioactive Lake", "type": "Mutated Water Creature", "count": 1 }
+      ],
+      "items": [
+        { "location": "Radioactive Lake", "name": "Mutated Herbs" },
+        { "location": "Radioactive Lake", "name": "Irradiated Seeds" }
+      ],
+      "reward": {
+        "reputation": "The Healer",
+        "item": "Healing Salve"
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "Lost Caravan",
+      "giver": "The Outsider",
+      "objective": "Track down a missing trade caravan and recover their cargo",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Wasteland Trail", "role": "challenge" },
+        { "name": "Raider Ambush Site", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Wasteland Trail", "type": "Feral Predators", "count": 2 },
+        { "location": "Raider Ambush Site", "type": "Scavengers", "count": 3 }
+      ],
+      "items": [
+        { "location": "Raider Ambush Site", "name": "Trade Goods" },
+        { "location": "Raider Ambush Site", "name": "Caravan Manifest" }
+      ],
+      "reward": {
+        "reputation": "The Outsider",
+        "gold": 200
+      }
+    }
+  ],
+  "6" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Elder",
+      "objective": "Explore the ruins and recover artifacts from the old world",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Ruined City", "role": "challenge" },
+        { "name": "Preserved Museum", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Ruined City", "type": "Scavengers", "count": 2 },
+        { "location": "Ruined City", "type": "Corrupted Drones", "count": 2 },
+        { "location": "Preserved Museum", "type": "Mutated Guard Beast", "count": 1 }
+      ],
+      "items": [
+        { "location": "Preserved Museum", "name": "Ancient Artifact" },
+        { "location": "Preserved Museum", "name": "Pre-War Tome" },
+        { "location": "Preserved Museum", "name": "Preserved Painting" }
+      ],
+      "reward": {
+        "reputation": "The Elder",
+        "xp": 400
+      }
+    }
+  ],
+  "7" : [
+    {
+      "title": "Reclaiming the Tunnels",
+      "giver": "The Mechanic",
+      "objective": "Clear the Collapsed Tunnel Network of threats and establish a safe route",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Collapsed Tunnel Entrance", "role": "challenge" },
+        { "name": "Collapsed Tunnel Depths", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Collapsed Tunnel Entrance", "type": "Mutants", "count": 3 },
+        { "location": "Collapsed Tunnel Depths", "type": "Burrowing Creature", "count": 2 }
+      ],
+      "items": [
+        { "location": "Collapsed Tunnel Depths", "name": "Salvaged Power Cell" },
+        { "location": "Collapsed Tunnel Depths", "name": "Tunnel Map" }
+      ],
+      "reward": {
+        "reputation": "The Mechanic",
+        "item": "Reinforced Tunnel Light"
+      }
+    }
+  ],
+  "8" : [
+    {
+      "title": "Cleansing the Blight",
+      "giver": "The Healer",
+      "objective": "Purge the Scorched Farmland of the mutant infestation",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Scorched Farmland", "role": "challenge" },
+        { "name": "Mutant Nest", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Scorched Farmland", "type": "Mutants", "count": 4 },
+        { "location": "Mutant Nest", "type": "Mutant Broodmother", "count": 1 }
+      ],
+      "items": [
+        { "location": "Mutant Nest", "name": "Mutant Samples" },
+        { "location": "Mutant Nest", "name": "Irradiated Spores" }
+      ],
+      "reward": {
+        "reputation": "The Healer",
+        "item": "Blight Purging Tonic"
+      }
+    }
+  ],
+  "9" : [
+    {
+      "title": "Relic Rescue",
+      "giver": "The Outsider",
+      "objective": "Retrieve a valuable pre-war artifact from a nearby settlement",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Wasteland Trail", "role": "challenge" },
+        { "name": "Abandoned Settlement", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Wasteland Trail", "type": "Feral Predators", "count": 2 },
+        { "location": "Abandoned Settlement", "type": "Scavengers", "count": 3 }
+      ],
+      "items": [
+        { "location": "Abandoned Settlement", "name": "Pre-War Relic" }
+      ],
+      "reward": {
+        "reputation": "The Outsider",
+        "gold": 300
+      }
+    }
+  ],
+  "10" : [
+    {
+      "title": "Restoring the Defenses",
+      "giver": "The Mechanic",
+      "objective": "Repair and reactivate the old security systems around Haven",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Haven Perimeter", "role": "challenge" },
+        { "name": "Old Security Hub", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Haven Perimeter", "type": "Corrupted Drones", "count": 2 },
+        { "location": "Old Security Hub", "type": "Malfunctioning Turret", "count": 1 }
+      ],
+      "items": [
+        { "location": "Old Security Hub", "name": "Security System Override Key" },
+        { "location": "Old Security Hub", "name": "Defense Schematics" }
+      ],
+      "reward": {
+        "reputation": "The Mechanic",
+        "item": "Repaired Sentry Bot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "1" : [
+    {
+      "title": "The Pirate's Bounty",
+      "giver": "The Fixer",
+      "objective": "Recover a legendary pirate's lost treasure from the Derelict Mining Facility",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Derelict Mining Facility", "role": "challenge" },
+        { "name": "Derelict Mining Facility - Depths", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Derelict Mining Facility", "type": "Feral Cyborgs", "count": 3 },
+        { "location": "Derelict Mining Facility - Depths", "type": "Dust Crawlers", "count": 5 },
+        { "location": "Derelict Mining Facility - Depths", "type": "Pirate Scavengers", "count": 2 }
+      ],
+      "items": [
+        { "location": "Derelict Mining Facility - Depths", "name": "Pirate Tales" },
+        { "location": "Derelict Mining Facility - Depths", "name": "Ancient Martian Artifact" }
+      ],
+      "reward": {
+        "credits": 500,
+        "reputation": "The Fixer",
+        "item": "Stash of Spice"
+      }
+    }
+  ],
+  "2" : [
+    {
+      "title": "Salvage Operation",
+      "giver": "The Engineer",
+      "objective": "Retrieve pre-collapse tech from the Crash Site",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Crash Site", "role": "challenge" },
+        { "name": "Crash Site - Wreckage", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Crash Site", "type": "Pirate Scavengers", "count": 2 },
+        { "location": "Crash Site - Wreckage", "type": "Dust Crawlers", "count": 4 }
+      ],
+      "items": [
+        { "location": "Crash Site - Wreckage", "name": "Outdated Tech Manuals" },
+        { "location": "Crash Site - Wreckage", "name": "AI Module" }
+      ],
+      "reward": {
+        "reputation": "The Engineer",
+        "item": "Cold Fusion Prototype"
+      }
+    }
+  ],
+  "3" : [
+    {
+      "title": "Supply Run",
+      "giver": "The Smuggler",
+      "objective": "Escort a supply caravan through the Dried-up Riverbed to a secret outpost",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Dried-up Riverbed", "role": "challenge" },
+        { "name": "Hidden Outpost", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Dried-up Riverbed", "type": "Pirate Scavengers", "count": 4 },
+        { "location": "Dried-up Riverbed", "type": "Feral Cyborgs", "count": 3 }
+      ],
+      "items": [
+        { "location": "Hidden Outpost", "name": "Illegal Cybernetics" }
+      ],
+      "reward": {
+        "credits": 800,
+        "reputation": "The Smuggler"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "Mutant Extermination",
+      "giver": "Rust Haven Militia",
+      "objective": "Clear out a nest of Dust Crawlers in Sandworm Territory",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Sandworm Territory", "role": "challenge" },
+        { "name": "Dust Crawler Nest", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Sandworm Territory", "type": "Dust Crawlers", "count": 6 },
+        { "location": "Dust Crawler Nest", "type": "Dust Crawlers", "count": 10 }
+      ],
+      "items": [
+        { "location": "Dust Crawler Nest", "name": "Mars Flora & Fauna Samples" }
+      ],
+      "reward": {
+        "credits": 400,
+        "reputation": "Rust Haven Militia"
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "Cyborg Hunt",
+      "giver": "The Informant",
+      "objective": "Track down and eliminate a rogue Feral Cyborg in the Abandoned Colony Settlement",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Abandoned Colony Settlement", "role": "challenge" },
+        { "name": "Abandoned Colony Settlement - Ruins", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Colony Settlement", "type": "Feral Cyborgs", "count": 2 },
+        { "location": "Abandoned Colony Settlement - Ruins", "type": "Rogue Feral Cyborg", "count": 1 }
+      ],
+      "items": [
+        { "location": "Abandoned Colony Settlement - Ruins", "name": "Pre-Collapse Souvenirs" }
+      ],
+      "reward": {
+        "credits": 600,
+        "item": "Illegal Cybernetics"
+      }
+    }
+  ],
+  "6" : [
+    {
+      "title": "Rivalry Sabotage",
+      "giver": "Rust Haven Crime Lord",
+      "objective": "Infiltrate a rival pirate gang's hideout and steal their stockpile of Spice",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Rival Pirate Hideout", "role": "challenge" },
+        { "name": "Rival Pirate Stash", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Rival Pirate Hideout", "type": "Pirate Scavengers", "count": 5 },
+        { "location": "Rival Pirate Stash", "type": "Rival Pirate Enforcer", "count": 2 }
+      ],
+      "items": [
+        { "location": "Rival Pirate Stash", "name": "Stash of Spice" },
+        { "location": "Rival Pirate Stash", "name": "Pirate Graffiti Tags" }
+      ],
+      "reward": {
+        "credits": 1000,
+        "reputation": "Rust Haven Crime Lord"
+      }
+    }
+  ],
+  "7" : [
+    {
+      "title": "The Corsair's Challenge",
+      "giver": "The Ex-Pirate",
+      "objective": "Confront the Corsair Queen and convince her to leave Rust Haven",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Corsair Hideout", "role": "challenge" },
+        { "name": "Corsair Throne Room", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Corsair Hideout", "type": "Corsair Enforcers", "count": 4 },
+        { "location": "Corsair Throne Room", "type": "Corsair Queen", "count": 1 },
+        { "location": "Corsair Throne Room", "type": "Corsair Elite Guard", "count": 2 }
+      ],
+      "items": [],
+      "reward": {
+        "reputation": "Rust Haven",
+        "item": "The Corsair Queen's Treasure"
+      }
+    }
+  ],
+  "8" : [
+    {
+      "title": "Lost Relic Recovery",
+      "giver": "The Fixer",
+      "objective": "Retrieve an ancient Martian artifact from deep within the Dried-up Riverbed",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Dried-up Riverbed", "role": "challenge" },
+        { "name": "Dried-up Riverbed Caverns", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Dried-up Riverbed", "type": "Dust Crawlers", "count": 4 },
+        { "location": "Dried-up Riverbed Caverns", "type": "Ancient Automaton", "count": 2 }
+      ],
+      "items": [
+        { "location": "Dried-up Riverbed Caverns", "name": "Ancient Martian Artifact" }
+      ],
+      "reward": {
+        "credits": 1200,
+        "reputation": "The Fixer"
+      }
+    }
+  ],
+  "9" : [
+    {
+      "title": "Truce Negotiations",
+      "giver": "Rust Haven Mayor",
+      "objective": "Negotiate a temporary truce with the Corsair Queen at a neutral meeting site",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Neutral Territory", "role": "challenge" },
+        { "name": "Negotiation Site", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Neutral Territory", "type": "Pirate Scavengers", "count": 3 },
+        { "location": "Negotiation Site", "type": "Corsair Guards", "count": 4 }
+      ],
+      "items": [],
+      "reward": {
+        "reputation": "Rust Haven",
+        "item": "Corsair Truce Token"
+      }
+    }
+  ],
+  "10" : [
+    {
+      "title": "AI Awakening",
+      "giver": "The Engineer",
+      "objective": "Activate a dormant pre-collapse AI in the Abandoned Colony Settlement",
+      "locations": [
+        { "name": "Rust Haven", "role": "start" },
+        { "name": "Abandoned Colony Settlement", "role": "challenge" },
+        { "name": "Colony AI Core", "role": "goal" },
+        { "name": "Rust Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Colony Settlement", "type": "Feral Cyborgs", "count": 4 }
+      ],
+      "items": [
+        { "location": "Colony AI Core", "name": "AI Module" }
+      ],
+      "reward": {
+        "reputation": "The Engineer",
+        "item": "Lost Colony Data Cache"
+      }
+    }
+  ]
+}

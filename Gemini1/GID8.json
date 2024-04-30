@@ -1,0 +1,474 @@
+{
+  "1": [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Archivist (Knowledge)",
+      "objective": "Venture into the Whispering Ruins to recover Echo Sculptures and learn about the lost civilization",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Whispering Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Whispering Ruins",
+          "type": "Rogue Servitors",
+          "count": 2
+        },
+        {
+          "location": "Whispering Ruins",
+          "type": "Sandlurkers",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Whispering Ruins",
+          "name": "Echo Sculpture",
+          "count": 3
+        }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Archivist (Knowledge)",
+        "item": "Translator Module Fragment"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "Scavenger's Hunt",
+      "giver": "The Trader (Connections)",
+      "objective": "Follow a scavenger's map to locate hidden caches of valuable resources",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Ancient Wreckage",
+          "role": "challenge"
+        },
+        {
+          "name": "Crystal Caverns",
+          "role": "challenge"
+        },
+        {
+          "name": "Shifting Dunes",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Ancient Wreckage",
+          "type": "Rogue Servitors",
+          "count": 3
+        },
+        {
+          "location": "Crystal Caverns",
+          "type": "Crystal Crazed",
+          "count": 2
+        },
+        {
+          "location": "Shifting Dunes",
+          "type": "Feral Scavvers",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Ancient Wreckage",
+          "name": "Energy Amplifier"
+        },
+        {
+          "location": "Crystal Caverns",
+          "name": "Ancient Data Core"
+        },
+        {
+          "location": "Shifting Dunes",
+          "name": "Stasis Pod"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Trader (Connections)",
+        "gold": 250,
+        "item": "Rixian Lucky Charm"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "The Bio-Remedy",
+      "giver": "The Forager (Survival)",
+      "objective": "Collect rare bioluminescent flora from the swamp to create a potent antidote",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Bio-Luminescent Swamp",
+          "role": "challenge"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Bio-Luminescent Swamp",
+          "type": "Feral Scavvers",
+          "count": 2
+        },
+        {
+          "location": "Bio-Luminescent Swamp",
+          "type": "Swamp Lurker",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Bio-Luminescent Swamp",
+          "name": "Glowing Reed",
+          "count": 3
+        },
+        {
+          "location": "Bio-Luminescent Swamp",
+          "name": "Pulsating Bloom",
+          "count": 2
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Forager (Survival)",
+        "item": "Forager's Satchel"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "Lost in Transmission",
+      "giver": "The Technician (Ingenuity)",
+      "objective": "Repair a damaged signal relay in the Ancient Wreckage to discover a potential distress call",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Ancient Wreckage",
+          "role": "challenge"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Ancient Wreckage",
+          "type": "Rogue Servitors",
+          "count": 4
+        },
+        {
+          "location": "Ancient Wreckage",
+          "type": "Crystal Crazed",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Ancient Wreckage",
+          "name": "Frayed Wiring",
+          "count": 2
+        },
+        {
+          "location": "Ancient Wreckage",
+          "name": "Damaged Control Module"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Technician (Ingenuity)",
+        "item": "Signal Booster"
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "Rite of Passage",
+      "giver": "The Exile (Regret)",
+      "objective": "Prove your worth to the Exile by undertaking a dangerous pilgrimage into the Shifting Dunes",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Shifting Dunes",
+          "role": "challenge"
+        },
+        {
+          "name": "Hidden Oasis",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Shifting Dunes",
+          "type": "Sandlurkers",
+          "count": 3
+        },
+        {
+          "location": "Shifting Dunes",
+          "type": "Warband Leader",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Hidden Oasis",
+          "name": "Ritualistic Statuette"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Exile (Regret)",
+        "unlocks": "The Exile's backstory"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "Crystal Crisis",
+      "giver": "The Archivist (Knowledge)",
+      "objective": "Contain a localized crystal energy surge in the caverns to prevent a dangerous eruption",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Crystal Caverns",
+          "role": "challenge"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Crystal Caverns",
+          "type": "Crystal Crazed",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Crystal Caverns",
+          "name": "Energy Dampener",
+          "count": 3
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Archivist (Knowledge)",
+        "item": "Crystal Resonator"
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "Bartered Bounty",
+      "giver": "The Trader (Connections)",
+      "objective": "Trade resources with a neighboring caravan for special goods unavailable in Zyrx",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Caravan Encampment",
+          "role": "challenge"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Caravan Encampment",
+          "type": "Feral Scavvers",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Zyrx",
+          "name": "Scavenged Tech",
+          "count": 5
+        }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "The Trader (Connections)",
+        "item": "Unique Bartering Item"
+      }
+    }
+  ],
+  "8": [
+    {
+      "title": "Nature's Fury",
+      "giver": "The Forager (Survival)",
+      "objective": "Survive an unexpectedly fierce sandstorm and rescue stranded scavengers",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Shifting Dunes",
+          "role": "challenge"
+        },
+        {
+          "name": "Dune Shelter",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+      ],
+      "items": [
+        {
+          "location": "Dune Shelter",
+          "name": "Emergency Supplies",
+          "optional": true
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Forager (Survival)"
+      }
+    }
+  ],
+  "9": [
+    {
+      "title": "Wreckage Recon",
+      "giver": "The Technician (Ingenuity)",
+      "objective": "Explore a newly exposed section of the Ancient Wreckage and recover potential tech",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Ancient Wreckage - New Section",
+          "role": "challenge"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Ancient Wreckage - New Section",
+          "type": "Rogue Servitors",
+          "count": 3
+        },
+        {
+          "location": "Ancient Wreckage - New Section",
+          "type": "Automated Defense System",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Ancient Wreckage - New Section",
+          "name": "Advanced Circuitry"
+        },
+        {
+          "location": "Ancient Wreckage - New Section",
+          "name": "Prototype Weapon Schematic",
+          "optional": true
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Technician (Ingenuity)",
+        "item": "Upgraded Toolkit"
+      }
+    }
+  ],
+  "10": [
+    {
+      "title": "Buried Secrets",
+      "giver": "The Archivist (Knowledge)",
+      "objective": "Unearth a hidden chamber in the Whispering Ruins and decipher its contents",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Whispering Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Hidden Chamber",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Whispering Ruins",
+          "type": "Sandlurkers",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Hidden Chamber",
+          "name": "Ancient Script"
+        },
+        {
+          "location": "Hidden Chamber",
+          "name": "Petrified Alien Egg"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Archivist (Knowledge)",
+        "item": "Translation Primer"
+      }
+    }
+  ]
+}

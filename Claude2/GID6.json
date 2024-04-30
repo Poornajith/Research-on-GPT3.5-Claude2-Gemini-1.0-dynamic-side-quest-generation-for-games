@@ -1,0 +1,239 @@
+{
+  "1" : [
+    {
+      "title": "The Whispering Mysteries",
+      "giver": "Nora the Elder",
+      "objective": "Investigate strange noises in the Whispering Forest and uncover their source",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Whispering Forest", "role": "challenge" },
+        { "name": "Forgotten Farmstead", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Whispering Forest", "type": "Wild Boars", "count": 3 },
+        { "location": "Whispering Forest", "type": "Vicious Fowl", "count": 2 },
+        { "location": "Forgotten Farmstead", "type": "Ghost of the Past", "count": 1 }
+      ],
+      "items": [
+        { "location": "Whispering Forest", "name": "Strange Flowers" },
+        { "location": "Forgotten Farmstead", "name": "Heirloom Necklace" }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "Nora the Elder",
+        "item": "Old Photographs"
+      }
+    }
+  ],
+  "2" : [
+    {
+      "title": "Sunken Salvage",
+      "giver": "Kai the Fisher",
+      "objective": "Retrieve valuable cargo from the Sunken Shipwreck",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Sunken Shipwreck", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Sunken Shipwreck", "type": "Crab Raiders", "count": 4 },
+        { "location": "Sunken Shipwreck", "type": "Sea Wolves", "count": 2 }
+      ],
+      "items": [
+        { "location": "Sunken Shipwreck", "name": "Waterproof Satchel" },
+        { "location": "Sunken Shipwreck", "name": "Ancient Fishing Rod" }
+      ],
+      "reward": {
+        "item": "Old Compass",
+        "reputation": "Kai the Fisher"
+      }
+    }
+  ],
+  "3" : [
+    {
+      "title": "Crystals of Hope",
+      "giver": "Lin the Artisan",
+      "objective": "Explore the Crystal Cavern and gather iridescent crystals for crafting",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Crystal Cavern", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Crystal Cavern", "type": "Crab Raiders", "count": 2 }
+      ],
+      "items": [
+        { "location": "Crystal Cavern", "name": "Strange Flowers" },
+        { "location": "Crystal Cavern", "name": "Iridescent Crystals" }
+      ],
+      "reward": {
+        "item": "Sturdy Tool Kit",
+        "reputation": "Lin the Artisan"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "Bounty of the Land",
+      "giver": "Rosa the Farmer",
+      "objective": "Clear the Forgotten Farmstead of pests and prepare the fields for planting",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Forgotten Farmstead", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Forgotten Farmstead", "type": "Wild Boars", "count": 4 }
+      ],
+      "items": [
+        { "location": "Forgotten Farmstead", "name": "Waterproof Satchel" }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "Rosa the Farmer",
+        "item": "Rare Seeds"
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Wanderer",
+      "objective": "Investigate the Ruined Lighthouse and uncover its secrets",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Ruined Lighthouse", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Ruined Lighthouse", "type": "Vicious Fowl", "count": 3 }
+      ],
+      "items": [
+        { "location": "Ruined Lighthouse", "name": "Pre-Calamity Coins" },
+        { "location": "Ruined Lighthouse", "name": "Ancient Logbook" }
+      ],
+      "reward": {
+        "xp": 150,
+        "reputation": "The Wanderer",
+        "item": "Strange Artifact"
+      }
+    }
+  ],
+  "6" : [
+    {
+      "title": "Beachcomber's Bounty",
+      "giver": "Kai the Fisher",
+      "objective": "Scour the beaches for valuable driftwood and shells",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Island Beaches", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Island Beaches", "type": "Crab Raiders", "count": 2 }
+      ],
+      "items": [
+        { "location": "Island Beaches", "name": "Driftwood Pieces" },
+        { "location": "Island Beaches", "name": "Seashells" }
+      ],
+      "reward": {
+        "gold": 75,
+        "reputation": "Kai the Fisher"
+      }
+    }
+  ],
+  "7" : [
+    {
+      "title": "The Keeper's Burden",
+      "giver": "Nora the Elder",
+      "objective": "Assist Nora in maintaining the island's historical records",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Nora's Home", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "items": [
+        { "location": "Nora's Home", "name": "Old Photographs" },
+        { "location": "Nora's Home", "name": "Ancient Scrolls" }
+      ],
+      "reward": {
+        "xp": 100,
+        "reputation": "Nora the Elder",
+        "item": "Rare Ink"
+      }
+    }
+  ],
+  "8" : [
+    {
+      "title": "Restoring the Lighthouse",
+      "giver": "The Wanderer",
+      "objective": "Repair the Ruined Lighthouse and restore its guiding light",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Ruined Lighthouse", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Ruined Lighthouse", "type": "Vicious Fowl", "count": 2 },
+        { "location": "Ruined Lighthouse", "type": "Ghost of the Past", "count": 1 }
+      ],
+      "items": [
+        { "location": "Ruined Lighthouse", "name": "Ancient Logbook" },
+        { "location": "Ruined Lighthouse", "name": "Sturdy Tool Kit" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Wanderer",
+        "item": "Repaired Lighthouse Lens"
+      }
+    }
+  ],
+  "9" : [
+    {
+      "title": "Taming the Wild",
+      "giver": "Rosa the Farmer",
+      "objective": "Capture and domesticate a wild boar for the village",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Whispering Forest", "role": "challenge" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Whispering Forest", "type": "Wild Boars", "count": 3 }
+      ],
+      "items": [
+        { "location": "Whispering Forest", "name": "Strange Flowers" }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "Rosa the Farmer",
+        "item": "Boar Taming Supplies"
+      }
+    }
+  ],
+  "10" : [
+    {
+      "title": "Remnants of the Deep",
+      "giver": "Lin the Artisan",
+      "objective": "Dive into the depths and retrieve pre-calamity technology",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Deep Sea Trench", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Deep Sea Trench", "type": "Sea Wolves", "count": 3 }
+      ],
+      "items": [
+        { "location": "Deep Sea Trench", "name": "Ancient Diving Suit" },
+        { "location": "Deep Sea Trench", "name": "Pre-Calamity Device" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "Lin the Artisan",
+        "item": "Waterproof Repair Kit"
+      }
+    }
+  ]
+}

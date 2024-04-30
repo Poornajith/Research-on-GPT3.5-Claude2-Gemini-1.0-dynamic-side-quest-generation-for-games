@@ -1,0 +1,268 @@
+{
+  "1" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Elder",
+      "objective": "Venture into the Derelict Outpost and recover the old radio transmitter, a potential link to other survivors",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Derelict Outpost - Exterior", "role": "challenge" },
+        { "name": "Derelict Outpost - Command Center", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Derelict Outpost - Exterior", "type": "Scavengers", "count": 2 },
+        { "location": "Derelict Outpost - Exterior", "type": "Mutant Canid", "count": 1},
+        { "location": "Derelict Outpost - Command Center", "type": "Corrupted Drone", "count": 2 }
+      ],
+      "items": [
+        { "location": "Derelict Outpost - Command Center", "name": "Radio Transmitter" },
+        { "location": "Derelict Outpost - Command Center", "name": "Damaged Circuit Board" }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Elder",
+        "item": "Rusted Dog Tags"
+      }
+    }
+  ],
+  "2" : [
+    {
+      "title": "The Price of Water",
+      "giver": "The Healer",
+      "objective": "Locate the source of contamination in the Radioactive Lake and find a way to purify the water",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Scorched Farmland", "role": "challenge" },
+        { "name": "Radioactive Lake Shore", "role": "investigation" },
+        { "name": "Collapsed Tunnel Network", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Scorched Farmland", "type": "Feral Predators", "count": 2 },
+        { "location": "Radioactive Lake Shore", "type": "Mutant Amphibian", "count": 1 },
+        { "location": "Collapsed Tunnel Network", "type": "Scavengers", "count": 3 }
+      ],
+      "items": [
+        { "location": "Collapsed Tunnel Network", "name": "Pre-war Filtration Device" },
+        { "location": "Radioactive Lake Shore", "name": "Old Journal" }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Healer",
+        "item": "Prototype Medkit"
+      }
+    }
+
+  ],
+  "3" : [
+    {
+      "title": "Supply Run",
+      "giver": "The Scavenger",
+      "objective": "Escort a supply caravan to the Hidden Bunker and help secure its contents.",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Scorched Farmland", "role": "challenge" },
+        { "name": "Hidden Bunker Entrance", "role": "challenge" },
+        { "name": "Hidden Bunker - Interior", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Scorched Farmland", "type": "Scavengers", "count": 4 },
+        { "location": "Hidden Bunker Entrance", "type": "Raider Warlord Guard", "count": 2 },
+        { "location": "Hidden Bunker - Interior", "type": "Corrupted Drones", "count": 3 }
+      ],
+      "items": [
+        { "location": "Hidden Bunker - Interior", "name": "Experimental Weapon Plans" },
+        { "location": "Hidden Bunker - Interior", "name": "Pre-war Currency Cache" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Scavenger",
+        "item": "Radiation Shielding Suit"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "A Flicker of Hope",
+      "giver": "The Outsider",
+      "objective": "Travel to a rumored distant settlement and confirm its existence.",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Scorched Farmland", "role": "challenge" },
+        { "name": "Collapsed Tunnel Network", "role": "challenge" },
+        { "name": "Distant Settlement", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Scorched Farmland", "type": "Mutant Canid", "count": 2 },
+        { "location": "Scorched Farmland", "type": "Scavengers", "count": 3 },
+        { "location": "Collapsed Tunnel Network", "type": "Corrupted Drones", "count": 3}
+      ],
+      "items": [
+        { "location": "Distant Settlement", "name": "Pre-war Music Device" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Outsider",
+        "item": "Data Archive" ,
+        "gold": 150
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "Fortifying Haven",
+      "giver": "The Mechanic",
+      "objective": "Locate and repair an old defense system hidden near Haven.",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Derelict Outpost - Exterior", "role": "challenge" },
+        { "name": "Derelict Outpost - Underground Facility", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Derelict Outpost - Exterior", "type": "Corrupted Drones", "count": 3 },
+        { "location": "Derelict Outpost - Underground Facility", "type": "Mutant Arachnids", "count": 4 }
+      ],
+      "items": [
+        { "location": "Derelict Outpost - Underground Facility", "name": "Defense System Components" }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Mechanic",
+        "item": "Prototype Medkit"
+      }
+    }
+
+  ],
+  "6" : [
+    {
+      "title": "Lost and Found",
+      "giver": "Villager (Distraught)",
+      "objective": "Locate a missing child who wandered into the Scorched Farmland.",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Scorched Farmland", "role": "challenge" },
+        { "name": "Abandoned Shack", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Scorched Farmland", "type": "Feral Predators", "count": 3 }
+      ],
+      "items": [
+        { "location": "Abandoned Shack", "name": "Children's Toy" }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "Village"
+      }
+    }
+
+  ],
+  "7" : [
+    {
+      "title": "Relics of the Past",
+      "giver": "The Elder",
+      "objective": "Venture into the Derelict Outpost and retrieve items of historical significance before raiders loot them.",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Derelict Outpost - Exterior", "role": "challenge" },
+        { "name": "Derelict Outpost - Archives", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Derelict Outpost - Exterior", "type": "Raider Warlord Guard", "count": 3},
+        { "location": "Derelict Outpost - Exterior", "type": "Mutant Canid", "count": 2},
+        { "location": "Derelict Outpost - Archives", "type": "Corrupted Drone", "count": 1 }
+      ],
+      "items": [
+        { "location": "Derelict Outpost - Archives", "name": "Pre-War Textbook" },
+        { "location": "Derelict Outpost - Archives", "name": "Damaged Propaganda Posters" }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Elder",
+        "gold": 100
+      }
+    }
+
+  ],
+  "8" : [
+    {
+      "title": "The Nature of Things",
+      "giver": "The Healer",
+      "objective": "Journey to the Scorched Farmland and collect samples of mutated flora for analysis.",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Scorched Farmland - Outskirts", "role": "challenge" },
+        { "name": "Scorched Farmland - Heart", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Scorched Farmland - Outskirts", "type": "Feral Predators", "count": 2 },
+        { "location": "Scorched Farmland - Heart", "type": "Mutant Plant", "count": 1 }
+      ],
+      "items": [
+        { "location": "Scorched Farmland - Heart", "name": "Mutated Plant Samples" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Healer",
+        "item": "Healing Herbs"
+      }
+    }
+
+  ],
+  "9" : [
+    {
+      "title": "Hidden Paths",
+      "giver": "The Scavenger",
+      "objective": "Explore the Collapsed Tunnel Network and chart a safe route to a potential supply cache.",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Collapsed Tunnel Network - Entrance", "role": "challenge" },
+        { "name": "Collapsed Tunnel Network - Labyrinth", "role": "challenge" },
+        { "name": "Collapsed Tunnel Network - Cache", "role": "goal" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Collapsed Tunnel Network - Labyrinth", "type": "Mutant Arachnid", "count": 3 },
+        { "location": "Collapsed Tunnel Network - Cache", "type": "Scavengers", "count": 2 }
+      ],
+      "items": [
+        { "location": "Collapsed Tunnel Network - Cache", "name": "Map of Hidden Routes" }
+
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Scavenger",
+        "unlock": "New Trade Routes"
+      }
+    }
+
+  ],
+  "10" : [
+    {
+      "title": "Mercy and Might",
+      "giver": "The Outsider",
+      "objective": "Locate a Raider Warlord camp and choose: negotiate a truce or eliminate the threat.",
+      "locations": [
+        { "name": "Haven", "role": "start" },
+        { "name": "Scorched Farmland", "role": "challenge" },
+        { "name": "Raider Warlord Camp", "role": "decision" },
+        { "name": "Haven", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Raider Warlord Camp", "type": "Raider Warlord Guard", "count": 5 }
+      ],
+      "reward": {
+
+        "xp": 500,
+        "reputation": "The Outsider",
+        "outcome": "Peace"
+      }
+    }
+  ]
+}

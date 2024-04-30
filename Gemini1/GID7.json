@@ -1,0 +1,466 @@
+{
+  "1": [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Doomsayer",
+      "objective": "Recover a forgotten vinyl record from the ruins of a radio station, a reminder of lost melodies and better days",
+      "locations": [
+        {
+          "name": "Abandoned Gas Station",
+          "role": "challenge"
+        },
+        {
+          "name": "Military Outpost Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Collapsed Radio Station",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Abandoned Gas Station",
+          "type": "Marauder",
+          "count": 2
+        },
+        {
+          "location": "Military Outpost Ruins",
+          "type": "Rogue Robot",
+          "count": 1
+        },
+        {
+          "location": "Collapsed Radio Station",
+          "type": "Radiation-Mutated Wildlife",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Collapsed Radio Station",
+          "name": "Intact Vinyl Record"
+        }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Doomsayer",
+        "item": "Old Transistor Radio"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "The Tinkerer's Plea",
+      "giver": "The Tinkerer",
+      "objective": "Retrieve rare components from a dangerous mutant den to aid the Tinkerer's creations",
+      "locations": [
+        {
+          "name": "Twisted Highway",
+          "role": "challenge"
+        },
+        {
+          "name": "Mutant Den",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Twisted Highway",
+          "type": "Marauder",
+          "count": 1
+        },
+        {
+          "location": "Mutant Den",
+          "type": "Radiation-Mutated Wildlife",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Mutant Den",
+          "name": "Advanced Sensor Array"
+        },
+        {
+          "location": "Mutant Den",
+          "name": "Scrap Robotics Parts"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "item": "Stimulant Formula (Prototype)",
+        "reputation": "The Tinkerer"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "A Child's Wish",
+      "giver": "The Child",
+      "objective": "Find a lost keepsake for a child clinging to innocence: a tattered teddy bear",
+      "locations": [
+        {
+          "name": "Abandoned Gas Station",
+          "role": "challenge"
+        },
+        {
+          "name": "Collapsed Residential Area",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Abandoned Gas Station",
+          "type": "Infected Survivor",
+          "count": 1
+        },
+        {
+          "location": "Collapsed Residential Area",
+          "type": "Radiation-Mutated Wildlife",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Collapsed Residential Area",
+          "name": "Tattered Teddy Bear"
+        }
+      ],
+      "reward": {
+        "xp": 150,
+        "reputation": "The Child",
+        "item": "Child's Drawing"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "Scavenger's Legacy",
+      "giver": "Pre-War Letter",
+      "objective": "Follow clues from a pre-war letter. Recover a hidden survival cache, perhaps leading to further discoveries.",
+      "locations": [
+        {
+          "name": "Contaminated Creek",
+          "role": "challenge"
+        },
+        {
+          "name": "Hidden Grotto",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Contaminated Creek",
+          "type": "Radiation-Mutated Wildlife",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Hidden Grotto",
+          "name": "Forgotten Map"
+        },
+        {
+          "location": "Hidden Grotto",
+          "name": "Survival Supplies Cache"
+        }
+      ],
+      "reward": {
+        "xp": 200,
+        "item": "Pre-War Rations",
+        "reputation": "The Hunter"
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "Whispers of Salvation",
+      "giver": "Cultist Follower",
+      "objective": "Infiltrate the cultist's camp to uncover their true objectives",
+      "locations": [
+        {
+          "name": "Twisted Highway",
+          "role": "challenge"
+        },
+        {
+          "name": "Cultist Encampment",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Twisted Highway",
+          "type": "Marauder",
+          "count": 2
+        },
+        {
+          "location": "Cultist Encampment",
+          "type": "Cultist",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Cultist Encampment",
+          "name": "Cultist Leader's Notes"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Ashvale"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "Echoes of Valor",
+      "giver": "The Veteran",
+      "objective": "Retrieve a war memento from the fortified outpost, honoring a fallen comrade of the Veteran.",
+      "locations": [
+        {
+          "name": "Military Outpost Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Outpost - Armory",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Military Outpost Ruins",
+          "type": "Rogue Robot",
+          "count": 2
+        },
+        {
+          "location": "Outpost - Armory",
+          "type": "Radiation-Mutated Wildlife",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Outpost - Armory",
+          "name": "Rusted Medal"
+        }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "The Veteran",
+        "item": "Military Rations"
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "Nature's Fury",
+      "giver": "The Hunter",
+      "objective": "Track and eliminate a mutated predator that threatens the precarious balance of the wasteland ecosystem.",
+      "locations": [
+        {
+          "name": "Twisted Highway",
+          "role": "challenge"
+        },
+        {
+          "name": "Edge of the Wasteland",
+          "role": "challenge"
+        },
+        {
+          "name": "Predator's Lair",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Twisted Highway",
+          "type": "Radiation-Mutated Wildlife",
+          "count": 2
+        },
+        {
+          "location": "Edge of the Wasteland",
+          "type": "Marauder",
+          "count": 2
+        },
+        {
+          "location": "Predator's Lair",
+          "type": "Apex Mutant",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Predator's Lair",
+          "name": "Rare Pelt"
+        },
+        {
+          "location": "Predator's Lair",
+          "name": "Apex Mutant Gland"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "gold": 200,
+        "reputation": "The Hunter"
+      }
+    }
+  ],
+  "8": [
+    {
+      "title": "Restoring the Flow",
+      "giver": "The Tinkerer",
+      "objective": "Repair a damaged water filtration system, potentially restoring clean water to part of Ashvale.",
+      "locations": [
+        {
+          "name": "Contaminated Creek",
+          "role": "challenge"
+        },
+        {
+          "name": "Hidden Aquifer",
+          "role": "challenge"
+        },
+        {
+          "name": "Aquifer Filtration Unit",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Contaminated Creek",
+          "type": "Radiation-Mutated Wildlife",
+          "count": 3
+        },
+        {
+          "location": "Hidden Aquifer",
+          "type": "Infected Survivor",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Abandoned Gas Station",
+          "name": "Power Cell"
+        },
+        {
+          "location": "Aquifer Filtration Unit",
+          "name": "Broken Filtration Components"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Ashvale",
+        "item": "Experimental Stimulant Formula"
+      }
+    }
+  ],
+  "9": [
+    {
+      "title": "Forbidden Knowledge",
+      "giver": "Ancient Tome",
+      "objective": "Translate the Ancient Tome's cryptic writings, potentially unlocking forgotten secrets.",
+      "locations": [
+        {
+          "name": "Ashvale",
+          "role": "start"
+        },
+        {
+          "name": "The Veteran's Dwelling",
+          "role": "challenge"
+        },
+        {
+          "name": "Collapsed University Ruins",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Collapsed University Ruins",
+          "type": "Rogue Robot",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Collapsed University Ruins",
+          "name": "Scholar's Translation Notes"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "item": "Underground Vault Keycard (Unused)"
+      }
+    }
+  ],
+  "10": [
+    {
+      "title": "A Glimmer of Hope",
+      "giver": "The Child",
+      "objective": "Plant a seed from a rare, vibrant flower in the wasteland, symbolizing resilience.",
+      "locations": [
+        {
+          "name": "Mutant Den",
+          "role": "challenge"
+        },
+        {
+          "name": "Wasteland Outskirts",
+          "role": "goal"
+        },
+        {
+          "name": "Ashvale",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Mutant Den",
+          "type": "Radiation-Mutated Wildlife",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Mutant Den",
+          "name": "Vibrant Flower Seed"
+        }
+      ],
+      "reward": {
+        "xp": 100,
+        "reputation": "The Child"
+      }
+    }
+  ]
+}

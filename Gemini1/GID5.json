@@ -1,0 +1,260 @@
+{
+  "1" : [
+    {
+      "title": "Whispers from the Ruins",
+      "giver": "The Whisperer",
+      "objective": "Explore the Abandoned Temple Complex and recover a hidden Triad ledger",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Abandoned Temple Complex", "role": "challenge" },
+        { "name": "Tong'an", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Temple Complex", "type": "Broken Triads", "count": 2 },
+        { "location": "Abandoned Temple Complex", "type": "Scavengers", "count": 3},
+        { "location": "Abandoned Temple Complex", "type": "Warped Fauna", "count": 1 }
+      ],
+      "items": [
+        { "location": "Abandoned Temple Complex", "name": "Triad Ledger" }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Whisperer",
+        "item": "Traditional Medicine Recipes"
+      }
+    }
+
+  ],
+  "2" : [
+    {
+      "title": "The Price of Legacy",
+      "giver": "The Master",
+      "objective": "Locate a hidden opium stash and bring it to The Master to bolster his claim to power.",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Opium Fields", "role": "challenge" },
+        { "name": "Smuggler's Cove", "role": "challenge" },
+        { "name": "Tong'an", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Opium Fields", "type": "Scavengers", "count": 3 },
+        { "location": "Opium Fields", "type": "Warped Fauna", "count": 2},
+        { "location": "Smuggler's Cove", "type": "Ghost Bandits", "count": 1 }
+      ],
+      "items": [
+        { "location": "Smuggler's Cove", "name": "Hidden Opium Stash" }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "The Master",
+        "item": "Antique Weaponry"
+      }
+    }
+
+  ],
+  "3" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Herbalist",
+      "objective": "Gather rare herbs from dangerous locations to create a potent healing elixir",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Flooded Mine Shafts", "role": "challenge" },
+        { "name": "Foreign Military Outpost", "role": "challenge" },
+        { "name": "Tong'an", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Flooded Mine Shafts", "type": "Warped Fauna", "count": 2},
+        { "location": "Foreign Military Outpost", "type": "Foreign Remnants", "count": 3 }
+      ],
+      "items": [
+        { "location": "Flooded Mine Shafts", "name": "Glowing Fungus" },
+        { "location": "Foreign Military Outpost", "name": "Abandoned Medical Supplies" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Herbalist",
+        "gold": 100
+      }
+    }
+
+  ],
+  "4" : [
+    {
+      "title": "Tools for Survival",
+      "giver": "The Fixer",
+      "objective": "Locate and recover vital components to repair Tong'an's broken water purifier",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Flooded Mine Shafts", "role": "challenge" },
+        { "name": "Foreign Military Outpost", "role": "challenge" },
+        { "name": "Tong'an", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Flooded Mine Shafts", "type": "Warped Fauna", "count": 2},
+        { "location": "Foreign Military Outpost", "type": "Broken Triads", "count": 2},
+        { "location": "Foreign Military Outpost", "type": "Scavengers", "count": 1}
+      ],
+      "items": [
+        { "location": "Flooded Mine Shafts", "name": "Intact Pump" },
+        { "location": "Foreign Military Outpost", "name": "Wiring Bundle" }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Fixer",
+        "item": "Pre-War Diary"
+      }
+    }
+
+  ],
+  "5" : [
+    {
+      "title": "For a Child's Smile",
+      "giver": "The Lost Child",
+      "objective": "Venture into the ruins and collect a set of colorful wildflowers",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Opium Fields", "role": "challenge" },
+        { "name": "Abandoned Temple Complex", "role": "challenge" },
+        { "name": "Tong'an", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Opium Fields", "type": "Scavengers", "count": 1},
+        { "location": "Abandoned Temple Complex", "type": "Warped Fauna", "count": 1}
+      ],
+      "items": [
+        { "location": "Opium Fields", "name": "Wild Poppies" },
+        { "location": "Opium Fields", "name": "Purple Nightshade" },
+        { "location": "Abandoned Temple Complex", "name": "Golden Bloom" }
+      ],
+      "reward": {
+        "xp": 100,
+        "reputation": "The Lost Child",
+        "item": "Rusted Mahjong Tiles"
+      }
+    }
+
+  ],
+  "6" : [
+    {
+      "title": "Contraband Courier",
+      "giver": "The Whisperer",
+      "objective": "Smuggle a package of information out of Tong'an to a contact in a neighboring village",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Foreign Military Outpost", "role": "challenge" },
+        { "name": "Smuggler's Cove", "role": "challenge" },
+        { "name": "Neighboring Village", "role": "goal" }
+      ],
+      "monsters": [
+        { "location": "Foreign Military Outpost", "type": "Foreign Remnants", "count": 2 },
+        { "location": "Smuggler's Cove", "type": "Broken Triads", "count": 2 }
+      ],
+      "items": [
+        { "location": "Tong'an", "name": "Smuggler's Package" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Whisperer",
+        "item": "Propaganda Poster"
+      }
+    }
+
+  ],
+  "7" : [
+    {
+      "title": "Echoes of Music",
+      "giver": "The Herbalist",
+      "objective": "Find and repair a Damaged Musical Instrument for the grieving Herbalist",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Opium Fields", "role": "challenge" },
+        { "name": "Abandoned Temple Complex", "role": "challenge" },
+        { "name": "Tong'an", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Opium Fields", "type": "Scavengers", "count": 2 },
+        { "location": "Abandoned Temple Complex", "type": "Ghost Bandits", "count": 1 }
+      ],
+      "items": [
+        { "location": "Abandoned Temple Complex", "name": "Broken Erhu" }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Herbalist",
+        "item": "Jade Figurine"
+      }
+    }
+
+  ],
+  "8" : [
+    {
+      "title": "Proving Ground",
+      "giver": "The Master",
+      "objective": "Descend into the Flooded Mine Shafts and defeat a formidable creature",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Flooded Mine Shafts - Depths", "role": "goal" },
+        { "name": "Tong'an", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Flooded Mine Shafts - Depths", "type": "Warped Fauna - Alpha", "count": 1 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 200,
+        "reputation": "The Master",
+        "title": "Protector of Tong'an"
+      }
+    }
+
+  ],
+  "9" : [
+    {
+      "title": "Lost Memories",
+      "giver": "The Lost Child",
+      "objective": "Help the child find a handful of Old Photographs scattered across Tong'an",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Abandoned Temple Complex", "role": "challenge" },
+        { "name": "Opium Fields", "role": "challenge" },
+        { "name": "Tong'an", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Temple Complex", "type": "Scavengers", "count": 1 }
+      ],
+      "items": [
+        { "location": "Tong'an", "name": "Old Photographs", "count": 3 }
+      ],
+      "reward": {
+        "xp": 150,
+        "reputation": "The Lost Child"
+      }
+    }
+
+  ],
+  "10" : [
+    {
+      "title": "A Child's Vantage",
+      "giver": "The Lost Child",
+      "objective": "Retrieve Children's Drawings from a dangerous location",
+      "locations": [
+        { "name": "Tong'an", "role": "start" },
+        { "name": "Foreign Military Outpost", "role": "challenge" },
+        { "name": "Tong'an", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Foreign Military Outpost", "type": "Foreign Remnants", "count": 3 }
+      ],
+      "items": [
+        { "location": "Foreign Military Outpost", "name": "Children's Drawings" }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "Village",
+        "item": "Traditional Medicine Recipes"
+      }
+    }
+
+  ]
+}

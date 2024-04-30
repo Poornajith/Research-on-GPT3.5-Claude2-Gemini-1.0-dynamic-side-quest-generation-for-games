@@ -1,0 +1,581 @@
+{
+  "1": [
+    {
+      "title": "Curse of Briarwood",
+      "giver": "Elderwood",
+      "objective": "Investigate the source of the curse and restore harmony to Briarwood",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Corrupted Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Overgrown Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Fogbound Hollow",
+          "role": "challenge"
+        },
+        {
+          "name": "Elderwood's Sanctuary",
+          "role": "goal"
+        },
+        {
+          "name": "Briarwood Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Corrupted Grove",
+          "type": "Twisted Spriggans",
+          "count": 3
+        },
+        {
+          "location": "Overgrown Ruins",
+          "type": "Corrupted Ents",
+          "count": 2
+        },
+        {
+          "location": "Fogbound Hollow",
+          "type": "Fae Witch",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Elderwood's Sanctuary",
+          "name": "Moonstone Amulet"
+        },
+        {
+          "location": "Elderwood's Sanctuary",
+          "name": "Ancient Grimoire"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "Briarwood Guardian",
+        "item": "Heartwood Staff"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "Hope Restored",
+      "giver": "Exiled Herbalist",
+      "objective": "Gather ingredients to create a potion that can weaken the curse's hold",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Dried-Up Riverbed",
+          "role": "challenge"
+        },
+        {
+          "name": "Abandoned Mine",
+          "role": "challenge"
+        },
+        {
+          "name": "Fogbound Hollow",
+          "role": "challenge"
+        },
+        {
+          "name": "Exiled Herbalist's Camp",
+          "role": "goal"
+        },
+        {
+          "name": "Briarwood Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Dried-Up Riverbed",
+          "type": "Blighted Wisps",
+          "count": 4
+        },
+        {
+          "location": "Abandoned Mine",
+          "type": "Shadowstalkers",
+          "count": 3
+        },
+        {
+          "location": "Fogbound Hollow",
+          "type": "Corrupted Ents",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Exiled Herbalist's Camp",
+          "name": "Elixir of Renewal"
+        },
+        {
+          "location": "Exiled Herbalist's Camp",
+          "name": "Crystal Shard"
+        }
+      ],
+      "reward": {
+        "gold": 200,
+        "reputation": "Briarwood Protector",
+        "item": "Herbalist's Satchel"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "Spirit of Innocence",
+      "giver": "Lost Child",
+      "objective": "Escort the lost child safely back to his family's dwelling",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Corrupted Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Dried-Up Riverbed",
+          "role": "challenge"
+        },
+        {
+          "name": "Fogbound Hollow",
+          "role": "challenge"
+        },
+        {
+          "name": "Lost Child's Family Dwelling",
+          "role": "goal"
+        },
+        {
+          "name": "Briarwood Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Corrupted Grove",
+          "type": "Twisted Spriggans",
+          "count": 2
+        },
+        {
+          "location": "Dried-Up Riverbed",
+          "type": "Blighted Wisps",
+          "count": 3
+        },
+        {
+          "location": "Fogbound Hollow",
+          "type": "Shadowstalkers",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Lost Child's Family Dwelling",
+          "name": "Tarnished Silver Locket"
+        },
+        {
+          "location": "Lost Child's Family Dwelling",
+          "name": "Child's Drawing"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Protector of Innocence",
+        "item": "Guardian's Cape"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "Echoes of the Past",
+      "giver": "Weary Traveler",
+      "objective": "Retrieve lost memories scattered throughout Briarwood",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Overgrown Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Abandoned Mine",
+          "role": "challenge"
+        },
+        {
+          "name": "Fogbound Hollow",
+          "role": "challenge"
+        },
+        {
+          "name": "Weary Traveler's Campsite",
+          "role": "goal"
+        },
+        {
+          "name": "Briarwood Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Overgrown Ruins",
+          "type": "Shadowstalkers",
+          "count": 3
+        },
+        {
+          "location": "Abandoned Mine",
+          "type": "Corrupted Ents",
+          "count": 2
+        },
+        {
+          "location": "Fogbound Hollow",
+          "type": "Fae Witch",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Weary Traveler's Campsite",
+          "name": "Faded Tapestry"
+        },
+        {
+          "location": "Weary Traveler's Campsite",
+          "name": "Broken Fairy Harp"
+        }
+      ],
+      "reward": {
+        "gold": 150,
+        "reputation": "Seeker of Knowledge",
+        "item": "Traveler's Compass"
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "Guardians of Briarwood",
+      "giver": "Determined Knight",
+      "objective": "Defend Briarwood from waves of corrupted creatures",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Corrupted Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Dried-Up Riverbed",
+          "role": "challenge"
+        },
+        {
+          "name": "Fogbound Hollow",
+          "role": "challenge"
+        },
+        {
+          "name": "Briarwood Village",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Corrupted Grove",
+          "type": "Twisted Spriggans",
+          "count": 5
+        },
+        {
+          "location": "Dried-Up Riverbed",
+          "type": "Blighted Wisps",
+          "count": 4
+        },
+        {
+          "location": "Fogbound Hollow",
+          "type": "Shadowstalkers",
+          "count": 3
+        }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 400,
+        "reputation": "Defender of Briarwood",
+        "item": "Knight's Shield"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "Grimoire Recovery",
+      "giver": "Elderwood",
+      "objective": "Retrieve the stolen ancient grimoire from the Fae Witch's lair",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Fogbound Hollow",
+          "role": "challenge"
+        },
+        {
+          "name": "Fae Witch's Lair",
+          "role": "goal"
+        },
+        {
+          "name": "Briarwood Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Fogbound Hollow",
+          "type": "Fae Witch",
+          "count": 1
+        },
+        {
+          "location": "Fae Witch's Lair",
+          "type": "Blighted Wisps",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Fae Witch's Lair",
+          "name": "Ancient Grimoire"
+        }
+      ],
+      "reward": {
+        "gold": 250,
+        "reputation": "Keeper of Wisdom",
+        "item": "Elderwood's Blessing"
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "Reclamation of the River",
+      "giver": "Village Council",
+      "objective": "Restore the flow of water to Briarwood by breaking the curse on the hidden spring",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Dried-Up Riverbed",
+          "role": "challenge"
+        },
+        {
+          "name": "Corrupted Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Fogbound Hollow",
+          "role": "challenge"
+        },
+        {
+          "name": "Hidden Spring",
+          "role": "goal"
+        },
+        {
+          "name": "Briarwood Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Dried-Up Riverbed",
+          "type": "Corrupted Ents",
+          "count": 2
+        },
+        {
+          "location": "Corrupted Grove",
+          "type": "Twisted Spriggans",
+          "count": 3
+        },
+        {
+          "location": "Fogbound Hollow",
+          "type": "Blighted Wisps",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Hidden Spring",
+          "name": "Crystal Shard"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "Briarwood Redeemer",
+        "item": "Watersource Talisman"
+      }
+    }
+  ],
+  "8": [
+    {
+      "title": "Cleansing the Corrupted",
+      "giver": "Elderwood",
+      "objective": "Purify the corrupted creatures within the Fogbound Hollow",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Fogbound Hollow",
+          "role": "challenge"
+        },
+        {
+          "name": "Fogbound Hollow - Inner Sanctum",
+          "role": "goal"
+        },
+        {
+          "name": "Briarwood Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Fogbound Hollow",
+          "type": "Corrupted Ents",
+          "count": 4
+        },
+        {
+          "location": "Fogbound Hollow",
+          "type": "Blighted Wisps",
+          "count": 3
+        },
+        {
+          "location": "Fogbound Hollow - Inner Sanctum",
+          "type": "Fae Witch",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Fogbound Hollow - Inner Sanctum",
+          "name": "Ethereal Essence"
+        }
+      ],
+      "reward": {
+        "gold": 300,
+        "reputation": "Nature's Guardian",
+        "item": "Elderwood's Embrace"
+      }
+    }
+  ],
+  "9": [
+    {
+      "title": "Harmony Restored",
+      "giver": "Briarwood Council",
+      "objective": "Perform a ritual to cleanse the corrupted land and restore its natural balance",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Corrupted Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Overgrown Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Fogbound Hollow",
+          "role": "challenge"
+        },
+        {
+          "name": "Harmony Grove",
+          "role": "goal"
+        },
+        {
+          "name": "Briarwood Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Corrupted Grove",
+          "type": "Twisted Spriggans",
+          "count": 3
+        },
+        {
+          "location": "Overgrown Ruins",
+          "type": "Corrupted Ents",
+          "count": 2
+        },
+        {
+          "location": "Fogbound Hollow",
+          "type": "Blighted Wisps",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Harmony Grove",
+          "name": "Purifying Altar"
+        }
+      ],
+      "reward": {
+        "xp": 600,
+        "reputation": "Guardian of Nature",
+        "item": "Staff of Harmony"
+      }
+    }
+  ],
+  "10": [
+    {
+      "title": "The Last Stand",
+      "giver": "Determined Knight",
+      "objective": "Confront the Fae Witch and end her reign of corruption",
+      "locations": [
+        {
+          "name": "Briarwood Village",
+          "role": "start"
+        },
+        {
+          "name": "Fogbound Hollow - Inner Sanctum",
+          "role": "challenge"
+        },
+        {
+          "name": "Fae Witch's Lair",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Fogbound Hollow - Inner Sanctum",
+          "type": "Fae Witch",
+          "count": 1
+        },
+        {
+          "location": "Fae Witch's Lair",
+          "type": "Blighted Wisps",
+          "count": 5
+        }
+      ],
+      "items": [
+        {
+          "location": "Fae Witch's Lair",
+          "name": "Cursed Talisman"
+        }
+      ],
+      "reward": {
+        "xp": 800,
+        "reputation": "Hero of Briarwood",
+        "item": "Sword of Justice"
+      }
+    }
+  ]
+}

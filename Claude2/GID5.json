@@ -1,0 +1,240 @@
+{
+  "1" : [
+    {
+      "title": "The Opium Whispers",
+      "giver": "The Whisperer",
+      "objective": "Uncover the hidden opium stash and secure it for the resistance",
+      "locations": [
+        {"name": "Opium Fields", "role": "start"},
+        {"name": "Abandoned Temple Complex", "role": "challenge"},
+        {"name": "Flooded Mine Shafts", "role": "goal"},
+        {"name": "Smuggler's Cove", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Abandoned Temple Complex", "type": "Broken Triads", "count": 3},
+        {"location": "Flooded Mine Shafts", "type": "Warped Fauna", "count": 2},
+        {"location": "Smuggler's Cove", "type": "Scavengers", "count": 4}
+      ],
+      "items": [
+        {"location": "Flooded Mine Shafts", "name": "Hidden Opium Stash"},
+        {"location": "Flooded Mine Shafts", "name": "Antique Weaponry"}
+      ],
+      "reward": {
+        "item": "Traditional Medicine Recipes",
+        "reputation": "The Whisperer"
+      }
+    }
+  ],
+  "2" : [
+    {
+      "title": "Ghost of the Past",
+      "giver": "The Master",
+      "objective": "Recover the pre-war diary from the foreign military outpost",
+      "locations": [
+        {"name": "Village", "role": "start"},
+        {"name": "Foreign Military Outpost", "role": "challenge"},
+        {"name": "Foreign Military Outpost - Command Center", "role": "goal"},
+        {"name": "Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Foreign Military Outpost", "type": "Foreign Remnants", "count": 3},
+        {"location": "Foreign Military Outpost - Command Center", "type": "Ghost Bandits", "count": 2}
+      ],
+      "items": [
+        {"location": "Foreign Military Outpost - Command Center", "name": "Pre-War Diary"},
+        {"location": "Foreign Military Outpost - Command Center", "name": "Propaganda Posters"}
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Master",
+        "item": "Jade Figurines"
+      }
+    }
+  ],
+  "3" : [
+    {
+      "title": "Scrap Salvation",
+      "giver": "The Fixer",
+      "objective": "Gather useful scrap from the battlefields to aid repairs",
+      "locations": [
+        {"name": "Village", "role": "start"},
+        {"name": "Foreign Military Outpost", "role": "challenge"},
+        {"name": "Smuggler's Cove", "role": "challenge"},
+        {"name": "Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Foreign Military Outpost", "type": "Scavengers", "count": 2},
+        {"location": "Smuggler's Cove", "type": "Warped Fauna", "count": 3}
+      ],
+      "items": [
+        {"location": "Foreign Military Outpost", "name": "Radio Components"},
+        {"location": "Smuggler's Cove", "name": "Boat Engine Parts"}
+      ],
+      "reward": {
+        "item": "Toolbox",
+        "reputation": "The Fixer"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "Children's Lament",
+      "giver": "The Lost Child",
+      "objective": "Find her lost toy in the ruins to ease her sadness",
+      "locations": [
+        {"name": "Village", "role": "start"},
+        {"name": "Abandoned Temple Complex", "role": "challenge"},
+        {"name": "Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Abandoned Temple Complex", "type": "Broken Triads", "count": 2}
+      ],
+      "items": [
+        {"location": "Abandoned Temple Complex", "name": "Tattered Doll"}
+      ],
+      "reward": {
+        "reputation": "Village"
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "Poisoned Roots",
+      "giver": "The Herbalist",
+      "objective": "Clear the remaining opium crops to prevent addiction",
+      "locations": [
+        {"name": "Village", "role": "start"},
+        {"name": "Opium Fields", "role": "goal"},
+        {"name": "Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Opium Fields", "type": "Scavengers", "count": 4}
+      ],
+      "reward": {
+        "item": "Healing Salve",
+        "reputation": "The Herbalist"
+      }
+    }
+  ],
+  "6" : [
+    {
+      "title": "Melody of Hope",
+      "giver": "Village Elder",
+      "objective": "Recover lost musical instruments to lift spirits",
+      "locations": [
+        {"name": "Village", "role": "start"},
+        {"name": "Abandoned Temple Complex", "role": "challenge"},
+        {"name": "Flooded Mine Shafts", "role": "challenge"},
+        {"name": "Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Abandoned Temple Complex", "type": "Broken Triads", "count": 3},
+        {"location": "Flooded Mine Shafts", "type": "Warped Fauna", "count": 2}
+      ],
+      "items": [
+        {"location": "Abandoned Temple Complex", "name": "Stringed Instrument"},
+        {"location": "Flooded Mine Shafts", "name": "Woodwind Instrument"}
+      ],
+      "reward": {
+        "xp": 150,
+        "reputation": "Village"
+      }
+    }
+  ],
+  "7" : [
+    {
+      "title": "The Hidden Path",
+      "giver": "The Master",
+      "objective": "Explore the flooded mines for a secret tunnel to smuggle supplies",
+      "locations": [
+        {"name": "Village", "role": "start"},
+        {"name": "Flooded Mine Shafts", "role": "goal"},
+        {"name": "Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Flooded Mine Shafts", "type": "Ghost Bandits", "count": 2},
+        {"location": "Flooded Mine Shafts", "type": "Warped Fauna", "count": 3}
+      ],
+      "items": [
+        {"location": "Flooded Mine Shafts", "name": "Secret Tunnel Map"}
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "The Master"
+      }
+    }
+  ],
+  "8" : [
+    {
+      "title": "Wartime Relics",
+      "giver": "The Whisperer",
+      "objective": "Gather wartime propaganda posters and photographs for the Whisperer's collection",
+      "locations": [
+        {"name": "Village", "role": "start"},
+        {"name": "Foreign Military Outpost", "role": "challenge"},
+        {"name": "Abandoned Temple Complex", "role": "challenge"},
+        {"name": "Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Foreign Military Outpost", "type": "Foreign Remnants", "count": 2},
+        {"location": "Abandoned Temple Complex", "type": "Broken Triads", "count": 3}
+      ],
+      "items": [
+        {"location": "Foreign Military Outpost", "name": "Propaganda Posters"},
+        {"location": "Abandoned Temple Complex", "name": "Old Photographs"}
+      ],
+      "reward": {
+        "item": "Ancient Scroll",
+        "reputation": "The Whisperer"
+      }
+    }
+  ],
+  "9" : [
+    {
+      "title": "Triad Treasures",
+      "giver": "The Master",
+      "objective": "Recover ornate weaponry once belonging to the Triad brotherhoods",
+      "locations": [
+        {"name": "Village", "role": "start"},
+        {"name": "Abandoned Temple Complex", "role": "challenge"},
+        {"name": "Flooded Mine Shafts", "role": "goal"},
+        {"name": "Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Abandoned Temple Complex", "type": "Broken Triads", "count": 4},
+        {"location": "Flooded Mine Shafts", "type": "Ghost Bandits", "count": 2}
+      ],
+      "items": [
+        {"location": "Flooded Mine Shafts", "name": "Antique Weaponry"}
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Master"
+      }
+    }
+  ],
+  "10" : [
+    {
+      "title": "A Child's Innocence",
+      "giver": "The Lost Child",
+      "objective": "Find her drawings amidst the ruins to preserve a piece of the past",
+      "locations": [
+        {"name": "Village", "role": "start"},
+        {"name": "Foreign Military Outpost", "role": "challenge"},
+        {"name": "Abandoned Temple Complex", "role": "challenge"},
+        {"name": "Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Foreign Military Outpost", "type": "Scavengers", "count": 3},
+        {"location": "Abandoned Temple Complex", "type": "Warped Fauna", "count": 2}
+      ],
+      "items": [
+        {"location": "Foreign Military Outpost", "name": "Children's Drawings"},
+        {"location": "Abandoned Temple Complex", "name": "Children's Drawings"}
+      ],
+      "reward": {
+        "reputation": "Village"
+      }
+    }
+  ]
+}

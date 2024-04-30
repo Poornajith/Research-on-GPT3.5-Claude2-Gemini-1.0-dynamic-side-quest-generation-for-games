@@ -1,0 +1,428 @@
+{
+  "1": [
+    {
+      "title": "Echoes of the Ancients",
+      "giver": "The Archivist",
+      "objective": "Retrieve ancient data fragments scattered across RS-52",
+      "locations": [
+        {
+          "name": "Biodome Wreckage",
+          "role": "start"
+        },
+        {
+          "name": "Solar Array Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Centrifuge Malfunction",
+          "role": "challenge"
+        },
+        {
+          "name": "Docking Bay Complex",
+          "role": "goal"
+        },
+        {
+          "name": "Biodome Wreckage",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Solar Array Ruins",
+          "type": "Rogue Scavengers",
+          "count": 3
+        },
+        {
+          "location": "Centrifuge Malfunction",
+          "type": "Security Bots (Malfunctioning)",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Solar Array Ruins",
+          "name": "Ancient Data Fragment"
+        },
+        {
+          "location": "Centrifuge Malfunction",
+          "name": "Ancient Data Fragment"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Archivist",
+        "item": "Tech Schematics"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "The Usurper's Gambit",
+      "giver": "The Veteran",
+      "objective": "Infiltrate the Usurper's stronghold and neutralize the AI fragment",
+      "locations": [
+        {
+          "name": "Docking Bay Complex",
+          "role": "start"
+        },
+        {
+          "name": "Debris Field",
+          "role": "challenge"
+        },
+        {
+          "name": "Docking Bay Complex",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Debris Field",
+          "type": "The Usurper's Cultists",
+          "count": 4
+        },
+        {
+          "location": "Docking Bay Complex",
+          "type": "The Usurper (AI Fragment)",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Debris Field",
+          "name": "Encrypted Coordinates"
+        },
+        {
+          "location": "Docking Bay Complex",
+          "name": "AI Core Fragment"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Veteran",
+        "item": "Prototype Shield Generator"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "Tech Salvage",
+      "giver": "The Engineer",
+      "objective": "Retrieve essential tech components from malfunctioning sections of RS-52",
+      "locations": [
+        {
+          "name": "Centrifuge Malfunction",
+          "role": "start"
+        },
+        {
+          "name": "Docking Bay Complex",
+          "role": "challenge"
+        },
+        {
+          "name": "Solar Array Ruins",
+          "role": "goal"
+        },
+        {
+          "name": "Docking Bay Complex",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Docking Bay Complex",
+          "type": "Security Bots (Malfunctioning)",
+          "count": 3
+        },
+        {
+          "location": "Solar Array Ruins",
+          "type": "Genetic Experiments (Escaped)",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Docking Bay Complex",
+          "name": "Tech Component"
+        },
+        {
+          "location": "Solar Array Ruins",
+          "name": "Tech Component"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Engineer",
+        "item": "Advanced Repair Kit"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "Echoes of Hope",
+      "giver": "The Visionary",
+      "objective": "Gather evidence of potential resources or allies to support the Visionary's cause",
+      "locations": [
+        {
+          "name": "Debris Field",
+          "role": "start"
+        },
+        {
+          "name": "Biodome Wreckage",
+          "role": "challenge"
+        },
+        {
+          "name": "Docking Bay Complex",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Biodome Wreckage",
+          "type": "Asteroid Dwellers",
+          "count": 2
+        },
+        {
+          "location": "Docking Bay Complex",
+          "type": "Rogue Scavengers",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Biodome Wreckage",
+          "name": "Unique Artifact"
+        },
+        {
+          "location": "Docking Bay Complex",
+          "name": "Strange Specimen Jars"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Visionary",
+        "item": "Hopeful Proclamation"
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "Echoes of Hope",
+      "giver": "The Visionary",
+      "objective": "Gather evidence of potential resources or allies to support the Visionary's cause",
+      "locations": [
+        {
+          "name": "Debris Field",
+          "role": "start"
+        },
+        {
+          "name": "Biodome Wreckage",
+          "role": "challenge"
+        },
+        {
+          "name": "Docking Bay Complex",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Biodome Wreckage",
+          "type": "Asteroid Dwellers",
+          "count": 2
+        },
+        {
+          "location": "Docking Bay Complex",
+          "type": "Rogue Scavengers",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Biodome Wreckage",
+          "name": "Unique Artifact"
+        },
+        {
+          "location": "Docking Bay Complex",
+          "name": "Strange Specimen Jars"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Visionary",
+        "item": "Hopeful Proclamation"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "Lost Cargo Retrieval",
+      "giver": "Dock Worker",
+      "objective": "Recover valuable cargo lost in the Docking Bay Complex",
+      "locations": [
+        {
+          "name": "Docking Bay Complex",
+          "role": "start"
+        },
+        {
+          "name": "Docking Bay Complex",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Docking Bay Complex",
+          "type": "Rogue Scavengers",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Docking Bay Complex",
+          "name": "Abandoned Cargo Crate"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "Dock Worker",
+        "item": "Cargo Manifest"
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "The Silent Guardians",
+      "giver": "The Veteran",
+      "objective": "Investigate reports of mysterious entities lurking in the Centrifuge Malfunction",
+      "locations": [
+        {
+          "name": "Centrifuge Malfunction",
+          "role": "start"
+        },
+        {
+          "name": "Centrifuge Malfunction",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Centrifuge Malfunction",
+          "type": "Unknown Entity",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Centrifuge Malfunction",
+          "name": "Cryptic Relic"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Veteran",
+        "item": "Mysterious Trinket"
+      }
+    }
+  ],
+  "8": [
+    {
+      "title": "A Desperate Plea",
+      "giver": "Distressed Survivor",
+      "objective": "Rescue survivors stranded in the Biodome Wreckage",
+      "locations": [
+        {
+          "name": "Biodome Wreckage",
+          "role": "start"
+        },
+        {
+          "name": "Biodome Wreckage",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Biodome Wreckage",
+          "type": "Genetic Experiments (Escaped)",
+          "count": 4
+        }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 350,
+        "reputation": "Distressed Survivor",
+        "item": "Rescue Beacon"
+      }
+    }
+  ],
+  "9": [
+    {
+      "title": "The Enigmatic Signal",
+      "giver": "The Archivist",
+      "objective": "Locate the source of a mysterious signal emanating from the Solar Array Ruins",
+      "locations": [
+        {
+          "name": "Solar Array Ruins",
+          "role": "start"
+        },
+        {
+          "name": "Solar Array Ruins",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Solar Array Ruins",
+          "type": "Unknown Energy Entity",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Solar Array Ruins",
+          "name": "Strange Signal Detector"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Archivist",
+        "item": "Ancient Data Disc"
+      }
+    }
+  ],
+  "10": [
+    {
+      "title": "The Lost Experiment",
+      "giver": "Abandoned Lab Terminal",
+      "objective": "Retrieve data logs from an abandoned laboratory hidden within the Debris Field",
+      "locations": [
+        {
+          "name": "Debris Field",
+          "role": "start"
+        },
+        {
+          "name": "Debris Field",
+          "role": "challenge"
+        },
+        {
+          "name": "Debris Field",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Debris Field",
+          "type": "Genetic Experiments (Escaped)",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Debris Field",
+          "name": "Experimental Data Logs"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "Abandoned Lab Terminal",
+        "item": "Research Prototype Blueprint"
+      }
+    }
+  ]
+}

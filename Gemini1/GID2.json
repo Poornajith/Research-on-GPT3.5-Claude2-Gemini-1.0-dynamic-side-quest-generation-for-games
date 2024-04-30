@@ -1,0 +1,255 @@
+{
+  "1" : [
+    {
+      "title": "Whispers in the Grove",
+      "giver": "The Elderwood",
+      "objective": "Venture into the Corrupted Grove, discover the source of the whispers, and cleanse the corruption's taint on a small spring.",
+      "locations": [
+        {"name": "Briarwood Village", "role": "start"},
+        {"name": "Corrupted Grove", "role": "challenge"},
+        {"name": "Corrupted Grove - Heart", "role": "goal"},
+        {"name": "Briarwood Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Corrupted Grove", "type": "Twisted Spriggan", "count": 3},
+        {"location": "Corrupted Grove", "type": "Blighted Wisp", "count": 2},
+        {"location": "Corrupted Grove - Heart", "type": "Shadowstalker", "count": 1}
+      ],
+      "items": [
+        {"location": "Corrupted Grove - Heart", "name": "Elixir of Renewal"}
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Elderwood",
+        "item": "Lost Satchel"
+      }
+    }
+
+  ],
+  "2" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Exiled Herbalist",
+      "objective": "Explore the Overgrown Ruins for clues about Briarwood's history, uncovering the source of a haunting melody.",
+      "locations": [
+        {"name": "Briarwood Village", "role": "start"},
+        {"name": "Overgrown Ruins", "role": "challenge"},
+        {"name": "Overgrown Ruins - Hidden Chamber", "role": "goal"},
+        {"name": "Briarwood Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Overgrown Ruins", "type": "Twisted Spriggan", "count": 2},
+        {"location": "Overgrown Ruins", "type": "Shadowstalker", "count": 1},
+        {"location": "Overgrown Ruins - Hidden Chamber", "type": "Corrupted Ent", "count": 1}
+      ],
+      "items": [
+        {"location": "Overgrown Ruins - Hidden Chamber", "name": "Ancient Grimoire" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Exiled Herbalist",
+        "item": "Wilted Flower Crown"
+      }
+    }
+
+  ],
+  "3" : [
+    {
+      "title": "The Lost Light",
+      "giver": "The Lost Child",
+      "objective": "Descend into the Fogbound Hollow, retrieve the child's lost locket, and guide his spirit back to the village.",
+      "locations": [
+        {"name": "Briarwood Village", "role": "start"},
+        {"name": "Fogbound Hollow", "role": "challenge" },
+        {"name": "Fogbound Hollow - Sanctuary", "role": "goal" },
+        {"name": "Briarwood Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Fogbound Hollow", "type": "Blighted Wisp", "count": 4},
+        {"location": "Fogbound Hollow", "type": "Shadowstalker", "count": 2},
+      ],
+      "items": [
+        {"location": "Fogbound Hollow - Sanctuary", "name": "Tarnished Silver Locket"}
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "The Lost Child",
+        "item": "Faded Tapestry"
+      }
+    }
+
+  ],
+  "4" : [
+    {
+      "title": "Tribute to Courage",
+      "giver": "The Determined Knight",
+      "objective": "Travel to the Dried-Up Riverbed, recover the knight's fallen comrades' emblems, and build a memorial cairn to their bravery.",
+      "locations": [
+        {"name": "Briarwood Village", "role": "start"},
+        {"name": "Dried-Up Riverbed", "role": "challenge"},
+        {"name": "Dried-Up Riverbed - Source", "role": "goal"},
+        {"name": "Briarwood Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Dried-Up Riverbed", "type": "Twisted Spriggan", "count": 3},
+        {"location": "Dried-Up Riverbed", "type": "Blighted Wisp", "count": 3},
+        {"location": "Dried-Up Riverbed - Source", "type": "Corrupted Ent", "count": 1}
+      ],
+      "items": [
+        {"location": "Dried-Up Riverbed", "name": "Elven Emblem" , "count": 3}
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Determined Knight",
+        "item": "Moonstone Amulet"
+      }
+    }
+
+  ],
+  "5" : [
+    {
+      "title": "A Traveler's Wisdom",
+      "giver": "The Weary Traveler",
+      "objective": "Gather stories and insights from Briarwood's inhabitants about the time before the curse, weaving them into a protective charm.",
+      "locations": [
+        {"name": "Briarwood Village", "role": "challenge" }
+      ],
+      "monsters": [],
+      "items": [
+        {"location": "Briarwood Village", "name": "Child's Drawing"},
+        {"location": "Briarwood Village", "name": "Broken Fairy Harp"},
+        {"location": "Briarwood Village", "name": "Faded Tapestry"}
+      ],
+      "reward": {
+        "xp": 150,
+        "reputation": "The Weary Traveler",
+        "item": "Crystal Shard"
+      }
+    }
+
+  ],
+  "6" : [
+    {
+      "title": "Nature's Fury",
+      "giver": "The Elderwood",
+      "objective": "Battle the monstrous Corrupted Ents threatening Briarwood, collecting their corrupted hearts to fuel a defensive ritual.",
+      "locations": [
+        {"name": "Briarwood Village", "role": "start"},
+        {"name": "Overgrown Ruins", "role": "challenge"},
+        {"name": "Corrupted Grove", "role": "challenge"},
+        {"name": "Briarwood Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Overgrown Ruins", "type": "Corrupted Ent", "count": 1},
+        {"location": "Corrupted Grove", "type": "Corrupted Ent", "count": 2}
+      ],
+      "items": [
+        {"location": "Overgrown Ruins", "name": "Corrupted Ent Heart"},
+        {"location": "Corrupted Grove", "name": "Corrupted Ent Heart", "count": 2},
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Elderwood",
+        "item": "Ancient Grimoire"
+      }
+    }
+
+  ],
+  "7" : [
+    {
+      "title": "Smuggler's Cache",
+      "giver": "The Exiled Herbalist",
+      "objective": "Investigate rumors of a smuggler's cache in the Abandoned Mines, suspected to contain supplies that could ease Briarwood's plight.",
+      "locations": [
+        {"name": "Briarwood Village", "role": "start"},
+        {"name": "Abandoned Mine", "role": "challenge" },
+        {"name": "Abandoned Mine - Smuggler's Stash", "role": "goal" },
+        {"name": "Briarwood Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Abandoned Mine", "type": "Twisted Spriggan", "count": 2},
+        {"location": "Abandoned Mine", "type": "Shadowstalker", "count": 2}
+      ],
+      "items": [
+        {"location": "Abandoned Mine - Smuggler's Stash", "name": "Herbalist Supplies"},
+        {"location": "Abandoned Mine - Smuggler's Stash", "name": "Bag of Gold" },
+      ],
+      "reward": {
+        "xp": 250,
+        "gold": 150,
+        "reputation": "The Exiled Herbalist"
+      }
+    }
+
+  ],
+  "8" : [
+    {
+      "title": "Mischievous Spirits",
+      "giver": "The Lost Child",
+      "objective": "Locate and appease a group of mischievous fairies who've been creating minor havoc in the village while fueled by the corrupting energy.",
+      "locations": [
+        {"name": "Briarwood Village", "role": "start"},
+        {"name": "Overgrown Ruins", "role": "challenge"},
+        {"name": "Fogbound Hollow", "role": "challenge"},
+        {"name": "Briarwood Village", "role": "return"}
+      ],
+      "monsters": [],
+      "items": [
+        {"location": "Overgrown Ruins", "name": "Fairy's Trinket"},
+        {"location": "Fogbound Hollow", "name": "Lost Music Box"},
+      ],
+      "reward": {
+        "xp": 150,
+        "reputation": "Briarwood",
+        "item": "Broken Fairy Harp"
+      }
+    }
+
+  ],
+  "9" : [
+    {
+      "title": "A Cry for Help",
+      "giver": "None",
+      "objective": "While traveling through the Corrupted Grove, discover a trapped Fae Witch and make a crucial choice: help her in exchange for power, or refuse her tainted bargain.",
+      "locations": [
+        {"name": "Corrupted Grove - Witch's Glade", "role": "goal" }
+      ],
+      "monsters": [
+        {"location": "Corrupted Grove - Witch's Glade", "type": "Shadowstalker", "count": 3}
+      ],
+      "items": [],
+      "reward": {
+        "xp": 350,
+        "reputation": "Fae Witch"
+      }
+    }
+
+  ],
+  "10" : [
+    {
+      "title": "The Hidden Spring",
+      "giver": "The Elderwood",
+      "objective": "Legends speak of a hidden spring deep in Briarwood, untouched by the curse. Using clues from ancient carvings, rediscover its location and bring back a vial of its water.",
+      "locations": [
+        {"name": "Briarwood Village", "role": "start"},
+        {"name": "Dried-Up Riverbed", "role": "challenge"},
+        {"name": "Overgrown Ruins", "role": "challenge"},
+        {"name": "Corrupted Grove - Hidden Spring", "role": "goal"},
+        {"name": "Briarwood Village", "role": "return"}
+      ],
+      "monsters": [
+        {"location": "Overgrown Ruins", "type": "Twisted Spriggan", "count": 2},
+        {"location": "Dried-Up Riverbed", "type": "Shadowstalker", "count": 1},
+      ],
+      "items": [
+        {"location": "Corrupted Grove - Hidden Spring", "name": "Vial of Pure Water"},
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Elderwood",
+        "item": "Moonstone Amulet"
+      }
+    }
+
+  ]
+}

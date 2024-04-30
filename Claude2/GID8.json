@@ -1,0 +1,501 @@
+{
+  "1" : [
+    {
+      "title": "The Lost Relic",
+      "giver": "The Archivist",
+      "objective": "Locate the ancient relic rumored to be hidden in the Whispering Ruins",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "The Whispering Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "The Whispering Ruins - Inner Sanctum",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "The Whispering Ruins",
+          "type": "Rogue Servitors",
+          "count": 3
+        },
+        {
+          "location": "The Whispering Ruins - Inner Sanctum",
+          "type": "Crystal Crazed",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "The Whispering Ruins - Inner Sanctum",
+          "name": "Alien Artifact"
+        },
+        {
+          "location": "The Whispering Ruins - Inner Sanctum",
+          "name": "Translator Module"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Archivist",
+        "item": "Eroded Star Chart"
+      }
+    }
+  ],
+  "2" : [
+    {
+      "title": "Crystal Convergence",
+      "giver": "The Technician",
+      "objective": "Retrieve a rare crystal formation from the Crystal Caverns",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Crystal Caverns",
+          "role": "challenge"
+        },
+        {
+          "name": "Crystal Caverns - Shimmering Depths",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Crystal Caverns",
+          "type": "Feral Scavvers",
+          "count": 2
+        },
+        {
+          "location": "Crystal Caverns - Shimmering Depths",
+          "type": "Crystal Crazed",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Crystal Caverns - Shimmering Depths",
+          "name": "Crystal Cluster"
+        },
+        {
+          "location": "Crystal Caverns - Shimmering Depths",
+          "name": "Energy Amplifier"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Technician",
+        "item": "Echo Sculpture"
+      }
+    }
+  ],
+  "3" : [
+    {
+      "title": "Sandlurker Menace",
+      "giver": "The Forager",
+      "objective": "Eliminate the deadly Sandlurkers threatening a vital oasis",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "The Shifting Dunes",
+          "role": "challenge"
+        },
+        {
+          "name": "The Oasis",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "The Shifting Dunes",
+          "type": "Sandlurkers",
+          "count": 4
+        },
+        {
+          "location": "The Oasis",
+          "type": "Sandlurker Broodmother",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "The Oasis",
+          "name": "Petrified Alien Egg"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Forager",
+        "item": "Survival Gear"
+      }
+    }
+  ],
+  "4" : [
+    {
+      "title": "Warband Ambush",
+      "giver": "The Trader",
+      "objective": "Defend an incoming trade caravan from the Warband Leader's attack",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Trade Route",
+          "role": "challenge"
+        },
+        {
+          "name": "Warband Encampment",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Trade Route",
+          "type": "Feral Scavvers",
+          "count": 3
+        },
+        {
+          "location": "Warband Encampment",
+          "type": "Warband Leader",
+          "count": 1
+        },
+        {
+          "location": "Warband Encampment",
+          "type": "Warband Scavengers",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Warband Encampment",
+          "name": "Ritual Statuette"
+        },
+        {
+          "location": "Warband Encampment",
+          "name": "Ancient Data Core"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Trader",
+        "item": "Trader's Manifest"
+      }
+    }
+  ],
+  "5" : [
+    {
+      "title": "Bio-Luminescent Bounty",
+      "giver": "The Exile",
+      "objective": "Retrieve a rare glowing plant from the depths of the Bio-Luminescent Swamp",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "The Bio-Luminescent Swamp",
+          "role": "challenge"
+        },
+        {
+          "name": "The Bio-Luminescent Swamp - Glowing Grotto",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "The Bio-Luminescent Swamp",
+          "type": "Venomous Swamp Crawler",
+          "count": 3
+        },
+        {
+          "location": "The Bio-Luminescent Swamp - Glowing Grotto",
+          "type": "Glowing Swamp Beast",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "The Bio-Luminescent Swamp - Glowing Grotto",
+          "name": "Bioluminescent Plant"
+        },
+        {
+          "location": "The Bio-Luminescent Swamp - Glowing Grotto",
+          "name": "Musical Instrument"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Exile",
+        "item": "Mysterious Vial"
+      }
+    }
+  ],
+  "6" : [
+    {
+      "title": "Starship Salvage",
+      "giver": "The Technician",
+      "objective": "Recover valuable technology from the Ancient Wreckage",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "The Ancient Wreckage",
+          "role": "challenge"
+        },
+        {
+          "name": "The Ancient Wreckage - Command Deck",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "The Ancient Wreckage",
+          "type": "Rogue Servitors",
+          "count": 4
+        },
+        {
+          "location": "The Ancient Wreckage - Command Deck",
+          "type": "Corrupted Security AI",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "The Ancient Wreckage - Command Deck",
+          "name": "Stasis Pod"
+        },
+        {
+          "location": "The Ancient Wreckage - Command Deck",
+          "name": "Ancient Data Core"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Technician",
+        "item": "Salvaged Power Cell"
+      }
+    }
+  ],
+  "7" : [
+    {
+      "title": "Bandit Blockade",
+      "giver": "The Trader",
+      "objective": "Clear the notorious bandits blocking a vital trade route",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "Trade Route",
+          "role": "challenge"
+        },
+        {
+          "name": "Bandit Encampment",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Trade Route",
+          "type": "Feral Scavvers",
+          "count": 3
+        },
+        {
+          "location": "Bandit Encampment",
+          "type": "Bandit Leader",
+          "count": 1
+        },
+        {
+          "location": "Bandit Encampment",
+          "type": "Bandits",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Bandit Encampment",
+          "name": "Crate of Valuables"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Trader",
+        "gold": 200
+      }
+    }
+  ],
+  "8" : [
+    {
+      "title": "Ruins Exploration",
+      "giver": "The Archivist",
+      "objective": "Explore the depths of the Whispering Ruins and uncover lost knowledge",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "The Whispering Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "The Whispering Ruins - Ancient Library",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "The Whispering Ruins",
+          "type": "Rogue Servitors",
+          "count": 2
+        },
+        {
+          "location": "The Whispering Ruins - Ancient Library",
+          "type": "Guardian Construct",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "The Whispering Ruins - Ancient Library",
+          "name": "Ancient Tome"
+        },
+        {
+          "location": "The Whispering Ruins - Ancient Library",
+          "name": "Translator Module"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Archivist",
+        "item": "Encrypted Data Shard"
+      }
+    }
+  ],
+  "9" : [
+    {
+      "title": "Crystal Resonance",
+      "giver": "The Technician",
+      "objective": "Calibrate the newly acquired crystal formation for energy amplification",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "The Technician's Workshop",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [],
+      "items": [
+        {
+          "location": "The Technician's Workshop",
+          "name": "Calibrated Crystal Cluster"
+        }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "The Technician",
+        "item": "Amplified Energy Cell"
+      }
+    }
+  ],
+  "10" : [
+    {
+      "title": "Exiled Redemption",
+      "giver": "The Exile",
+      "objective": "Uncover the truth behind the Exile's dark past and help redeem them",
+      "locations": [
+        {
+          "name": "Zyrx",
+          "role": "start"
+        },
+        {
+          "name": "The Ancient Wreckage",
+          "role": "challenge"
+        },
+        {
+          "name": "The Ancient Wreckage - Command Deck",
+          "role": "goal"
+        },
+        {
+          "name": "Zyrx",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "The Ancient Wreckage",
+          "type": "Rogue Servitors",
+          "count": 3
+        },
+        {
+          "location": "The Ancient Wreckage - Command Deck",
+          "type": "Corrupted Security AI",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "The Ancient Wreckage - Command Deck",
+          "name": "Encrypted Data Core"
+        }
+      ],
+      "reward": {
+        "xp": 600,
+        "reputation": "The Exile",
+        "item": "Exile's Redemption Token"
+      }
+    }
+  ]
+}

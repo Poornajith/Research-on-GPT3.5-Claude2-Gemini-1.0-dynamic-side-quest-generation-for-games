@@ -1,0 +1,272 @@
+{
+  "1" : [
+    {
+      "title": "The Tinkerer's Dilemma",
+      "giver": "The Tinkerer (Ingenuity)",
+      "objective": "Retrieve essential components for a vital invention from the Mutant Den.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Mutant Den Entrance", "role": "challenge" },
+        { "name": "Mutant Den Depths", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Mutant Den Entrance", "type": "Radiation-Mutated Wildlife", "count": 4 },
+        { "location": "Mutant Den Depths", "type": "Mutant Alpha", "count": 1 }
+      ],
+      "items": [
+        { "location": "Mutant Den Depths", "name": "High-Precision Circuit Board" },
+        { "location": "Mutant Den Depths", "name": "Miniature Reactor Core" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Tinkerer (Ingenuity)",
+        "item": "Enhanced Energy Rifle"
+      }
+    }
+
+  ],
+  "2" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Veteran (Regret)",
+      "objective": "Recover lost mementos from the Military Outpost Ruins to ease the burden of regret.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Military Outpost Ruins", "role": "challenge" },
+        { "name": "Hidden Vault Entrance", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Military Outpost Ruins", "type": "Rogue Robots", "count": 3 },
+        { "location": "Hidden Vault Entrance", "type": "Infected Survivors", "count": 2 }
+      ],
+      "items": [
+        { "location": "Military Outpost Ruins", "name": "War Journal" },
+        { "location": "Military Outpost Ruins", "name": "Dog Tags" }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Veteran (Regret)",
+        "item": "Forgotten Memories Medallion"
+      }
+    }
+
+  ],
+  "3" : [
+    {
+      "title": "The Hunter's Hunt",
+      "giver": "The Hunter (Survival)",
+      "objective": "Track down and eliminate a particularly dangerous mutant lurking near the Contaminated Creek.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Contaminated Creek Shore", "role": "challenge" },
+        { "name": "Mutant Lair", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Contaminated Creek Shore", "type": "Radiation-Mutated Wildlife", "count": 2 },
+        { "location": "Mutant Lair", "type": "Mutant Behemoth", "count": 1 }
+      ],
+      "items": [
+        { "location": "Mutant Lair", "name": "Toxic Mutagen Sample" },
+        { "location": "Mutant Lair", "name": "Biological Anomaly Scanner" }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Hunter (Survival)",
+        "item": "Hunter's Bow of Toxicity"
+      }
+    }
+
+  ],
+  "4" : [
+    {
+      "title": "The Doomsayer's Prophecy",
+      "giver": "The Doomsayer (Desperation)",
+      "objective": "Retrieve a sacred artifact from the depths of the Mutant Den to prove the validity of their apocalyptic warnings.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Mutant Den Entrance", "role": "challenge" },
+        { "name": "Ancient Altar Room", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Mutant Den Entrance", "type": "Infected Survivors", "count": 3 },
+        { "location": "Ancient Altar Room", "type": "Cultist Leader", "count": 1 }
+      ],
+      "items": [
+        { "location": "Ancient Altar Room", "name": "Cursed Relic" },
+        { "location": "Ancient Altar Room", "name": "Cryptic Scroll" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Doomsayer (Desperation)",
+        "item": "Doombringer's Talisman"
+      }
+    }
+
+  ],
+  "5" : [
+    {
+      "title": "The Child's Wish",
+      "giver": "The Child (Innocence)",
+      "objective": "Gather toys and comforting items scattered throughout the Twisted Highway to bring joy to the children of Ashvale.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Twisted Highway Overlook", "role": "challenge" },
+        { "name": "Abandoned Caravan", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Twisted Highway Overlook", "type": "Marauders", "count": 3 },
+        { "location": "Abandoned Caravan", "type": "Rogue Robots", "count": 2 }
+      ],
+      "items": [
+        { "location": "Abandoned Caravan", "name": "Stuffed Bear" },
+        { "location": "Abandoned Caravan", "name": "Toy Car Set" }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Child (Innocence)",
+        "item": "Hope's Embrace Blanket"
+      }
+    }
+
+  ],
+  "6" : [
+    {
+      "title": "The Veteran's Redemption",
+      "giver": "The Veteran (Regret)",
+      "objective": "Seek out remnants of their old unit scattered around the Abandoned Gas Station and bring closure to past regrets.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Abandoned Gas Station", "role": "challenge" },
+        { "name": "Old Bunker Hideout", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Gas Station", "type": "Rogue Robots", "count": 2 },
+        { "location": "Old Bunker Hideout", "type": "Infected Survivors", "count": 3 }
+      ],
+      "items": [
+        { "location": "Old Bunker Hideout", "name": "Tattered Unit Flag" },
+        { "location": "Old Bunker Hideout", "name": "Dog Tags Collection" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Veteran (Regret)",
+        "item": "Salvation's Grasp Rifle"
+      }
+    }
+
+  ],
+  "7" : [
+    {
+      "title": "The Cultist's Creed",
+      "giver": "Cultist Leader",
+      "objective": "Retrieve a forbidden tome from the ruins of the Military Outpost to further the cult's esoteric knowledge.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Military Outpost Ruins", "role": "challenge" },
+        { "name": "Secret Chamber", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Military Outpost Ruins", "type": "Infected Survivors", "count": 2 },
+        { "location": "Secret Chamber", "type": "Rogue Robots", "count": 3 }
+      ],
+      "items": [
+        { "location": "Secret Chamber", "name": "Forbidden Tome" },
+        { "location": "Secret Chamber", "name": "Cultist Robes" }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "Cultist Leader",
+        "item": "Dark Knowledge Pendant"
+      }
+    }
+
+  ],
+  "8" : [
+    {
+      "title": "The Forgotten Sanctuary",
+      "giver": "The Doomsayer (Desperation)",
+      "objective": "Explore the depths of the Abandoned Mines to uncover an ancient sanctuary rumored to hold the key to salvation.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Abandoned Mines Entrance", "role": "challenge" },
+        { "name": "Ancient Sanctuary", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Mines Entrance", "type": "Burrowing Crawler", "count": 4 },
+        { "location": "Ancient Sanctuary", "type": "Cultist Leader", "count": 1 }
+      ],
+      "items": [
+        { "location": "Ancient Sanctuary", "name": "Sacred Relic" },
+        { "location": "Ancient Sanctuary", "name": "Ancient Scriptures" }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Doomsayer (Desperation)",
+        "item": "Eternal Hope Amulet"
+      }
+    }
+
+  ],
+  "9" : [
+    {
+      "title": "The Tinkerer's Legacy",
+      "giver": "The Tinkerer (Ingenuity)",
+      "objective": "Retrieve her lost prototype from the depths of the Twisted Highway to safeguard her technological legacy.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Twisted Highway", "role": "challenge" },
+        { "name": "Prototype Workshop", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Twisted Highway", "type": "Radiation-Mutated Wildlife", "count": 3 },
+        { "location": "Prototype Workshop", "type": "Rogue Robots", "count": 2 }
+      ],
+      "items": [
+        { "location": "Prototype Workshop", "name": "Advanced Prototype Core" },
+        { "location": "Prototype Workshop", "name": "Enhanced Power Cell" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Tinkerer (Ingenuity)",
+        "item": "Innovator's Gauntlet"
+      }
+    }
+
+  ],
+  "10" : [
+    {
+      "title": "The Veteran's Last Stand",
+      "giver": "The Veteran (Regret)",
+      "objective": "Confront the remnants of their past unit, now corrupted and hostile, within the Mutant Den to put their demons to rest.",
+      "locations": [
+        { "name": "Town Square", "role": "start" },
+        { "name": "Mutant Den Entrance", "role": "challenge" },
+        { "name": "Veteran's Final Stand", "role": "goal" },
+        { "name": "Town Square", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Mutant Den Entrance", "type": "Infected Survivors", "count": 2 },
+        { "location": "Veteran's Final Stand", "type": "Mutant Behemoth", "count": 1 }
+      ],
+      "items": [
+        { "location": "Veteran's Final Stand", "name": "Tattered Unit Flag" },
+        { "location": "Veteran's Final Stand", "name": "Brothers in Arms Medallion" }
+      ],
+      "reward": {
+        "xp": 550,
+        "reputation": "The Veteran (Regret)",
+        "item": "Redemption's Blade"
+      }
+    }
+
+  ]
+}

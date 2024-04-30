@@ -1,0 +1,231 @@
+{
+  "1" : [
+    {
+      "title": "Whispers of the Lost",
+      "giver": "Old Briar",
+      "objective": "Retrieve the Ancient Amulet from the Whisperer's Glade",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "The Whisperer's Glade", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Whisperer's Glade", "type": "Hungry Hyenas", "count": 4 }
+      ],
+      "items": [
+        { "location": "The Whisperer's Glade", "name": "Ancient Amulet" }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "Old Briar",
+        "item": "Shaman's Ritual Bowl"
+      }
+    }
+
+  ],
+  "2" : [
+    {
+      "title": "Echoes of the Ancients",
+      "giver": "Mother Willow",
+      "objective": "Gather Medicine Pouch ingredients from the Caves of the Ancients",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "Caves of the Ancients", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Caves of the Ancients", "type": "Venomous Snakes", "count": 6 }
+      ],
+      "items": [
+        { "location": "Caves of the Ancients", "name": "Medicine Pouch" }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "Mother Willow",
+        "item": "Map Fragment"
+      }
+    }
+
+  ],
+  "3" : [
+    {
+      "title": "Guardians of the Scorched Grove",
+      "giver": "Swift Arrow",
+      "objective": "Defeat the Territorial Mammoth in the Scorched Grove",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "The Scorched Grove", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Scorched Grove", "type": "Territorial Mammoth", "count": 1 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 300,
+        "reputation": "Swift Arrow",
+        "item": "Flint Arrowheads"
+      }
+    }
+
+  ],
+  "4" : [
+    {
+      "title": "Silent Quarry Reclamation",
+      "giver": "Broken Hand",
+      "objective": "Retrieve the Warrior's Spearhead from the Silent Quarry",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "The Silent Quarry", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Silent Quarry", "type": "Scarred Wolves", "count": 5 }
+      ],
+      "items": [
+        { "location": "The Silent Quarry", "name": "Warrior's Spearhead" }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Broken Hand",
+        "item": "Stone Age Jewelry"
+      }
+    }
+
+  ],
+  "5" : [
+    {
+      "title": "Lost Tribe Confrontation",
+      "giver": "Farstrider",
+      "objective": "Negotiate with the Tribe of the Lost at the Broken River",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "The Broken River", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Broken River", "type": "Tribe of the Lost", "count": 8 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 400,
+        "reputation": "Farstrider",
+        "item": "Pottery Shards"
+      }
+    }
+
+  ],
+  "6" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "Old Briar",
+      "objective": "Gather Cave Paintings Fragments from the Caves of the Ancients",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "Caves of the Ancients", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Caves of the Ancients", "type": "Venomous Snakes", "count": 4 },
+        { "location": "Caves of the Ancients", "type": "Scarred Wolves", "count": 3 }
+      ],
+      "items": [
+        { "location": "Caves of the Ancients", "name": "Cave Paintings Fragments" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "Old Briar",
+        "item": "Fossilized Bones"
+      }
+    }
+
+  ],
+  "7" : [
+    {
+      "title": "Savior of the Whisperer's Glade",
+      "giver": "Mother Willow",
+      "objective": "Protect the Whisperer's Glade from the Hungry Hyenas",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "The Whisperer's Glade", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Whisperer's Glade", "type": "Hungry Hyenas", "count": 6 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 350,
+        "reputation": "Mother Willow",
+        "item": "Ancient Amulet"
+      }
+    }
+
+  ],
+  "8" : [
+    {
+      "title": "Cleansing the Scorched Grove",
+      "giver": "Swift Arrow",
+      "objective": "Purify the Scorched Grove by eliminating the Venomous Snakes infesting it",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "The Scorched Grove", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Scorched Grove", "type": "Venomous Snakes", "count": 8 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 300,
+        "reputation": "Swift Arrow",
+        "item": "Flint Arrowheads"
+      }
+    }
+
+  ],
+  "9" : [
+    {
+      "title": "Rescue in the Broken River",
+      "giver": "Farstrider",
+      "objective": "Rescue a lost traveler from the attacks of the Tribe of the Lost at the Broken River",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "The Broken River", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Broken River", "type": "Tribe of the Lost", "count": 5 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 350,
+        "reputation": "Farstrider",
+        "item": "Map Fragment"
+      }
+    }
+
+  ],
+  "10" : [
+    {
+      "title": "Reclaiming the Silent Quarry",
+      "giver": "Broken Hand",
+      "objective": "Reclaim the Silent Quarry by defeating the Scarred Wolves and retrieving valuable tools left behind",
+      "locations": [
+        { "name": "Broken Stones", "role": "start" },
+        { "name": "The Silent Quarry", "role": "challenge" },
+        { "name": "Broken Stones", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "The Silent Quarry", "type": "Scarred Wolves", "count": 6 }
+      ],
+      "items": [],
+      "reward": {
+        "xp": 400,
+        "reputation": "Broken Hand",
+        "item": "Warrior's Spearhead"
+      }
+    }
+
+  ]
+}

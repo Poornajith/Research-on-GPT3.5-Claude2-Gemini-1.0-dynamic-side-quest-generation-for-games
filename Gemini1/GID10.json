@@ -1,0 +1,517 @@
+{
+  "1": [
+    {
+      "title": "Power Surge",
+      "giver": "The Engineer (Ingenuity)",
+      "objective": "Vent radiation from overloaded systems and reroute backup power to critical sectors",
+      "locations": [
+        {
+          "name": "Engineering Bay",
+          "role": "start"
+        },
+        {
+          "name": "Solar Array Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Centrifuge Malfunction",
+          "role": "challenge"
+        },
+        {
+          "name": "Power Substation",
+          "role": "goal"
+        },
+        {
+          "name": "Engineering Bay",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Solar Array Ruins",
+          "type": "Security Bots (Malfunctioning)",
+          "count": 2
+        },
+        {
+          "location": "Centrifuge Malfunction",
+          "type": "Genetic Experiments (Escaped)",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Solar Array Ruins",
+          "name": "Damaged Solar Cells"
+        },
+        {
+          "location": "Power Substation",
+          "name": "Power Regulator"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Engineer (Ingenuity)",
+        "item": "Prototype Weapon Module"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Archivist (Knowledge)",
+      "objective": "Retrieve data modules from derelict areas. Uncover a secret about the station's downfall.",
+      "locations": [
+        {
+          "name": "Command Center",
+          "role": "start"
+        },
+        {
+          "name": "Biodome Wreckage",
+          "role": "challenge"
+        },
+        {
+          "name": "Docking Bay Complex",
+          "role": "challenge"
+        },
+        {
+          "name": "Research Labs",
+          "role": "goal"
+        },
+        {
+          "name": "Command Center",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Biodome Wreckage",
+          "type": "Asteroid Dwellers",
+          "count": 3
+        },
+        {
+          "location": "Docking Bay Complex",
+          "type": "Rogue Scavengers",
+          "count": 2
+        },
+        {
+          "location": "Research Labs",
+          "type": "The Usurper (AI)",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Biodome Wreckage",
+          "name": "Data Module"
+        },
+        {
+          "location": "Docking Bay Complex",
+          "name": "Data Module"
+        },
+        {
+          "location": "Research Labs",
+          "name": "Encrypted Data Module"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Archivist (Knowledge)",
+        "item": "Encrypted Coordinates"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "Quarantine Breach",
+      "giver": "The Veteran (Grit)",
+      "objective": "Contain a biohazard outbreak and rescue survivors from an isolated sector.",
+      "locations": [
+        {
+          "name": "Habitation Module",
+          "role": "start"
+        },
+        {
+          "name": "Restricted Labs",
+          "role": "challenge"
+        },
+        {
+          "name": "Isolation Ward",
+          "role": "challenge"
+        },
+        {
+          "name": "Medical Bay",
+          "role": "goal"
+        },
+        {
+          "name": "Habitation Module",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Restricted Labs",
+          "type": "Genetic Experiments (Escaped)",
+          "count": 3
+        },
+        {
+          "location": "Isolation Ward",
+          "type": "Infected Humans",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Restricted Labs",
+          "name": "Experimental Antidote Sample"
+        },
+        {
+          "location": "Medical Bay",
+          "name": "Medical Supplies"
+        }
+      ],
+      "reward": {
+        "xp": 600,
+        "reputation": "The Veteran (Grit)",
+        "item": "Stasis Pod"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "Contraband Run",
+      "giver": "The Smuggler (Connections)",
+      "objective": "Navigate the debris field, evade patrols, and deliver supplies to a hidden outpost.",
+      "locations": [
+        {
+          "name": "Docking Bay",
+          "role": "start"
+        },
+        {
+          "name": "Debris Field",
+          "role": "challenge"
+        },
+        {
+          "name": "Abandoned Outpost",
+          "role": "goal"
+        },
+        {
+          "name": "Docking Bay",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Debris Field",
+          "type": "Security Bots (Malfunctioning)",
+          "count": 2
+        },
+        {
+          "location": "Debris Field",
+          "type": "Asteroid Dwellers",
+          "count": 3
+        },
+        {
+          "location": "Abandoned Outpost",
+          "type": "Rogue Scavengers",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Docking Bay",
+          "name": "Supply Crate"
+        }
+      ],
+      "reward": {
+        "gold": 400,
+        "reputation": "The Smuggler (Connections)",
+        "item": "Unique Artifact"
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "Signal Trace",
+      "giver": "The Visionary (Hope)",
+      "objective": "Investigate a faint signal source within the debris field, possibly leading to other survivors or resources.",
+      "locations": [
+        {
+          "name": "Comms Array",
+          "role": "start"
+        },
+        {
+          "name": "Debris Field",
+          "role": "challenge"
+        },
+        {
+          "name": "Derelict Ship",
+          "role": "goal"
+        },
+        {
+          "name": "Comms Array",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Debris Field",
+          "type": "Asteroid Dwellers",
+          "count": 4
+        },
+        {
+          "location": "Derelict Ship",
+          "type": "Rogue Scavengers",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Derelict Ship",
+          "name": "Survivors Log"
+        },
+        {
+          "location": "Derelict Ship",
+          "name": "AI Core Fragment"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Visionary (Hope)",
+        "item": "Coordinates to potential supply cache"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "The Collector",
+      "giver": "NPC of your choice (with an eccentric personality)",
+      "objective": "Find strange and specific items throughout the station for a mysterious collector.",
+      "locations": [
+        {
+          "name": "NPC Location",
+          "role": "start"
+        },
+        {
+          "name": "Diverse station locations",
+          "role": "challenge"
+        },
+        {
+          "name": "NPC Location",
+          "role": "return"
+        }
+      ],
+      "items": [
+        {
+          "name": "Rusted Badges"
+        },
+        {
+          "name": "Old Propaganda Broadcasts"
+        },
+        {
+          "name": "Strange Specimen Jars"
+        }
+      ],
+      "reward": {
+        "gold": 300,
+        "item": "Unique collectable with unknown value"
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "The Fixer",
+      "giver": "The Engineer (Ingenuity)",
+      "objective": "Locate critical parts in the debris field to repair a communication system, allowing for potential contact with the outside world.",
+      "locations": [
+        {
+          "name": "Engineering Bay",
+          "role": "start"
+        },
+        {
+          "name": "Debris Field",
+          "role": "challenge"
+        },
+        {
+          "name": "Damaged Comm Relay",
+          "role": "goal"
+        },
+        {
+          "name": "Engineering Bay",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Debris Field",
+          "type": "Asteroid Dwellers",
+          "count": 4
+        },
+        {
+          "location": "Debris Field",
+          "type": "Rogue Scavengers",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Debris Field",
+          "name": "Comm Array Module"
+        },
+        {
+          "location": "Debris Field",
+          "name": "Power Converter"
+        },
+        {
+          "location": "Damaged Comm Relay",
+          "name": "Signal Amplifier"
+        }
+      ],
+      "reward": {
+        "xp": 700,
+        "reputation": "The Engineer (Ingenuity)",
+        "item": "Chance to establish limited communication with another outpost"
+      }
+    }
+  ],
+  "8": [
+    {
+      "title": "Reclamation Protocol",
+      "giver": "The Archivist (Knowledge)",
+      "objective": "Enter a restricted data storage facility, avoid security systems, and retrieve critical research backups.",
+      "locations": [
+        {
+          "name": "Archive Center",
+          "role": "start"
+        },
+        {
+          "name": "Server Core",
+          "role": "challenge"
+        },
+        {
+          "name": "Secure Data Vault",
+          "role": "goal"
+        },
+        {
+          "name": "Archive Center",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Server Core",
+          "type": "Security Bots (Malfunctioning)",
+          "count": 3
+        },
+        {
+          "location": "Secure Data Vault",
+          "type": "The Usurper (AI)",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Secure Data Vault",
+          "name": "Research Data Module"
+        },
+        {
+          "location": "Secure Data Vault",
+          "name": "Old Station Schematics"
+        }
+      ],
+      "reward": {
+        "xp": 650,
+        "reputation": "The Archivist (Knowledge)",
+        "item": "Detailed map of hidden areas of the station"
+      }
+    }
+  ],
+  "9": [
+    {
+      "title": "Botanical Rescue",
+      "giver": "The Visionary (Hope)",
+      "objective": "Venture into the Biodome Wreckage, recover viable plant samples and replant them in a makeshift greenhouse.",
+      "locations": [
+        {
+          "name": "Habitation Module",
+          "role": "start"
+        },
+        {
+          "name": "Biodome Wreckage",
+          "role": "challenge"
+        },
+        {
+          "name": "Makeshift Greenhouse",
+          "role": "goal"
+        },
+        {
+          "name": "Habitation Module",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Biodome Wreckage",
+          "type": "Genetic Experiments (Escaped)",
+          "count": 2
+        },
+        {
+          "location": "Biodome Wreckage",
+          "type": "Mutated Plants",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Biodome Wreckage",
+          "name": "Viable Seed Pods"
+        },
+        {
+          "location": "Biodome Wreckage",
+          "name": "Bio-Analysis Tools"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Visionary (Hope)",
+        "item": "Small boost to station morale (narrative impact)"
+      }
+    }
+  ],
+  "10": [
+    {
+      "title": "Scavenger Hunt",
+      "giver": "The Smuggler (Connections)",
+      "objective": "Decipher cryptic clues, leading to hidden stashes of valuable contraband scattered across the station.",
+      "locations": [
+        {
+          "name": "Smuggler's Den",
+          "role": "start"
+        },
+        {
+          "name": "Diverse station locations",
+          "role": "challenge"
+        },
+        {
+          "name": "Smuggler's Den",
+          "role": "return"
+        }
+      ],
+      "items": [
+        {
+          "name": "Hidden Cache #1"
+        },
+        {
+          "name": "Hidden Cache #2"
+        },
+        {
+          "name": "Hidden Cache #3"
+        }
+      ],
+      "reward": {
+        "gold": 500,
+        "reputation": "The Smuggler (Connections)",
+        "item": "Selection of rare trade goods"
+      }
+    }
+  ]
+}

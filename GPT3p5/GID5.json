@@ -1,0 +1,287 @@
+{
+  "1" : [
+    {
+      "title": "Legacy of the Triads",
+      "giver": "The Master (Tenacity)",
+      "objective": "Recover the lost Jade Figurines and return them to the Master",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Broken Temple Ruins", "role": "challenge" },
+        { "name": "Abandoned Opium Fields", "role": "challenge" },
+        { "name": "Triad Hideout", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Broken Temple Ruins", "type": "Broken Triad Member", "count": 3 },
+        { "location": "Abandoned Opium Fields", "type": "Scavenger Leader", "count": 1 },
+        { "location": "Triad Hideout", "type": "Ghost Bandits", "count": 2 }
+      ],
+      "items": [
+        { "location": "Broken Temple Ruins", "name": "Jade Figurine" },
+        { "location": "Abandoned Opium Fields", "name": "Pre-War Diary" }
+      ],
+      "reward": {
+        "xp": 500,
+        "gold": 200,
+        "reputation": "The Master",
+        "item": "Triad Emblem"
+      }
+    }
+
+  ],
+  "2" : [
+    {
+      "title": "The Herbalist's Apprentice",
+      "giver": "The Herbalist (Hope)",
+      "objective": "Gather rare herbs from the Flooded Mine Shafts for the Herbalist",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Flooded Mine Shafts Entrance", "role": "challenge" },
+        { "name": "Submerged Tunnels", "role": "challenge" },
+        { "name": "Herbalist's Hut", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Flooded Mine Shafts Entrance", "type": "Warped Fauna", "count": 4 },
+        { "location": "Submerged Tunnels", "type": "Giant Mutated Rat", "count": 3 },
+        { "location": "Herbalist's Hut", "type": "Scavengers", "count": 2 }
+      ],
+      "items": [
+        { "location": "Flooded Mine Shafts Entrance", "name": "Rare Herb Bundle" },
+        { "location": "Submerged Tunnels", "name": "Traditional Medicine Recipes" }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Herbalist",
+        "item": "Herbalist's Satchel"
+      }
+    }
+
+  ],
+  "3" : [
+    {
+      "title": "Whispers in the Shadows",
+      "giver": "The Whisperer (Secrecy)",
+      "objective": "Retrieve valuable information from the Foreign Military Outpost",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Forest Hideout", "role": "challenge" },
+        { "name": "Foreign Military Outpost", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Forest Hideout", "type": "Ghost Bandits", "count": 3 },
+        { "location": "Foreign Military Outpost", "type": "Foreign Remnants", "count": 5 }
+      ],
+      "items": [
+        { "location": "Foreign Military Outpost", "name": "Pre-War Diary" },
+        { "location": "Foreign Military Outpost", "name": "Old Photographs" }
+      ],
+      "reward": {
+        "xp": 450,
+        "gold": 150,
+        "reputation": "The Whisperer",
+        "item": "Shadow Cloak"
+      }
+    }
+
+  ],
+  "4" : [
+    {
+      "title": "The Fixer's Gambit",
+      "giver": "The Fixer (Cunning)",
+      "objective": "Retrieve a cache of repairable technology from the Smuggler's Cove",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Clifftop Lookout", "role": "challenge" },
+        { "name": "Smuggler's Cove", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Clifftop Lookout", "type": "Scavenger Leader", "count": 1 },
+        { "location": "Smuggler's Cove", "type": "Broken Triads", "count": 4 }
+      ],
+      "items": [
+        { "location": "Smuggler's Cove", "name": "Damaged Communication Device" },
+        { "location": "Smuggler's Cove", "name": "Rusted Mahjong Tiles" }
+      ],
+      "reward": {
+        "xp": 500,
+        "gold": 250,
+        "reputation": "The Fixer",
+        "item": "Repair Kit"
+      }
+    }
+
+  ],
+  "5" : [
+    {
+      "title": "Guardians of Tradition",
+      "giver": "The Lost Child (Innocence)",
+      "objective": "Locate and protect valuable cultural relics scattered across Tong'an",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Abandoned Temple Complex", "role": "challenge" },
+        { "name": "Triad Heritage Museum", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Abandoned Temple Complex", "type": "Warped Fauna", "count": 2 },
+        { "location": "Triad Heritage Museum", "type": "Scavengers", "count": 3 }
+      ],
+      "items": [
+        { "location": "Abandoned Temple Complex", "name": "Antique Weaponry" },
+        { "location": "Triad Heritage Museum", "name": "Propaganda Posters" }
+      ],
+      "reward": {
+        "xp": 550,
+        "reputation": "The Lost Child",
+        "item": "Guardian Talisman"
+      }
+    }
+
+  ],
+  "6" : [
+    {
+      "title": "The Path of Resilience",
+      "giver": "Random Villager",
+      "objective": "Clear the path to a new settlement for the villagers' survival",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Collapsed Mountain Pass", "role": "challenge" },
+        { "name": "Overgrown Valley", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Collapsed Mountain Pass", "type": "Warped Fauna", "count": 5 },
+        { "location": "Overgrown Valley", "type": "Scavenger Leader", "count": 1 }
+      ],
+      "items": [
+        { "location": "Collapsed Mountain Pass", "name": "Children's Drawings" },
+        { "location": "Overgrown Valley", "name": "Hidden Opium Stash" }
+      ],
+      "reward": {
+        "xp": 600,
+        "gold": 300,
+        "reputation": "Village",
+        "item": "Resilience Banner"
+      }
+    }
+
+  ],
+  "7" : [
+    {
+      "title": "Echoes of the Past",
+      "giver": "Elderly Survivor",
+      "objective": "Uncover the truth behind the village's downfall by exploring key locations",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Broken Temple Ruins", "role": "challenge" },
+        { "name": "Foreign Military Outpost", "role": "challenge" },
+        { "name": "Triad Heritage Museum", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Broken Temple Ruins", "type": "Warped Fauna", "count": 3 },
+        { "location": "Foreign Military Outpost", "type": "Ghost Bandits", "count": 2 },
+        { "location": "Triad Heritage Museum", "type": "Broken Triad Member", "count": 3 }
+      ],
+      "items": [
+        { "location": "Broken Temple Ruins", "name": "Pre-War Diary" },
+        { "location": "Foreign Military Outpost", "name": "Foreign Language Documents" }
+      ],
+      "reward": {
+        "xp": 650,
+        "gold": 350,
+        "reputation": "Elderly Survivor",
+        "item": "Engraved Compass"
+      }
+    }
+
+  ],
+  "8" : [
+    {
+      "title": "Echoes of the Opium Trade",
+      "giver": "Local Historian",
+      "objective": "Investigate remnants of the opium trade hidden in Tong'an's past",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Opium Den Ruins", "role": "challenge" },
+        { "name": "Abandoned Smuggling Tunnels", "role": "challenge" },
+        { "name": "Hidden Opium Stash", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Opium Den Ruins", "type": "Broken Triad Member", "count": 4 },
+        { "location": "Abandoned Smuggling Tunnels", "type": "Scavenger Leader", "count": 1 }
+      ],
+      "items": [
+        { "location": "Opium Den Ruins", "name": "Hidden Opium Chest" },
+        { "location": "Abandoned Smuggling Tunnels", "name": "Smuggler's Map" }
+      ],
+      "reward": {
+        "xp": 600,
+        "gold": 200,
+        "reputation": "Local Historian",
+        "item": "Opium Relic"
+      }
+    }
+
+  ],
+  "9" : [
+    {
+      "title": "Triad Relics of Power",
+      "giver": "Triad Historian",
+      "objective": "Recover ancient artifacts that once held great significance to the Triads",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Triad Shrine Ruins", "role": "challenge" },
+        { "name": "Hidden Triad Stronghold", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Triad Shrine Ruins", "type": "Ghost Bandits", "count": 3 },
+        { "location": "Hidden Triad Stronghold", "type": "Broken Triad Elite", "count": 2 }
+      ],
+      "items": [
+        { "location": "Triad Shrine Ruins", "name": "Triad Emblem" },
+        { "location": "Hidden Triad Stronghold", "name": "Ancient Triad Sword" }
+      ],
+      "reward": {
+        "xp": 700,
+        "gold": 300,
+        "reputation": "Triad Historian",
+        "item": "Triad Insignia"
+      }
+    }
+
+  ],
+  "10" : [
+    {
+      "title": "Rise of the Warped Fauna",
+      "giver": "Terrified Villager",
+      "objective": "Investigate and neutralize the source of mutated creatures plaguing the area",
+      "locations": [
+        { "name": "Village", "role": "start" },
+        { "name": "Toxic Swamp", "role": "challenge" },
+        { "name": "Mutant Nest", "role": "goal" },
+        { "name": "Village", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "Toxic Swamp", "type": "Warped Fauna", "count": 6 },
+        { "location": "Mutant Nest", "type": "Alpha Mutant", "count": 1 }
+      ],
+      "items": [
+        { "location": "Toxic Swamp", "name": "Mutant Egg" },
+        { "location": "Mutant Nest", "name": "Toxic Venom Gland" }
+      ],
+      "reward": {
+        "xp": 750,
+        "gold": 400,
+        "reputation": "Village",
+        "item": "Purifying Elixir"
+      }
+    }
+
+  ]
+}

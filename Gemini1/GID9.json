@@ -1,0 +1,513 @@
+{
+  "1": [
+    {
+      "title": "Whispers of the Lost",
+      "giver": "Old Briar",
+      "objective": "Investigate the Whisperer's Glade, discover the source of the whispers, and appease the spirits.",
+      "locations": [
+        {
+          "name": "Broken Stones",
+          "role": "start"
+        },
+        {
+          "name": "Whisperer's Glade",
+          "role": "goal"
+        },
+        {
+          "name": "Broken Stones",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Whisperer's Glade",
+          "type": "Shadowy Apparition",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Whisperer's Glade",
+          "name": "Lost Trinket"
+        },
+        {
+          "location": "Caves of the Ancients",
+          "name": "Ritual Offering"
+        }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "Old Briar",
+        "item": "Ancient Amulet"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "The Hunter's Trail",
+      "giver": "Swift Arrow",
+      "objective": "Track the mammoth through the Scorched Grove, avoid its territory, and discover the source of its pain.",
+      "locations": [
+        {
+          "name": "Broken Stones",
+          "role": "start"
+        },
+        {
+          "name": "Scorched Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Broken River",
+          "role": "challenge"
+        },
+        {
+          "name": "Silent Quarry",
+          "role": "goal"
+        },
+        {
+          "name": "Broken Stones",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Scorched Grove",
+          "type": "Hungry Hyenas",
+          "count": 3
+        },
+        {
+          "location": "Broken River",
+          "type": "Venomous Snakes",
+          "count": 2
+        },
+        {
+          "location": "Silent Quarry",
+          "type": "Territorial Mammoth",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Scorched Grove",
+          "name": "Rare Herbs"
+        },
+        {
+          "location": "Silent Quarry",
+          "name": "Giant Thorn"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "Swift Arrow",
+        "item": "Medicine Pouch"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "The Broken Hand's Burden",
+      "giver": "Broken Hand",
+      "objective": "Gather materials needed for toolmaking and locate signs of another Stone Age settlement where better resources might be found.",
+      "locations": [
+        {
+          "name": "Broken Stones",
+          "role": "start"
+        },
+        {
+          "name": "Scorched Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Silent Quarry",
+          "role": "challenge"
+        },
+        {
+          "name": "Caves of the Ancients",
+          "role": "goal"
+        },
+        {
+          "name": "Broken Stones",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Scorched Grove",
+          "type": "Hungry Hyenas",
+          "count": 2
+        },
+        {
+          "location": "Silent Quarry",
+          "type": "Scarred Wolves",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Scorched Grove",
+          "name": "Hardwood"
+        },
+        {
+          "location": "Silent Quarry",
+          "name": "Suitable Stones"
+        },
+        {
+          "location": "Caves of the Ancients",
+          "name": "Map Fragment"
+        }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "Broken Hand",
+        "item": "Sturdy Hand Axe"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "Ritual of Renewal",
+      "giver": "Mother Willow",
+      "objective": "Gather rare herbs, create a healing potion, and perform a ritual to cleanse poisoned water in the Broken River. ",
+      "locations": [
+        {
+          "name": "Broken Stones",
+          "role": "start"
+        },
+        {
+          "name": "Scorched Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Whisperer's Glade",
+          "role": "challenge"
+        },
+        {
+          "name": "Broken River",
+          "role": "goal"
+        },
+        {
+          "name": "Broken Stones",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Scorched Grove",
+          "type": "Venomous Snakes",
+          "count": 2
+        },
+        {
+          "location": "Whisperer's Glade",
+          "type": "Shadowy Apparition",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Scorched Grove",
+          "name": "Cleansing Root"
+        },
+        {
+          "location": "Whisperer's Glade",
+          "name": "Shimmering Spores"
+        },
+        {
+          "location": "Broken River",
+          "name": "Shaman's Ritual Bowl"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "Mother Willow",
+        "item": "Healing Salve (consumable)"
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "Outsider's Knowledge",
+      "giver": "Farstrider",
+      "objective": "Escort Farstrider through dangerous territory, learn about a potential trade route to her distant tribe.",
+      "locations": [
+        {
+          "name": "Broken Stones",
+          "role": "start"
+        },
+        {
+          "name": "Scorched Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Broken River",
+          "role": "challenge"
+        },
+        {
+          "name": "Tribe of the Lost Encampment",
+          "role": "goal"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Scorched Grove",
+          "type": "Hungry Hyenas",
+          "count": 3
+        },
+        {
+          "location": "Broken River",
+          "type": "Tribe of the Lost",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "location": "Tribe of the Lost Encampment",
+          "name": "Trade Token"
+        }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "Farstrider",
+        "item": "Traveler's Charm"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "Echoes of the Past",
+      "giver": "Old Briar",
+      "objective": "Collect fragments of cave paintings and assemble the fragmented artwork, revealing clues about life before the disaster.",
+      "locations": [
+        {
+          "name": "Caves of the Ancients",
+          "role": "goal"
+        }
+      ],
+      "items": [
+        {
+          "location": "Caves of the Ancients",
+          "name": "Cave Paintings Fragments"
+        }
+      ],
+      "reward": {
+        "xp": 150,
+        "reputation": "Old Briar",
+        "insight": "Lore fragments about Broken Stones' past"
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "The Scarred Guardian",
+      "giver": "Swift Arrow",
+      "objective": "Track and confront the leader of the Scarred Wolves, offering the pack an alternative food source.",
+      "locations": [
+        {
+          "name": "Broken Stones",
+          "role": "start"
+        },
+        {
+          "name": "Scorched Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Caves of the Ancients",
+          "role": "challenge"
+        },
+        {
+          "name": "Scarred Wolves Den",
+          "role": "goal"
+        },
+        {
+          "name": "Broken Stones",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Scorched Grove",
+          "type": "Hungry Hyenas",
+          "count": 2
+        },
+        {
+          "location": "Caves of the Ancients",
+          "type": "Venomous Snakes",
+          "count": 3
+        },
+        {
+          "location": "Scarred Wolves Den",
+          "type": "Scarred Wolves",
+          "count": 5
+        },
+        {
+          "location": "Scarred Wolves Den",
+          "type": "Scarred Alpha Wolf",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Broken River",
+          "name": "Fresh Carcass"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "Swift Arrow",
+        "potential": "Reduced wolf attacks in the future"
+      }
+    }
+  ],
+  "8": [
+    {
+      "title": "Shelter in the Storm",
+      "giver": "Broken Hand",
+      "objective": "Locate a suitable cave or rock outcropping and construct a makeshift shelter for villagers during harsh weather.",
+      "locations": [
+        {
+          "name": "Broken Stones",
+          "role": "start"
+        },
+        {
+          "name": "Scorched Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Silent Quarry",
+          "role": "challenge"
+        },
+        {
+          "name": "Hidden Refuge",
+          "role": "goal"
+        },
+        {
+          "name": "Broken Stones",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Scorched Grove",
+          "type": "Scarred Wolves",
+          "count": 2
+        },
+        {
+          "location": "Silent Quarry",
+          "type": "Territorial Mammoth",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Scorched Grove",
+          "name": "Fallen Branches"
+        },
+        {
+          "location": "Silent Quarry",
+          "name": "Large Rocks"
+        }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "Broken Hand",
+        "item": "Waterproof Hide"
+      }
+    }
+  ],
+  "9": [
+    {
+      "title": "The Lost Explorer",
+      "giver": "Farstrider",
+      "objective": "Search for a missing member of Farstrider's tribe who ventured toward Broken Stones, potentially discovering new information about the wider world.",
+      "locations": [
+        {
+          "name": "Broken Stones",
+          "role": "start"
+        },
+        {
+          "name": "Broken River",
+          "role": "challenge"
+        },
+        {
+          "name": "Tribe of the Lost Encampment",
+          "role": "challenge"
+        },
+        {
+          "name": "Abandoned Outpost",
+          "role": "goal"
+        },
+        {
+          "name": "Broken Stones",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Broken River",
+          "type": "Venomous Snakes",
+          "count": 3
+        },
+        {
+          "location": "Tribe of the Lost Encampment",
+          "type": "Tribe of the Lost",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Abandoned Outpost",
+          "name": "Explorer's Journal"
+        },
+        {
+          "location": "Abandoned Outpost",
+          "name": "Strange Trinket"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "Farstrider",
+        "insight": "Hints of lands and cultures beyond Broken Stones"
+      }
+    }
+  ],
+  "10": [
+    {
+      "title": "Legacy of Stone",
+      "giver": "Old Briar",
+      "objective": "Collect Stone Age artifacts to preserve the memory of the old ways.",
+      "locations": [
+        {
+          "name": "Broken Stones",
+          "role": "challenge"
+        },
+        {
+          "name": "Scorched Grove",
+          "role": "challenge"
+        },
+        {
+          "name": "Broken River",
+          "role": "challenge"
+        },
+        {
+          "name": "Silent Quarry",
+          "role": "challenge"
+        }
+      ],
+      "items": [
+        {
+          "name": "Flint Arrowheads"
+        },
+        {
+          "name": "Stone Age Jewelry"
+        },
+        {
+          "name": "Pottery Shards"
+        }
+      ],
+      "reward": {
+        "xp": 200,
+        "reputation": "Old Briar",
+        "insight": "Lore details about the daily life in Broken Stones before the disaster"
+      }
+    }
+  ]
+}

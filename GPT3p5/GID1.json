@@ -1,0 +1,535 @@
+{
+  "1": [
+    {
+      "title": "Echoes of the Past",
+      "giver": "The Elder",
+      "objective": "Explore the Derelict Outpost and uncover remnants of the old world",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Derelict Outpost",
+          "role": "challenge"
+        },
+        {
+          "name": "Derelict Outpost - Control Room",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Derelict Outpost",
+          "type": "Scavengers",
+          "count": 4
+        },
+        {
+          "location": "Derelict Outpost - Control Room",
+          "type": "Corrupted Drones",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Derelict Outpost - Control Room",
+          "name": "Data Fragment"
+        },
+        {
+          "location": "Derelict Outpost - Control Room",
+          "name": "Prototype Technology"
+        }
+      ],
+      "reward": {
+        "xp": 250,
+        "reputation": "The Elder",
+        "item": "Ancient Knowledge Tome"
+      }
+    }
+  ],
+  "2": [
+    {
+      "title": "Mutant Menace",
+      "giver": "The Healer",
+      "objective": "Clear the Scorched Farmland of mutant creatures threatening the village",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Scorched Farmland",
+          "role": "challenge"
+        },
+        {
+          "name": "Scorched Farmland - Mutant Nest",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Scorched Farmland",
+          "type": "Mutants",
+          "count": 5
+        },
+        {
+          "location": "Scorched Farmland - Mutant Nest",
+          "type": "Mutant Leader",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Scorched Farmland - Mutant Nest",
+          "name": "Toxic Mutation Serum"
+        },
+        {
+          "location": "Scorched Farmland - Mutant Nest",
+          "name": "Radiation Cleansing Herbs"
+        }
+      ],
+      "reward": {
+        "xp": 300,
+        "reputation": "The Healer",
+        "item": "Medicinal Supplies Crate"
+      }
+    }
+  ],
+  "3": [
+    {
+      "title": "Bunker Delve",
+      "giver": "The Mechanic",
+      "objective": "Explore the Collapsed Tunnel Network and locate the Hidden Bunker",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Collapsed Tunnel Network",
+          "role": "challenge"
+        },
+        {
+          "name": "Collapsed Tunnel Network - Forgotten Chambers",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Collapsed Tunnel Network",
+          "type": "Feral Predators",
+          "count": 3
+        },
+        {
+          "location": "Collapsed Tunnel Network - Forgotten Chambers",
+          "type": "Mutant Guardians",
+          "count": 2
+        }
+      ],
+      "items": [
+        {
+          "location": "Collapsed Tunnel Network - Forgotten Chambers",
+          "name": "Pre-war Relic"
+        },
+        {
+          "location": "Collapsed Tunnel Network - Forgotten Chambers",
+          "name": "Lost Knowledge Data Terminal"
+        }
+      ],
+      "reward": {
+        "xp": 350,
+        "reputation": "The Mechanic",
+        "item": "Tech Salvage Kit"
+      }
+    }
+  ],
+  "4": [
+    {
+      "title": "Lake of Peril",
+      "giver": "The Outsider",
+      "objective": "Investigate the Radioactive Lake and confront the mutant creatures lurking within",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Radioactive Lake Shore",
+          "role": "challenge"
+        },
+        {
+          "name": "Radioactive Lake - Mutant Den",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Radioactive Lake Shore",
+          "type": "Mutant Fish",
+          "count": 4
+        },
+        {
+          "location": "Radioactive Lake - Mutant Den",
+          "type": "Giant Mutant Kraken",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Radioactive Lake - Mutant Den",
+          "name": "Toxic Residue Sample"
+        },
+        {
+          "location": "Radioactive Lake - Mutant Den",
+          "name": "Ancient Artifact Fragment"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Outsider",
+        "item": "Mysterious Trinket"
+      }
+    }
+  ],
+  "5": [
+    {
+      "title": "Raiders' Retribution",
+      "giver": "The Scavenger",
+      "objective": "Infiltrate the Raider Warlord's stronghold and retrieve stolen supplies",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Raider Outpost",
+          "role": "challenge"
+        },
+        {
+          "name": "Raider Warlord's Lair",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Raider Outpost",
+          "type": "Scavengers",
+          "count": 6
+        },
+        {
+          "location": "Raider Warlord's Lair",
+          "type": "Raider Warlord",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Raider Warlord's Lair",
+          "name": "Stolen Supplies Crate"
+        },
+        {
+          "location": "Raider Warlord's Lair",
+          "name": "Captured Villager"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Scavenger",
+        "item": "Legendary Scavenged Weapon"
+      }
+    }
+  ],
+  "6": [
+    {
+      "title": "Lost Memories",
+      "giver": "A Survivor",
+      "objective": "Retrieve personal mementos from various locations for a grieving family",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Abandoned Homestead",
+          "role": "challenge"
+        },
+        {
+          "name": "Damaged City Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Overgrown Graveyard",
+          "role": "challenge"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Abandoned Homestead",
+          "type": "Feral Predators",
+          "count": 2
+        },
+        {
+          "location": "Damaged City Ruins",
+          "type": "Scavengers",
+          "count": 3
+        },
+        {
+          "location": "Overgrown Graveyard",
+          "type": "Mutants",
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "location": "Abandoned Homestead",
+          "name": "Family Heirloom"
+        },
+        {
+          "location": "Damaged City Ruins",
+          "name": "Old Photograph Album"
+        },
+        {
+          "location": "Overgrown Graveyard",
+          "name": "Faded Love Letter"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "Village",
+        "item": "Emotional Closure Token"
+      }
+    }
+  ],
+  "7": [
+    {
+      "title": "Cleansing Corruption",
+      "giver": "The Exorcist",
+      "objective": "Purge the Corrupted Drones from the Hidden Bunker and reclaim it for the village",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Hidden Bunker Entrance",
+          "role": "challenge"
+        },
+        {
+          "name": "Hidden Bunker - Core Chamber",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Hidden Bunker Entrance",
+          "type": "Corrupted Drones",
+          "count": 4
+        },
+        {
+          "location": "Hidden Bunker - Core Chamber",
+          "type": "Corrupted Guardian",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Hidden Bunker - Core Chamber",
+          "name": "Ancient Artifact"
+        },
+        {
+          "location": "Hidden Bunker - Core Chamber",
+          "name": "Purification Crystal"
+        }
+      ],
+      "reward": {
+        "xp": 550,
+        "reputation": "The Exorcist",
+        "item": "Blessed Relic"
+      }
+    }
+  ],
+  "8": [
+    {
+      "title": "Echoes of Hope",
+      "giver": "The Elder",
+      "objective": "Retrieve lost artifacts from the scorched ruins to restore hope to the villagers",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Scorched Ruins",
+          "role": "challenge"
+        },
+        {
+          "name": "Scorched Ruins - Shrine of Memories",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Scorched Ruins",
+          "type": "Mutants",
+          "count": 3
+        },
+        {
+          "location": "Scorched Ruins - Shrine of Memories",
+          "type": "Guardian Spirit",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Scorched Ruins - Shrine of Memories",
+          "name": "Ancient Relic of Hope"
+        },
+        {
+          "location": "Scorched Ruins - Shrine of Memories",
+          "name": "Lost Manuscript of Wisdom"
+        }
+      ],
+      "reward": {
+        "xp": 400,
+        "reputation": "The Elder",
+        "item": "Symbol of Resilience"
+      }
+    }
+  ],
+  "9": [
+    {
+      "title": "Tech Retrieval",
+      "giver": "The Mechanic",
+      "objective": "Retrieve salvageable tech components from the collapsed tunnel network",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Collapsed Tunnel Network",
+          "role": "challenge"
+        },
+        {
+          "name": "Collapsed Tunnel Network - Tech Cache",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Collapsed Tunnel Network",
+          "type": "Corrupted Drones",
+          "count": 4
+        },
+        {
+          "location": "Collapsed Tunnel Network - Tech Cache",
+          "type": "Guardian Mechanoid",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Collapsed Tunnel Network - Tech Cache",
+          "name": "Advanced Circuitry"
+        },
+        {
+          "location": "Collapsed Tunnel Network - Tech Cache",
+          "name": "Prototype Energy Core"
+        }
+      ],
+      "reward": {
+        "xp": 450,
+        "reputation": "The Mechanic",
+        "item": "Tech Salvage Bundle"
+      }
+    }
+  ],
+  "10": [
+    {
+      "title": "Guardians of Nature",
+      "giver": "The Druid",
+      "objective": "Protect the overgrown forest from the encroaching mutant creatures",
+      "locations": [
+        {
+          "name": "Village",
+          "role": "start"
+        },
+        {
+          "name": "Overgrown Forest",
+          "role": "challenge"
+        },
+        {
+          "name": "Overgrown Forest - Ancient Grove",
+          "role": "goal"
+        },
+        {
+          "name": "Village",
+          "role": "return"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "Overgrown Forest",
+          "type": "Mutant Creatures",
+          "count": 5
+        },
+        {
+          "location": "Overgrown Forest - Ancient Grove",
+          "type": "Mutant Behemoth",
+          "count": 1
+        }
+      ],
+      "items": [
+        {
+          "location": "Overgrown Forest - Ancient Grove",
+          "name": "Nature's Blessing Potion"
+        },
+        {
+          "location": "Overgrown Forest - Ancient Grove",
+          "name": "Druidic Totem"
+        }
+      ],
+      "reward": {
+        "xp": 500,
+        "reputation": "The Druid",
+        "item": "Nature's Guardian Token"
+      }
+    }
+  ]
+}
