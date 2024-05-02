@@ -2,7 +2,7 @@
   "1": [
     {
       "title": "Echoes of the Past",
-      "giver": "The Archivist (Knowledge)",
+      "giver": "The Archivist",
       "objective": "Venture into the Whispering Ruins to recover Echo Sculptures and learn about the lost civilization",
       "locations": [
         {
@@ -47,7 +47,7 @@
   "2": [
     {
       "title": "Scavenger's Hunt",
-      "giver": "The Trader (Connections)",
+      "giver": "The Trader",
       "objective": "Follow a scavenger's map to locate hidden caches of valuable resources",
       "locations": [
         {
@@ -113,7 +113,7 @@
   "3": [
     {
       "title": "The Bio-Remedy",
-      "giver": "The Forager (Survival)",
+      "giver": "The Forager",
       "objective": "Collect rare bioluminescent flora from the swamp to create a potent antidote",
       "locations": [
         {
@@ -163,7 +163,7 @@
   "4": [
     {
       "title": "Lost in Transmission",
-      "giver": "The Technician (Ingenuity)",
+      "giver": "The Technician",
       "objective": "Repair a damaged signal relay in the Ancient Wreckage to discover a potential distress call",
       "locations": [
         {
@@ -212,7 +212,7 @@
   "5": [
     {
       "title": "Rite of Passage",
-      "giver": "The Exile (Regret)",
+      "giver": "The Exile",
       "objective": "Prove your worth to the Exile by undertaking a dangerous pilgrimage into the Shifting Dunes",
       "locations": [
         {
@@ -260,7 +260,7 @@
   "6": [
     {
       "title": "Crystal Crisis",
-      "giver": "The Archivist (Knowledge)",
+      "giver": "The Archivist",
       "objective": "Contain a localized crystal energy surge in the caverns to prevent a dangerous eruption",
       "locations": [
         {
@@ -300,7 +300,7 @@
   "7": [
     {
       "title": "Bartered Bounty",
-      "giver": "The Trader (Connections)",
+      "giver": "The Trader",
       "objective": "Trade resources with a neighboring caravan for special goods unavailable in Zyrx",
       "locations": [
         {
@@ -340,7 +340,7 @@
   "8": [
     {
       "title": "Nature's Fury",
-      "giver": "The Forager (Survival)",
+      "giver": "The Forager",
       "objective": "Survive an unexpectedly fierce sandstorm and rescue stranded scavengers",
       "locations": [
         {
@@ -378,7 +378,7 @@
   "9": [
     {
       "title": "Wreckage Recon",
-      "giver": "The Technician (Ingenuity)",
+      "giver": "The Technician",
       "objective": "Explore a newly exposed section of the Ancient Wreckage and recover potential tech",
       "locations": [
         {
@@ -427,7 +427,7 @@
   "10": [
     {
       "title": "Buried Secrets",
-      "giver": "The Archivist (Knowledge)",
+      "giver": "The Archivist",
       "objective": "Unearth a hidden chamber in the Whispering Ruins and decipher its contents",
       "locations": [
         {

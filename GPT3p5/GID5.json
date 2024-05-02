@@ -2,7 +2,7 @@
   "1" : [
     {
       "title": "Legacy of the Triads",
-      "giver": "The Master (Tenacity)",
+      "giver": "The Master",
       "objective": "Recover the lost Jade Figurines and return them to the Master",
       "locations": [
         { "name": "Village", "role": "start" },
@@ -32,7 +32,7 @@
   "2" : [
     {
       "title": "The Herbalist's Apprentice",
-      "giver": "The Herbalist (Hope)",
+      "giver": "The Herbalist",
       "objective": "Gather rare herbs from the Flooded Mine Shafts for the Herbalist",
       "locations": [
         { "name": "Village", "role": "start" },
@@ -61,7 +61,7 @@
   "3" : [
     {
       "title": "Whispers in the Shadows",
-      "giver": "The Whisperer (Secrecy)",
+      "giver": "The Whisperer",
       "objective": "Retrieve valuable information from the Foreign Military Outpost",
       "locations": [
         { "name": "Village", "role": "start" },
@@ -89,7 +89,7 @@
   "4" : [
     {
       "title": "The Fixer's Gambit",
-      "giver": "The Fixer (Cunning)",
+      "giver": "The Fixer",
       "objective": "Retrieve a cache of repairable technology from the Smuggler's Cove",
       "locations": [
         { "name": "Village", "role": "start" },
@@ -117,7 +117,7 @@
   "5" : [
     {
       "title": "Guardians of Tradition",
-      "giver": "The Lost Child (Innocence)",
+      "giver": "The Lost Child",
       "objective": "Locate and protect valuable cultural relics scattered across Tong'an",
       "locations": [
         { "name": "Village", "role": "start" },

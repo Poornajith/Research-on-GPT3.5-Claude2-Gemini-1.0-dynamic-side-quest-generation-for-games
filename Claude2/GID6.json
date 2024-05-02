@@ -153,6 +153,9 @@
         { "name": "Nora's Home", "role": "goal" },
         { "name": "Village", "role": "return" }
       ],
+      "monsters": [
+        { "location": "empty", "name": "empty" }
+      ],
       "items": [
         { "location": "Nora's Home", "name": "Old Photographs" },
         { "location": "Nora's Home", "name": "Ancient Scrolls" }

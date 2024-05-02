@@ -2,7 +2,7 @@
   "1" : [
     {
       "title": "The Tinkerer's Dilemma",
-      "giver": "The Tinkerer (Ingenuity)",
+      "giver": "The Tinkerer",
       "objective": "Retrieve essential components for a vital invention from the Mutant Den.",
       "locations": [
         { "name": "Town Square", "role": "start" },
@@ -29,7 +29,7 @@
   "2" : [
     {
       "title": "Echoes of the Past",
-      "giver": "The Veteran (Regret)",
+      "giver": "The Veteran",
       "objective": "Recover lost mementos from the Military Outpost Ruins to ease the burden of regret.",
       "locations": [
         { "name": "Town Square", "role": "start" },
@@ -56,7 +56,7 @@
   "3" : [
     {
       "title": "The Hunter's Hunt",
-      "giver": "The Hunter (Survival)",
+      "giver": "The Hunter",
       "objective": "Track down and eliminate a particularly dangerous mutant lurking near the Contaminated Creek.",
       "locations": [
         { "name": "Town Square", "role": "start" },
@@ -83,7 +83,7 @@
   "4" : [
     {
       "title": "The Doomsayer's Prophecy",
-      "giver": "The Doomsayer (Desperation)",
+      "giver": "The Doomsayer",
       "objective": "Retrieve a sacred artifact from the depths of the Mutant Den to prove the validity of their apocalyptic warnings.",
       "locations": [
         { "name": "Town Square", "role": "start" },
@@ -110,7 +110,7 @@
   "5" : [
     {
       "title": "The Child's Wish",
-      "giver": "The Child (Innocence)",
+      "giver": "The Child",
       "objective": "Gather toys and comforting items scattered throughout the Twisted Highway to bring joy to the children of Ashvale.",
       "locations": [
         { "name": "Town Square", "role": "start" },
@@ -137,7 +137,7 @@
   "6" : [
     {
       "title": "The Veteran's Redemption",
-      "giver": "The Veteran (Regret)",
+      "giver": "The Veteran",
       "objective": "Seek out remnants of their old unit scattered around the Abandoned Gas Station and bring closure to past regrets.",
       "locations": [
         { "name": "Town Square", "role": "start" },
@@ -191,7 +191,7 @@
   "8" : [
     {
       "title": "The Forgotten Sanctuary",
-      "giver": "The Doomsayer (Desperation)",
+      "giver": "The Doomsayer",
       "objective": "Explore the depths of the Abandoned Mines to uncover an ancient sanctuary rumored to hold the key to salvation.",
       "locations": [
         { "name": "Town Square", "role": "start" },
@@ -218,7 +218,7 @@
   "9" : [
     {
       "title": "The Tinkerer's Legacy",
-      "giver": "The Tinkerer (Ingenuity)",
+      "giver": "The Tinkerer",
       "objective": "Retrieve her lost prototype from the depths of the Twisted Highway to safeguard her technological legacy.",
       "locations": [
         { "name": "Town Square", "role": "start" },
@@ -245,7 +245,7 @@
   "10" : [
     {
       "title": "The Veteran's Last Stand",
-      "giver": "The Veteran (Regret)",
+      "giver": "The Veteran",
       "objective": "Confront the remnants of their past unit, now corrupted and hostile, within the Mutant Den to put their demons to rest.",
       "locations": [
         { "name": "Town Square", "role": "start" },

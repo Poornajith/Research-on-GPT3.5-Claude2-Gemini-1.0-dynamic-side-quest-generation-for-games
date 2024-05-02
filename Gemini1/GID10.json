@@ -2,7 +2,7 @@
   "1": [
     {
       "title": "Power Surge",
-      "giver": "The Engineer (Ingenuity)",
+      "giver": "The Engineer",
       "objective": "Vent radiation from overloaded systems and reroute backup power to critical sectors",
       "locations": [
         {
@@ -58,7 +58,7 @@
   "2": [
     {
       "title": "Echoes of the Past",
-      "giver": "The Archivist (Knowledge)",
+      "giver": "The Archivist",
       "objective": "Retrieve data modules from derelict areas. Uncover a secret about the station's downfall.",
       "locations": [
         {
@@ -95,7 +95,7 @@
         },
         {
           "location": "Research Labs",
-          "type": "The Usurper (AI)",
+          "type": "The Usurper",
           "count": 1
         }
       ],
@@ -123,7 +123,7 @@
   "3": [
     {
       "title": "Quarantine Breach",
-      "giver": "The Veteran (Grit)",
+      "giver": "The Veteran",
       "objective": "Contain a biohazard outbreak and rescue survivors from an isolated sector.",
       "locations": [
         {
@@ -179,7 +179,7 @@
   "4": [
     {
       "title": "Contraband Run",
-      "giver": "The Smuggler (Connections)",
+      "giver": "The Smuggler",
       "objective": "Navigate the debris field, evade patrols, and deliver supplies to a hidden outpost.",
       "locations": [
         {
@@ -232,7 +232,7 @@
   "5": [
     {
       "title": "Signal Trace",
-      "giver": "The Visionary (Hope)",
+      "giver": "The Visionary",
       "objective": "Investigate a faint signal source within the debris field, possibly leading to other survivors or resources.",
       "locations": [
         {
@@ -300,6 +300,12 @@
           "role": "return"
         }
       ],
+      "monsters": [
+        {
+          "location": "empty",
+          "name": "empty"
+        }
+      ],
       "items": [
         {
           "name": "Rusted Badges"
@@ -320,7 +326,7 @@
   "7": [
     {
       "title": "The Fixer",
-      "giver": "The Engineer (Ingenuity)",
+      "giver": "The Engineer",
       "objective": "Locate critical parts in the debris field to repair a communication system, allowing for potential contact with the outside world.",
       "locations": [
         {
@@ -368,7 +374,7 @@
       ],
       "reward": {
         "xp": 700,
-        "reputation": "The Engineer (Ingenuity)",
+        "reputation": "The Engineer",
         "item": "Chance to establish limited communication with another outpost"
       }
     }
@@ -376,7 +382,7 @@
   "8": [
     {
       "title": "Reclamation Protocol",
-      "giver": "The Archivist (Knowledge)",
+      "giver": "The Archivist",
       "objective": "Enter a restricted data storage facility, avoid security systems, and retrieve critical research backups.",
       "locations": [
         {
@@ -404,7 +410,7 @@
         },
         {
           "location": "Secure Data Vault",
-          "type": "The Usurper (AI)",
+          "type": "The Usurper",
           "count": 1
         }
       ],
@@ -420,7 +426,7 @@
       ],
       "reward": {
         "xp": 650,
-        "reputation": "The Archivist (Knowledge)",
+        "reputation": "The Archivist",
         "item": "Detailed map of hidden areas of the station"
       }
     }
@@ -428,7 +434,7 @@
   "9": [
     {
       "title": "Botanical Rescue",
-      "giver": "The Visionary (Hope)",
+      "giver": "The Visionary",
       "objective": "Venture into the Biodome Wreckage, recover viable plant samples and replant them in a makeshift greenhouse.",
       "locations": [
         {
@@ -472,7 +478,7 @@
       ],
       "reward": {
         "xp": 450,
-        "reputation": "The Visionary (Hope)",
+        "reputation": "The Visionary",
         "item": "Small boost to station morale (narrative impact)"
       }
     }
@@ -480,7 +486,7 @@
   "10": [
     {
       "title": "Scavenger Hunt",
-      "giver": "The Smuggler (Connections)",
+      "giver": "The Smuggler",
       "objective": "Decipher cryptic clues, leading to hidden stashes of valuable contraband scattered across the station.",
       "locations": [
         {
@@ -496,6 +502,12 @@
           "role": "return"
         }
       ],
+      "monsters": [
+        {
+          "location": "empty",
+          "name": "empty"
+        }
+      ],
       "items": [
         {
           "name": "Hidden Cache #1"
@@ -509,7 +521,7 @@
       ],
       "reward": {
         "gold": 500,
-        "reputation": "The Smuggler (Connections)",
+        "reputation": "The Smuggler",
         "item": "Selection of rare trade goods"
       }
     }

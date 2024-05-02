@@ -66,7 +66,7 @@
       ],
       "monsters": [
         {"location": "Fogbound Hollow", "type": "Blighted Wisp", "count": 4},
-        {"location": "Fogbound Hollow", "type": "Shadowstalker", "count": 2},
+        {"location": "Fogbound Hollow", "type": "Shadowstalker", "count": 2}
       ],
       "items": [
         {"location": "Fogbound Hollow - Sanctuary", "name": "Tarnished Silver Locket"}
@@ -145,7 +145,7 @@
       ],
       "items": [
         {"location": "Overgrown Ruins", "name": "Corrupted Ent Heart"},
-        {"location": "Corrupted Grove", "name": "Corrupted Ent Heart", "count": 2},
+        {"location": "Corrupted Grove", "name": "Corrupted Ent Heart", "count": 2}
       ],
       "reward": {
         "xp": 400,
@@ -172,7 +172,7 @@
       ],
       "items": [
         {"location": "Abandoned Mine - Smuggler's Stash", "name": "Herbalist Supplies"},
-        {"location": "Abandoned Mine - Smuggler's Stash", "name": "Bag of Gold" },
+        {"location": "Abandoned Mine - Smuggler's Stash", "name": "Bag of Gold" }
       ],
       "reward": {
         "xp": 250,
@@ -196,7 +196,7 @@
       "monsters": [],
       "items": [
         {"location": "Overgrown Ruins", "name": "Fairy's Trinket"},
-        {"location": "Fogbound Hollow", "name": "Lost Music Box"},
+        {"location": "Fogbound Hollow", "name": "Lost Music Box"}
       ],
       "reward": {
         "xp": 150,
@@ -239,10 +239,10 @@
       ],
       "monsters": [
         {"location": "Overgrown Ruins", "type": "Twisted Spriggan", "count": 2},
-        {"location": "Dried-Up Riverbed", "type": "Shadowstalker", "count": 1},
+        {"location": "Dried-Up Riverbed", "type": "Shadowstalker", "count": 1}
       ],
       "items": [
-        {"location": "Corrupted Grove - Hidden Spring", "name": "Vial of Pure Water"},
+        {"location": "Corrupted Grove - Hidden Spring", "name": "Vial of Pure Water"}
       ],
       "reward": {
         "xp": 300,

@@ -282,6 +282,12 @@
           "role": "goal"
         }
       ],
+      "monsters": [
+        {
+          "location": "empty",
+          "name": "empty"
+        }
+      ],
       "items": [
         {
           "location": "Caves of the Ancients",
@@ -490,6 +496,12 @@
         {
           "name": "Silent Quarry",
           "role": "challenge"
+        }
+      ],
+      "monsters": [
+        {
+          "location": "empty",
+          "name": "empty"
         }
       ],
       "items": [

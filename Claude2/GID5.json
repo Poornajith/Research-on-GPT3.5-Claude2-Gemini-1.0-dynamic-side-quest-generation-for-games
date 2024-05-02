@@ -110,6 +110,9 @@
       "monsters": [
         {"location": "Opium Fields", "type": "Scavengers", "count": 4}
       ],
+      "items": [
+        { "location": "empty", "name": "empty" }
+      ],
       "reward": {
         "item": "Healing Salve",
         "reputation": "The Herbalist"

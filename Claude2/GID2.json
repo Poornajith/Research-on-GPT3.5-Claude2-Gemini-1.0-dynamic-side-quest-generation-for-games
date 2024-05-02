@@ -91,6 +91,9 @@
         { "location": "Corrupted Grove", "type": "Twisted Spriggans", "count": 4 },
         { "location": "Corrupted Grove", "type": "Blighted Wisps", "count": 2 }
       ],
+      "items": [
+        { "location": "empty", "name": "empty" }
+      ],
       "reward": {
         "xp": 200,
         "reputation": "The Determined Knight",
@@ -107,6 +110,9 @@
         { "name": "Exiled Herbalist's Hut", "role": "start" },
         { "name": "Corrupted Grove", "role": "goal" },
         { "name": "Exiled Herbalist's Hut", "role": "return" }
+      ],
+      "monsters": [
+        { "location": "empty", "name": "empty" }
       ],
       "items": [
         { "location": "Exiled Herbalist's Hut", "name": "Lost Satchel" }
@@ -149,6 +155,12 @@
       "locations": [
         { "name": "Dried-Up Riverbed", "role": "start" },
         { "name": "Dried-Up Riverbed", "role": "goal" }
+      ],
+      "monsters": [
+        { "location": "empty", "name": "empty" }
+      ],
+      "items": [
+        { "location": "empty", "name": "empty" }
       ],
       "reward": {
         "xp": 50,
@@ -217,6 +229,9 @@
       ],
       "monsters": [
         { "location": "Fogbound Hollow", "type": "Fae Witch", "count": 1 }
+      ],
+      "items": [
+        { "location": "empty", "name": "empty" }
       ],
       "reward": {
         "xp": 500,
